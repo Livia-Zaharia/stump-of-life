@@ -1,0 +1,16 @@
+{
+  "run_accession": "ERR5211355",
+  "checked_at_utc": "2026-10-29T22:19:31.437174+00:00",
+  "index_in_ena_submitted_files": false,
+  "tested_standard_urls": [
+    {
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/run/ERR521/ERR5211355/I8075_aln.sort.mapped.rmdupse_adna_v2.md.1.bam.bai",
+      "http_status": 404
+    },
+    {
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/run/ERR521/ERR5211355/I8075_aln.sort.mapped.rmdupse_adna_v2.md.1.bai",
+      "http_status": 404
+    }
+  ],
+  "recovery": "Stream-filter the source BAM, retain only MT reads, verify source bytes and declared MD5."
+}

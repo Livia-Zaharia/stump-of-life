@@ -1,0 +1,8 @@
+{
+  "source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_land.geojson",
+  "dataset": "Natural Earth 1:50m land",
+  "license": "Public domain",
+  "license_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+  "retrieved_utc": "2026-10-29T22:17:57+00:00",
+  "sha256": "e874b27a51d146452be360cafb3cc50c86001074a67d534113e6534682f9826b"
+}

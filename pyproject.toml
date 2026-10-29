@@ -1,0 +1,35 @@
+[project]
+name = "stump-of-life"
+version = "0.1.0"
+description = "Circular mitochondrial DNA alignment and data-driven sculpture patterns"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "edlib>=1.3.9.post1",
+    "typer>=0.20.0",
+]
+
+[project.scripts]
+stump-of-life = "stump_of_life.cli:app"
+
+[dependency-groups]
+dev = ["pytest>=8.4", "ruff>=0.14"]
+preview = ["cairosvg>=2.8"]
+research = [
+    "openpyxl>=3.1.5",
+    "pysam>=0.24.1",
+]
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14"]
+build-backend = "uv_build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py313"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]

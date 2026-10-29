@@ -1,0 +1,13 @@
+[
+{"run_accession":"ERR5525773","study_accession":"PRJEB43078","sample_accession":"SAMEA8393775","sample_alias":"tai002-all-pmds1.merged.hs37d5","submitted_ftp":"ftp.sra.ebi.ac.uk/vol1/run/ERR552/ERR5525773/tai002-all-pmds1.merged.hs37d5.fa.cons.90perc.bam","submitted_bytes":"1424856930","submitted_md5":"dd250451abbc2f7cc2c4b806448aed24","submitted_format":"BAM"}
+,
+{"run_accession":"ERR5525732","study_accession":"PRJEB43078","sample_accession":"SAMEA8393778","sample_alias":"tai002-allb1e1.merged.hs37d51","submitted_ftp":"ftp.sra.ebi.ac.uk/vol1/run/ERR552/ERR5525732/tai002-allb1e1.merged.hs37d5.fa.cons.90perc.bam","submitted_bytes":"8126828683","submitted_md5":"2cfe036963e773f20604b6e7493c8842","submitted_format":"BAM"}
+,
+{"run_accession":"ERR5525699","study_accession":"PRJEB43078","sample_accession":"SAMEA8393780","sample_alias":"tai002-allData.merged.hs37d51","submitted_ftp":"ftp.sra.ebi.ac.uk/vol1/run/ERR552/ERR5525699/tai002-allData.merged.hs37d5.fa.cons.90perc.bam","submitted_bytes":"10785629705","submitted_md5":"be6f649fbd04bc94341d366ca3b6c06c","submitted_format":"BAM"}
+,
+{"run_accession":"ERR5525733","study_accession":"PRJEB43078","sample_accession":"SAMEA8393777","sample_alias":"tai002-b1e1l1SG.merged.hs37d51","submitted_ftp":"ftp.sra.ebi.ac.uk/vol1/run/ERR552/ERR5525733/tai002-b1e1l1SG.merged.hs37d5.fa.cons.90perc.bam","submitted_bytes":"1075569509","submitted_md5":"81fdc378e8eb281e7370954873b87601","submitted_format":"BAM"}
+,
+{"run_accession":"ERR5525759","study_accession":"PRJEB43078","sample_accession":"SAMEA8393776","sample_alias":"tai002-allnonE1data.merged.hs37d51","submitted_ftp":"ftp.sra.ebi.ac.uk/vol1/run/ERR552/ERR5525759/tai002-allnonE1data.merged.hs37d5.fa.cons.90perc.bam","submitted_bytes":"2029615789","submitted_md5":"4377f485df271b62536ca40e6c74e6c6","submitted_format":"BAM"}
+,
+{"run_accession":"ERR5525679","study_accession":"PRJEB43078","sample_accession":"SAMEA8393779","sample_alias":"tai001-all.merged.hs37d51","submitted_ftp":"ftp.sra.ebi.ac.uk/vol1/run/ERR552/ERR5525679/tai001-all.merged.hs37d5.fa.cons.90perc.bam","submitted_bytes":"188153281","submitted_md5":"30458a57bd8d7aa760c43bfe00ddfa8b","submitted_format":"BAM"}
+]

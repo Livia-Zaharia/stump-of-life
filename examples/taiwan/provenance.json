@@ -1,0 +1,65 @@
+{
+  "study": "Ko et al. (2014), Early Austronesians: Into and Out Of Taiwan",
+  "doi": "https://doi.org/10.1016/j.ajhg.2014.02.003",
+  "original_download": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/fasta/KF540505-KF541055?download=false",
+    "retrieved_date": "2026-10-29",
+    "sha256": "ba262203959d806e5d5c041122953a4b8283ca38d2b5d6637df05fd104c99711",
+    "sequence_count": 551
+  },
+  "subset_created_date": "2026-10-30",
+  "subset_fasta_sha256": "923bc5f4fa69976fce760360d24a17a274a0cc49c3279515151df172bb10e053",
+  "selection": "One ancient and nine modern observed sequences, chosen for earlier sculpture experiments. Not a representative sample. Profile IDs in earlier work were computed on a conservative site mask; the original deposited bases here are unchanged.",
+  "sequences": [
+    {
+      "accession": "KF540505.1",
+      "ena_url": "https://www.ebi.ac.uk/ena/browser/view/KF540505.1",
+      "sequence_sha256": "62193f84904158a4b6bf9129f0ba72de3cc8f033aaa0d831530415239c9d0ab4"
+    },
+    {
+      "accession": "KF540524.1",
+      "ena_url": "https://www.ebi.ac.uk/ena/browser/view/KF540524.1",
+      "sequence_sha256": "0694c080c53d34dd419f1ad66ec460be1b9f986669a3e8a01e267d560624adf9"
+    },
+    {
+      "accession": "KF540588.1",
+      "ena_url": "https://www.ebi.ac.uk/ena/browser/view/KF540588.1",
+      "sequence_sha256": "48cec4894c08fe6bea651d36d7828a21c2cdb669d2738b6dff959632e006298d"
+    },
+    {
+      "accession": "KF540530.1",
+      "ena_url": "https://www.ebi.ac.uk/ena/browser/view/KF540530.1",
+      "sequence_sha256": "0621fe1ae6ad50d8c6d798a82a6afd59172de039d0896296b31c1104b42c233c"
+    },
+    {
+      "accession": "KF540857.1",
+      "ena_url": "https://www.ebi.ac.uk/ena/browser/view/KF540857.1",
+      "sequence_sha256": "9923ddc7440ddcb29a63a77dbc80c9cb172edebc7910fce979a80eaa8fcd6707"
+    },
+    {
+      "accession": "KF540803.1",
+      "ena_url": "https://www.ebi.ac.uk/ena/browser/view/KF540803.1",
+      "sequence_sha256": "2b52f0b9acffd7c479a58683db2188495ea59f08cbd38542ecd76afcdda704d0"
+    },
+    {
+      "accession": "KF540771.1",
+      "ena_url": "https://www.ebi.ac.uk/ena/browser/view/KF540771.1",
+      "sequence_sha256": "d9c77ced3de39f0a5c3019fb40adb92569dcd15b0482f5b8b94779281a41f240"
+    },
+    {
+      "accession": "KF540942.1",
+      "ena_url": "https://www.ebi.ac.uk/ena/browser/view/KF540942.1",
+      "sequence_sha256": "d10bdd063a1fbb711d6fc0f83adce884d5368e0e6300cd5bd40ab5a15fd7dd5e"
+    },
+    {
+      "accession": "KF540720.1",
+      "ena_url": "https://www.ebi.ac.uk/ena/browser/view/KF540720.1",
+      "sequence_sha256": "902b95c9ade1cb812fea64afcba4bbb83c075c89d97408170c5915d85d5d0379"
+    },
+    {
+      "accession": "KF540911.1",
+      "ena_url": "https://www.ebi.ac.uk/ena/browser/view/KF540911.1",
+      "sequence_sha256": "27b59cec17c6cf259225a985ffd12eac93b8dbf4b7ca6459b8f4e41c50aee4b2"
+    }
+  ]
+}

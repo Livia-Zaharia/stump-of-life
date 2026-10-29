@@ -1,0 +1,991 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500mm" height="505.5mm" viewBox="0 0 1000 1011" role="img" aria-labelledby="alignment-title alignment-description" font-family="Arial, DejaVu Sans, sans-serif">
+  <title id="alignment-title">Stump of Life: circular DNA alignment</title>
+  <desc id="alignment-description">Compressed variable mode: only informative variable columns among the selected rows are spaced equally. Original genomic and alignment distances are not preserved. Reference 'KF540505.1' is the innermost ring. Coloured A/C/G/T ticks are called substitutions; crosses are deletions; diamonds are insertions; grey ticks are unknown comparisons, not mutations. Matching called bases follow the ring baseline. This is a presentation SVG, not CAD.</desc>
+  <metadata>{"alignment_columns": 16570, "angular_slots": 175, "columns": 175, "comparison_totals": {"deletion": 9, "insertion": 0, "match": 1272, "snp": 294, "unknown": 0}, "coordinate_basis": "zero-based original multiple-alignment column", "diameter_mm": 500.0, "event_counts": {"KF540505.1": {"deletion": 0, "insertion": 0, "match": 175, "snp": 0, "unknown": 0}, "KF540524.1": {"deletion": 1, "insertion": 0, "match": 170, "snp": 4, "unknown": 0}, "KF540530.1": {"deletion": 1, "insertion": 0, "match": 140, "snp": 34, "unknown": 0}, "KF540588.1": {"deletion": 1, "insertion": 0, "match": 170, "snp": 4, "unknown": 0}, "KF540720.1": {"deletion": 1, "insertion": 0, "match": 130, "snp": 44, "unknown": 0}, "KF540771.1": {"deletion": 1, "insertion": 0, "match": 133, "snp": 41, "unknown": 0}, "KF540803.1": {"deletion": 1, "insertion": 0, "match": 133, "snp": 41, "unknown": 0}, "KF540857.1": {"deletion": 1, "insertion": 0, "match": 129, "snp": 45, "unknown": 0}, "KF540911.1": {"deletion": 1, "insertion": 0, "match": 134, "snp": 40, "unknown": 0}, "KF540942.1": {"deletion": 1, "insertion": 0, "match": 133, "snp": 41, "unknown": 0}}, "excluded_columns": [], "mode": "variable", "output": "output/taiwan/variable.svg", "plotted_columns": [92, 102, 130, 149, 151, 181, 194, 198, 203, 209, 310, 417, 481, 489, 709, 813, 951, 1005, 1462, 1598, 1664, 1824, 3027, 3434, 3537, 3705, 3970, 4048, 4071, 4161, 4164, 4233, 4248, 4454, 4491, 4562, 4733, 4895, 4907, 5076, 5351, 5460, 5585, 5824, 5913, 5978, 6340, 6351, 6359, 6392, 6446, 6455, 6620, 6674, 6680, 6791, 7076, 7175, 7354, 7598, 7684, 7828, 7853, 7861, 7975, 8296, 8440, 8477, 8557, 8584, 8614, 8701, 8829, 8838, 8928, 9180, 9468, 9540, 9824, 9947, 9950, 9962, 10289, 10310, 10320, 10398, 10400, 10497, 10535, 10586, 10724, 10810, 10834, 10873, 10908, 11002, 11101, 11149, 11151, 11308, 11581, 12121, 12338, 12361, 12405, 12705, 13254, 13626, 13708, 13928, 14115, 14149, 14220, 14227, 14311, 14431, 14502, 14577, 14766, 14783, 15040, 15043, 15046, 15151, 15172, 15203, 15223, 15235, 15300, 15301, 15479, 15508, 15514, 15662, 15734, 15784, 15850, 15851, 15900, 15912, 15927, 16086, 16093, 16111, 16129, 16140, 16157, 16167, 16172, 16176, 16203, 16220, 16223, 16224, 16232, 16234, 16243, 16249, 16256, 16260, 16265, 16266, 16297, 16298, 16304, 16311, 16318, 16319, 16324, 16335, 16355, 16362, 16390, 16463, 16519], "reference_id": "KF540505.1", "rows": 10, "selected_ids": ["KF540505.1", "KF540524.1", "KF540588.1", "KF540530.1", "KF540857.1", "KF540803.1", "KF540771.1", "KF540942.1", "KF540720.1", "KF540911.1"], "unknown_count": 0, "unknown_symbols_by_row": {"KF540505.1": 0, "KF540524.1": 0, "KF540530.1": 0, "KF540588.1": 0, "KF540720.1": 0, "KF540771.1": 0, "KF540803.1": 0, "KF540857.1": 0, "KF540911.1": 0, "KF540942.1": 0}, "variable_columns": 175}</metadata>
+  <rect width="1000" height="1011" fill="#fcfbf7" />
+  <text x="500.000" y="37.000" fill="#24323a" font-size="24.000" text-anchor="middle">STUMP OF LIFE</text>
+  <text x="500.000" y="63.000" fill="#24323a" font-size="15.000" text-anchor="middle">Compressed variable columns | 10 rows | 175 / 16,570 columns</text>
+  <text x="500.000" y="85.000" fill="#59656b" font-size="13.000" text-anchor="middle">294 substitutions   0 insertions   9 deletions   0 ambiguous calls</text>
+  <g id="alignment-rings">
+    <g id="ring-0" data-record-id="KF540505.1" data-row="0" data-radius="145.0000">
+      <circle cx="500" cy="435" r="145.0000" fill="none" stroke="#667b80" stroke-width="1.3" />
+      <title>Ring 1: KF540505.1</title>
+    </g>
+    <g id="ring-1" data-record-id="KF540524.1" data-row="1" data-radius="166.1111">
+      <circle cx="500" cy="435" r="166.1111" fill="none" stroke="#ccd3d2" stroke-width="0.65" />
+      <title>Ring 2: KF540524.1</title>
+      <path d="M 555.3673,276.4810 L 561.3673,282.4810 M 555.3673,282.4810 L 561.3673,276.4810" stroke="#26343c" fill="none" stroke-width="1.15" stroke-linecap="round" data-event="deletion" data-column="310" data-base="-" data-reference-base="C" data-reference-position="311" data-angle-deg="20.57142857">
+        <title>KF540524.1; alignment column 310 (zero based); reference position 311; C to -; deletion</title>
+      </path>
+      <line x1="647.8979" y1="368.6207" x2="655.1965" y2="365.3449" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="4248" data-base="C" data-reference-base="T" data-reference-position="4248" data-angle-deg="65.82857143">
+        <title>KF540524.1; alignment column 4248 (zero based); reference position 4248; T to C; snp</title>
+      </line>
+      <line x1="661.5824" y1="448.0817" x2="669.5563" y2="448.7273" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="6340" data-base="T" data-reference-base="C" data-reference-position="6340" data-angle-deg="94.62857143">
+        <title>KF540524.1; alignment column 6340 (zero based); reference position 6340; C to T; snp</title>
+      </line>
+      <line x1="655.0512" y1="482.3194" x2="662.7028" y2="484.6545" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="6620" data-base="C" data-reference-base="T" data-reference-position="6620" data-angle-deg="106.97142857">
+        <title>KF540524.1; alignment column 6620 (zero based); reference position 6620; T to C; snp</title>
+      </line>
+      <line x1="473.9219" y1="594.9998" x2="472.6350" y2="602.8956" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="10834" data-base="T" data-reference-base="C" data-reference-position="10834" data-angle-deg="189.25714286">
+        <title>KF540524.1; alignment column 10834 (zero based); reference position 10834; C to T; snp</title>
+      </line>
+    </g>
+    <g id="ring-2" data-record-id="KF540588.1" data-row="2" data-radius="187.2222">
+      <circle cx="500" cy="435" r="187.2222" fill="none" stroke="#ccd3d2" stroke-width="0.65" />
+      <title>Ring 3: KF540588.1</title>
+      <path d="M 562.7852,256.7160 L 568.7852,262.7160 M 562.7852,262.7160 L 568.7852,256.7160" stroke="#26343c" fill="none" stroke-width="1.15" stroke-linecap="round" data-event="deletion" data-column="310" data-base="-" data-reference-base="C" data-reference-position="311" data-angle-deg="20.57142857">
+        <title>KF540588.1; alignment column 310 (zero based); reference position 311; C to -; deletion</title>
+      </path>
+      <line x1="667.1581" y1="359.9763" x2="674.4567" y2="356.7006" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="4248" data-base="C" data-reference-base="T" data-reference-position="4248" data-angle-deg="65.82857143">
+        <title>KF540588.1; alignment column 4248 (zero based); reference position 4248; T to C; snp</title>
+      </line>
+      <line x1="675.2430" y1="488.4816" x2="682.8946" y2="490.8168" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="6620" data-base="C" data-reference-base="T" data-reference-position="6620" data-angle-deg="106.97142857">
+        <title>KF540588.1; alignment column 6620 (zero based); reference position 6620; T to C; snp</title>
+      </line>
+      <line x1="470.5258" y1="615.8360" x2="469.2389" y2="623.7318" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="10834" data-base="T" data-reference-base="C" data-reference-position="10834" data-angle-deg="189.25714286">
+        <title>KF540588.1; alignment column 10834 (zero based); reference position 10834; C to T; snp</title>
+      </line>
+      <line x1="337.1228" y1="518.9130" x2="330.0111" y2="522.5769" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="14766" data-base="C" data-reference-base="T" data-reference-position="14766" data-angle-deg="242.74285714">
+        <title>KF540588.1; alignment column 14766 (zero based); reference position 14766; T to C; snp</title>
+      </line>
+    </g>
+    <g id="ring-3" data-record-id="KF540530.1" data-row="3" data-radius="208.3333">
+      <circle cx="500" cy="435" r="208.3333" fill="none" stroke="#ccd3d2" stroke-width="0.65" />
+      <title>Ring 4: KF540530.1</title>
+      <line x1="500.0000" y1="230.6667" x2="500.0000" y2="222.6667" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="92" data-base="G" data-reference-base="A" data-reference-position="93" data-angle-deg="0.00000000">
+        <title>KF540530.1; alignment column 92 (zero based); reference position 93; A to G; snp</title>
+      </line>
+      <line x1="557.8872" y1="239.0378" x2="560.1536" y2="231.3656" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="203" data-base="C" data-reference-base="T" data-reference-position="204" data-angle-deg="16.45714286">
+        <title>KF540530.1; alignment column 203 (zero based); reference position 204; T to C; snp</title>
+      </line>
+      <line x1="564.8842" y1="241.2420" x2="567.4246" y2="233.6561" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="209" data-base="G" data-reference-base="A" data-reference-position="210" data-angle-deg="18.51428571">
+        <title>KF540530.1; alignment column 209 (zero based); reference position 210; A to G; snp</title>
+      </line>
+      <path d="M 570.2031,236.9511 L 576.2031,242.9511 M 570.2031,242.9511 L 576.2031,236.9511" stroke="#26343c" fill="none" stroke-width="1.15" stroke-linecap="round" data-event="deletion" data-column="310" data-base="-" data-reference-base="C" data-reference-position="311" data-angle-deg="20.57142857">
+        <title>KF540530.1; alignment column 310 (zero based); reference position 311; C to -; deletion</title>
+      </path>
+      <line x1="591.9474" y1="252.5232" x2="595.5473" y2="245.3789" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="489" data-base="T" data-reference-base="C" data-reference-position="490" data-angle-deg="26.74285714">
+        <title>KF540530.1; alignment column 489 (zero based); reference position 490; C to T; snp</title>
+      </line>
+      <line x1="598.4383" y1="255.9413" x2="602.2924" y2="248.9309" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="709" data-base="A" data-reference-base="G" data-reference-position="710" data-angle-deg="28.80000000">
+        <title>KF540530.1; alignment column 709 (zero based); reference position 710; G to A; snp</title>
+      </line>
+      <line x1="645.1325" y1="291.1644" x2="650.8147" y2="285.5330" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="3027" data-base="T" data-reference-base="C" data-reference-position="3028" data-angle-deg="45.25714286">
+        <title>KF540530.1; alignment column 3027 (zero based); reference position 3028; C to T; snp</title>
+      </line>
+      <line x1="655.0781" y1="301.9478" x2="661.1497" y2="296.7386" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="3537" data-base="G" data-reference-base="A" data-reference-position="3537" data-angle-deg="49.37142857">
+        <title>KF540530.1; alignment column 3537 (zero based); reference position 3537; A to G; snp</title>
+      </line>
+      <line x1="659.7542" y1="307.6003" x2="666.0089" y2="302.6123" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="3705" data-base="G" data-reference-base="A" data-reference-position="3705" data-angle-deg="51.42857143">
+        <title>KF540530.1; alignment column 3705 (zero based); reference position 3705; A to G; snp</title>
+      </line>
+      <line x1="691.9407" y1="364.9224" x2="699.4555" y2="362.1788" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="4491" data-base="G" data-reference-base="A" data-reference-position="4491" data-angle-deg="69.94285714">
+        <title>KF540530.1; alignment column 4491 (zero based); reference position 4491; A to G; snp</title>
+      </line>
+      <line x1="674.4619" y1="541.3726" x2="681.2924" y2="545.5373" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="7598" data-base="G" data-reference-base="A" data-reference-position="7598" data-angle-deg="121.37142857">
+        <title>KF540530.1; alignment column 7598 (zero based); reference position 7598; A to G; snp</title>
+      </line>
+      <line x1="631.6549" y1="591.2661" x2="636.8094" y2="597.3842" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="8557" data-base="A" data-reference-base="G" data-reference-position="8557" data-angle-deg="139.88571429">
+        <title>KF540530.1; alignment column 8557 (zero based); reference position 8557; G to A; snp</title>
+      </line>
+      <line x1="625.9607" y1="595.8913" x2="630.8923" y2="602.1905" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="8584" data-base="A" data-reference-base="G" data-reference-position="8584" data-angle-deg="141.94285714">
+        <title>KF540530.1; alignment column 8584 (zero based); reference position 8584; G to A; snp</title>
+      </line>
+      <line x1="620.1041" y1="600.3091" x2="624.8064" y2="606.7813" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="8614" data-base="C" data-reference-base="T" data-reference-position="8614" data-angle-deg="144.00000000">
+        <title>KF540530.1; alignment column 8614 (zero based); reference position 8614; T to C; snp</title>
+      </line>
+      <line x1="614.0927" y1="604.5139" x2="618.5597" y2="611.1506" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="8701" data-base="A" data-reference-base="G" data-reference-position="8701" data-angle-deg="146.05714286">
+        <title>KF540530.1; alignment column 8701 (zero based); reference position 8701; G to A; snp</title>
+      </line>
+      <line x1="575.2201" y1="624.9843" x2="578.1651" y2="632.4225" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="9540" data-base="T" data-reference-base="C" data-reference-position="9540" data-angle-deg="158.40000000">
+        <title>KF540530.1; alignment column 9540 (zero based); reference position 9540; C to T; snp</title>
+      </line>
+      <line x1="554.3602" y1="631.9697" x2="556.4885" y2="639.6814" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="9950" data-base="C" data-reference-base="T" data-reference-position="9950" data-angle-deg="164.57142857">
+        <title>KF540530.1; alignment column 9950 (zero based); reference position 9950; T to C; snp</title>
+      </line>
+      <line x1="547.2547" y1="633.7941" x2="549.1048" y2="641.5773" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="9962" data-base="A" data-reference-base="G" data-reference-position="9962" data-angle-deg="166.62857143">
+        <title>KF540530.1; alignment column 9962 (zero based); reference position 9962; G to A; snp</title>
+      </line>
+      <line x1="510.9992" y1="639.0371" x2="511.4299" y2="647.0255" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="10400" data-base="C" data-reference-base="T" data-reference-position="10400" data-angle-deg="176.91428571">
+        <title>KF540530.1; alignment column 10400 (zero based); reference position 10400; T to C; snp</title>
+      </line>
+      <line x1="459.9117" y1="635.3623" x2="458.3422" y2="643.2068" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="10873" data-base="T" data-reference-base="C" data-reference-position="10873" data-angle-deg="191.31428571">
+        <title>KF540530.1; alignment column 10873 (zero based); reference position 10873; C to T; snp</title>
+      </line>
+      <line x1="431.6481" y1="627.5620" x2="428.9720" y2="635.1011" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="11149" data-base="A" data-reference-base="G" data-reference-position="11149" data-angle-deg="199.54285714">
+        <title>KF540530.1; alignment column 11149 (zero based); reference position 11149; G to A; snp</title>
+      </line>
+      <line x1="424.7799" y1="624.9843" x2="421.8349" y2="632.4225" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="11151" data-base="T" data-reference-base="C" data-reference-position="11151" data-angle-deg="201.60000000">
+        <title>KF540530.1; alignment column 11151 (zero based); reference position 11151; C to T; snp</title>
+      </line>
+      <line x1="379.8959" y1="600.3091" x2="375.1936" y2="606.7813" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="12705" data-base="C" data-reference-base="T" data-reference-position="12705" data-angle-deg="216.00000000">
+        <title>KF540530.1; alignment column 12705 (zero based); reference position 12705; T to C; snp</title>
+      </line>
+      <line x1="374.0393" y1="595.8913" x2="369.1077" y2="602.1905" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="13254" data-base="T" data-reference-base="C" data-reference-position="13254" data-angle-deg="218.05714286">
+        <title>KF540530.1; alignment column 13254 (zero based); reference position 13254; C to T; snp</title>
+      </line>
+      <line x1="368.3451" y1="591.2661" x2="363.1906" y2="597.3842" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="13626" data-base="C" data-reference-base="T" data-reference-position="13626" data-angle-deg="220.11428571">
+        <title>KF540530.1; alignment column 13626 (zero based); reference position 13626; T to C; snp</title>
+      </line>
+      <line x1="347.3353" y1="570.8146" x2="341.3582" y2="576.1320" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="14149" data-base="T" data-reference-base="C" data-reference-position="14149" data-angle-deg="228.34285714">
+        <title>KF540530.1; alignment column 14149 (zero based); reference position 14149; C to T; snp</title>
+      </line>
+      <line x1="321.8321" y1="535.0416" x2="314.8565" y2="538.9584" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="14577" data-base="T" data-reference-base="C" data-reference-position="14577" data-angle-deg="240.68571429">
+        <title>KF540530.1; alignment column 14577 (zero based); reference position 14577; C to T; snp</title>
+      </line>
+      <line x1="315.1137" y1="522.0009" x2="307.8751" y2="525.4071" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="14783" data-base="T" data-reference-base="C" data-reference-position="14783" data-angle-deg="244.80000000">
+        <title>KF540530.1; alignment column 14783 (zero based); reference position 14783; C to T; snp</title>
+      </line>
+      <line x1="309.3482" y1="508.5118" x2="301.8838" y2="511.3899" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="15043" data-base="G" data-reference-base="A" data-reference-position="15043" data-angle-deg="248.91428571">
+        <title>KF540530.1; alignment column 15043 (zero based); reference position 15043; A to G; snp</title>
+      </line>
+      <line x1="306.8322" y1="501.6208" x2="299.2694" y2="504.2291" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="15046" data-base="G" data-reference-base="A" data-reference-position="15046" data-angle-deg="250.97142857">
+        <title>KF540530.1; alignment column 15046 (zero based); reference position 15046; A to G; snp</title>
+      </line>
+      <line x1="298.0409" y1="466.0587" x2="290.1339" y2="467.2747" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="15235" data-base="G" data-reference-base="A" data-reference-position="15235" data-angle-deg="261.25714286">
+        <title>KF540530.1; alignment column 15235 (zero based); reference position 15235; A to G; snp</title>
+      </line>
+      <line x1="320.0650" y1="338.1728" x2="313.0202" y2="334.3819" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16140" data-base="C" data-reference-base="T" data-reference-position="16140" data-angle-deg="298.28571429">
+        <title>KF540530.1; alignment column 16140 (zero based); reference position 16140; T to C; snp</title>
+      </line>
+      <line x1="349.7979" y1="296.4668" x2="343.9172" y2="291.0430" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16223" data-base="C" data-reference-base="T" data-reference-position="16223" data-angle-deg="312.68571429">
+        <title>KF540530.1; alignment column 16223 (zero based); reference position 16223; T to C; snp</title>
+      </line>
+      <line x1="401.5617" y1="255.9413" x2="397.7076" y2="248.9309" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16266" data-base="G" data-reference-base="C" data-reference-position="16266" data-angle-deg="331.20000000">
+        <title>KF540530.1; alignment column 16266 (zero based); reference position 16266; C to G; snp</title>
+      </line>
+      <line x1="478.0334" y1="231.8508" x2="477.1734" y2="223.8972" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16390" data-base="G" data-reference-base="A" data-reference-position="16390" data-angle-deg="353.82857143">
+        <title>KF540530.1; alignment column 16390 (zero based); reference position 16390; A to G; snp</title>
+      </line>
+    </g>
+    <g id="ring-4" data-record-id="KF540857.1" data-row="4" data-radius="229.4444">
+      <circle cx="500" cy="435" r="229.4444" fill="none" stroke="#ccd3d2" stroke-width="0.65" />
+      <title>Ring 5: KF540857.1</title>
+      <line x1="524.2361" y1="210.8621" x2="525.0961" y2="202.9084" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="149" data-base="T" data-reference-base="C" data-reference-position="150" data-angle-deg="6.17142857">
+        <title>KF540857.1; alignment column 149 (zero based); reference position 150; C to T; snp</title>
+      </line>
+      <line x1="532.2662" y1="211.8765" x2="533.4111" y2="203.9589" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="151" data-base="C" data-reference-base="T" data-reference-position="152" data-angle-deg="8.22857143">
+        <title>KF540857.1; alignment column 151 (zero based); reference position 152; T to C; snp</title>
+      </line>
+      <path d="M 577.6210,217.1861 L 583.6210,223.1861 M 577.6210,223.1861 L 583.6210,217.1861" stroke="#26343c" fill="none" stroke-width="1.15" stroke-linecap="round" data-event="deletion" data-column="310" data-base="-" data-reference-base="C" data-reference-position="311" data-angle-deg="20.57142857">
+        <title>KF540857.1; alignment column 310 (zero based); reference position 311; C to -; deletion</title>
+      </path>
+      <line x1="601.4471" y1="233.6702" x2="605.0470" y2="226.5259" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="489" data-base="T" data-reference-base="C" data-reference-position="490" data-angle-deg="26.74285714">
+        <title>KF540857.1; alignment column 489 (zero based); reference position 490; C to T; snp</title>
+      </line>
+      <line x1="660.1271" y1="276.3038" x2="665.8093" y2="270.6723" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="3027" data-base="T" data-reference-base="C" data-reference-position="3028" data-angle-deg="45.25714286">
+        <title>KF540857.1; alignment column 3027 (zero based); reference position 3028; C to T; snp</title>
+      </line>
+      <line x1="665.7205" y1="282.1540" x2="671.6012" y2="276.7302" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="3434" data-base="G" data-reference-base="A" data-reference-position="3434" data-angle-deg="47.31428571">
+        <title>KF540857.1; alignment column 3434 (zero based); reference position 3434; A to G; snp</title>
+      </line>
+      <line x1="676.2596" y1="294.4377" x2="682.5142" y2="289.4498" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="3705" data-base="G" data-reference-base="A" data-reference-position="3705" data-angle-deg="51.42857143">
+        <title>KF540857.1; alignment column 3705 (zero based); reference position 3705; A to G; snp</title>
+      </line>
+      <line x1="681.1916" y1="300.8553" x2="687.6213" y2="296.0951" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="3970" data-base="T" data-reference-base="C" data-reference-position="3970" data-angle-deg="53.48571429">
+        <title>KF540857.1; alignment column 3970 (zero based); reference position 3970; C to T; snp</title>
+      </line>
+      <line x1="711.7715" y1="357.6822" x2="719.2863" y2="354.9386" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="4491" data-base="G" data-reference-base="A" data-reference-position="4491" data-angle-deg="69.94285714">
+        <title>KF540857.1; alignment column 4491 (zero based); reference position 4491; A to G; snp</title>
+      </line>
+      <line x1="716.7730" y1="373.0753" x2="724.4653" y2="370.8778" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="4733" data-base="C" data-reference-base="T" data-reference-position="4733" data-angle-deg="74.05714286">
+        <title>KF540857.1; alignment column 4733 (zero based); reference position 4733; T to C; snp</title>
+      </line>
+      <line x1="720.6572" y1="388.7875" x2="728.4873" y2="387.1476" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="4907" data-base="C" data-reference-base="T" data-reference-position="4907" data-angle-deg="78.17142857">
+        <title>KF540857.1; alignment column 4907 (zero based); reference position 4907; T to C; snp</title>
+      </line>
+      <line x1="722.1738" y1="396.7380" x2="730.0578" y2="395.3803" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="5076" data-base="T" data-reference-base="C" data-reference-position="5076" data-angle-deg="80.22857143">
+        <title>KF540857.1; alignment column 5076 (zero based); reference position 5076; C to T; snp</title>
+      </line>
+      <line x1="724.9996" y1="420.8442" x2="732.9838" y2="420.3419" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="5585" data-base="A" data-reference-base="G" data-reference-position="5585" data-angle-deg="86.40000000">
+        <title>KF540857.1; alignment column 5585 (zero based); reference position 5585; G to A; snp</title>
+      </line>
+      <line x1="725.4354" y1="437.0236" x2="733.4350" y2="437.0954" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="5913" data-base="A" data-reference-base="G" data-reference-position="5913" data-angle-deg="90.51428571">
+        <title>KF540857.1; alignment column 5913 (zero based); reference position 5913; G to A; snp</title>
+      </line>
+      <line x1="725.2174" y1="445.1145" x2="733.2094" y2="445.4734" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="5978" data-base="G" data-reference-base="A" data-reference-position="5978" data-angle-deg="92.57142857">
+        <title>KF540857.1; alignment column 5978 (zero based); reference position 5978; A to G; snp</title>
+      </line>
+      <line x1="721.4512" y1="477.2441" x2="729.3095" y2="478.7431" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="6392" data-base="C" data-reference-base="T" data-reference-position="6392" data-angle-deg="100.80000000">
+        <title>KF540857.1; alignment column 6392 (zero based); reference position 6392; T to C; snp</title>
+      </line>
+      <line x1="707.3024" y1="523.6053" x2="714.6587" y2="526.7495" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="6791" data-base="G" data-reference-base="A" data-reference-position="6791" data-angle-deg="113.14285714">
+        <title>KF540857.1; alignment column 6791 (zero based); reference position 6791; A to G; snp</title>
+      </line>
+      <line x1="696.5757" y1="545.3776" x2="703.5512" y2="549.2944" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="7354" data-base="C" data-reference-base="T" data-reference-position="7354" data-angle-deg="119.31428571">
+        <title>KF540857.1; alignment column 7354 (zero based); reference position 7354; T to C; snp</title>
+      </line>
+      <line x1="692.4868" y1="552.3628" x2="699.3173" y2="556.5274" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="7598" data-base="G" data-reference-base="A" data-reference-position="7598" data-angle-deg="121.37142857">
+        <title>KF540857.1; alignment column 7598 (zero based); reference position 7598; A to G; snp</title>
+      </line>
+      <line x1="625.8805" y1="622.0276" x2="630.3474" y2="628.6643" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="8701" data-base="A" data-reference-base="G" data-reference-position="8701" data-angle-deg="146.05714286">
+        <title>KF540857.1; alignment column 8701 (zero based); reference position 8701; G to A; snp</title>
+      </line>
+      <line x1="612.1376" y1="630.5770" x2="616.1168" y2="637.5171" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="8838" data-base="A" data-reference-base="G" data-reference-position="8838" data-angle-deg="150.17142857">
+        <title>KF540857.1; alignment column 8838 (zero based); reference position 8838; G to A; snp</title>
+      </line>
+      <line x1="582.9916" y1="644.6129" x2="585.9366" y2="652.0512" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="9540" data-base="T" data-reference-base="C" data-reference-position="9540" data-angle-deg="158.40000000">
+        <title>KF540857.1; alignment column 9540 (zero based); reference position 9540; C to T; snp</title>
+      </line>
+      <line x1="567.7388" y1="650.0271" x2="570.1426" y2="657.6574" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="9947" data-base="A" data-reference-base="G" data-reference-position="9947" data-angle-deg="162.51428571">
+        <title>KF540857.1; alignment column 9947 (zero based); reference position 9947; G to A; snp</title>
+      </line>
+      <line x1="536.2663" y1="657.5083" x2="537.5532" y2="665.4041" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="10310" data-base="A" data-reference-base="G" data-reference-position="10310" data-angle-deg="170.74285714">
+        <title>KF540857.1; alignment column 10310 (zero based); reference position 10310; G to A; snp</title>
+      </line>
+      <line x1="528.2557" y1="658.6667" x2="529.2583" y2="666.6037" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="10320" data-base="A" data-reference-base="G" data-reference-position="10320" data-angle-deg="172.80000000">
+        <title>KF540857.1; alignment column 10320 (zero based); reference position 10320; G to A; snp</title>
+      </line>
+      <line x1="520.2087" y1="659.5369" x2="520.9258" y2="667.5047" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="10398" data-base="A" data-reference-base="G" data-reference-position="10398" data-angle-deg="174.85714286">
+        <title>KF540857.1; alignment column 10398 (zero based); reference position 10398; G to A; snp</title>
+      </line>
+      <line x1="512.1356" y1="660.1176" x2="512.5663" y2="668.1060" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="10400" data-base="C" data-reference-base="T" data-reference-position="10400" data-angle-deg="176.91428571">
+        <title>KF540857.1; alignment column 10400 (zero based); reference position 10400; T to C; snp</title>
+      </line>
+      <line x1="455.7699" y1="656.0631" x2="454.2004" y2="663.9076" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="10873" data-base="T" data-reference-base="C" data-reference-position="10873" data-angle-deg="191.31428571">
+        <title>KF540857.1; alignment column 10873 (zero based); reference position 10873; C to T; snp</title>
+      </line>
+      <line x1="367.4871" y1="617.3884" x2="362.7848" y2="623.8605" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="12705" data-base="C" data-reference-base="T" data-reference-position="12705" data-angle-deg="216.00000000">
+        <title>KF540857.1; alignment column 12705 (zero based); reference position 12705; T to C; snp</title>
+      </line>
+      <line x1="361.0254" y1="612.5141" x2="356.0939" y2="618.8133" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="13254" data-base="T" data-reference-base="C" data-reference-position="13254" data-angle-deg="218.05714286">
+        <title>KF540857.1; alignment column 13254 (zero based); reference position 13254; C to T; snp</title>
+      </line>
+      <line x1="354.7429" y1="607.4111" x2="349.5884" y2="613.5292" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="13626" data-base="C" data-reference-base="T" data-reference-position="13626" data-angle-deg="220.11428571">
+        <title>KF540857.1; alignment column 13626 (zero based); reference position 13626; T to C; snp</title>
+      </line>
+      <line x1="342.7474" y1="596.5451" x2="337.1672" y2="602.2776" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="13928" data-base="C" data-reference-base="G" data-reference-position="13928" data-angle-deg="224.22857143">
+        <title>KF540857.1; alignment column 13928 (zero based); reference position 13928; G to C; snp</title>
+      </line>
+      <line x1="303.4243" y1="545.3776" x2="296.4488" y2="549.2944" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="14577" data-base="T" data-reference-base="C" data-reference-position="14577" data-angle-deg="240.68571429">
+        <title>KF540857.1; alignment column 14577 (zero based); reference position 14577; C to T; snp</title>
+      </line>
+      <line x1="296.0118" y1="530.9896" x2="288.7732" y2="534.3958" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="14783" data-base="T" data-reference-base="C" data-reference-position="14783" data-angle-deg="244.80000000">
+        <title>KF540857.1; alignment column 14783 (zero based); reference position 14783; C to T; snp</title>
+      </line>
+      <line x1="289.6506" y1="516.1068" x2="282.1862" y2="518.9849" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="15043" data-base="G" data-reference-base="A" data-reference-position="15043" data-angle-deg="248.91428571">
+        <title>KF540857.1; alignment column 15043 (zero based); reference position 15043; A to G; snp</title>
+      </line>
+      <line x1="276.0886" y1="461.2469" x2="268.1430" y2="462.1783" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="15300" data-base="C" data-reference-base="T" data-reference-position="15300" data-angle-deg="263.31428571">
+        <title>KF540857.1; alignment column 15300 (zero based); reference position 15300; T to C; snp</title>
+      </line>
+      <line x1="275.2908" y1="453.1925" x2="267.3169" y2="453.8380" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="15301" data-base="G" data-reference-base="A" data-reference-position="15301" data-angle-deg="265.37142857">
+        <title>KF540857.1; alignment column 15301 (zero based); reference position 15301; A to G; snp</title>
+      </line>
+      <line x1="276.5959" y1="404.7379" x2="268.6683" y2="403.6640" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="15784" data-base="C" data-reference-base="T" data-reference-position="15784" data-angle-deg="277.71428571">
+        <title>KF540857.1; alignment column 15784 (zero based); reference position 15784; T to C; snp</title>
+      </line>
+      <line x1="291.1404" y1="350.1303" x2="283.7289" y2="347.1186" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16093" data-base="C" data-reference-base="T" data-reference-position="16093" data-angle-deg="292.11428571">
+        <title>KF540857.1; alignment column 16093 (zero based); reference position 16093; T to C; snp</title>
+      </line>
+      <line x1="328.8997" y1="288.2012" x2="322.8281" y2="282.9920" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16220" data-base="C" data-reference-base="A" data-reference-position="16220" data-angle-deg="310.62857143">
+        <title>KF540857.1; alignment column 16220 (zero based); reference position 16220; A to C; snp</title>
+      </line>
+      <line x1="334.2795" y1="282.1540" x2="328.3988" y2="276.7302" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16223" data-base="C" data-reference-base="T" data-reference-position="16223" data-angle-deg="312.68571429">
+        <title>KF540857.1; alignment column 16223 (zero based); reference position 16223; T to C; snp</title>
+      </line>
+      <line x1="384.3697" y1="241.4675" x2="380.2665" y2="234.5999" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16265" data-base="G" data-reference-base="A" data-reference-position="16265" data-angle-deg="329.14285714">
+        <title>KF540857.1; alignment column 16265 (zero based); reference position 16265; A to G; snp</title>
+      </line>
+      <line x1="405.8453" y1="230.1584" x2="402.5041" y2="222.8895" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16298" data-base="C" data-reference-base="T" data-reference-position="16298" data-angle-deg="335.31428571">
+        <title>KF540857.1; alignment column 16298 (zero based); reference position 16298; T to C; snp</title>
+      </line>
+      <line x1="420.7845" y1="223.9310" x2="417.9735" y2="216.4412" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16311" data-base="C" data-reference-base="T" data-reference-position="16311" data-angle-deg="339.42857143">
+        <title>KF540857.1; alignment column 16311 (zero based); reference position 16311; T to C; snp</title>
+      </line>
+      <line x1="475.7639" y1="210.8621" x2="474.9039" y2="202.9084" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16390" data-base="G" data-reference-base="A" data-reference-position="16390" data-angle-deg="353.82857143">
+        <title>KF540857.1; alignment column 16390 (zero based); reference position 16390; A to G; snp</title>
+      </line>
+      <line x1="491.9074" y1="209.7008" x2="491.6202" y2="201.7060" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16519" data-base="T" data-reference-base="C" data-reference-position="16519" data-angle-deg="357.94285714">
+        <title>KF540857.1; alignment column 16519 (zero based); reference position 16519; C to T; snp</title>
+      </line>
+    </g>
+    <g id="ring-5" data-record-id="KF540803.1" data-row="5" data-radius="250.5556">
+      <circle cx="500" cy="435" r="250.5556" fill="none" stroke="#ccd3d2" stroke-width="0.65" />
+      <title>Ring 6: KF540803.1</title>
+      <line x1="552.7040" y1="194.1433" x2="554.4141" y2="186.3283" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="194" data-base="C" data-reference-base="T" data-reference-position="195" data-angle-deg="12.34285714">
+        <title>KF540803.1; alignment column 194 (zero based); reference position 195; T to C; snp</title>
+      </line>
+      <path d="M 585.0389,197.4212 L 591.0389,203.4212 M 585.0389,203.4212 L 591.0389,197.4212" stroke="#26343c" fill="none" stroke-width="1.15" stroke-linecap="round" data-event="deletion" data-column="310" data-base="-" data-reference-base="C" data-reference-position="311" data-angle-deg="20.57142857">
+        <title>KF540803.1; alignment column 310 (zero based); reference position 311; C to -; deletion</title>
+      </path>
+      <line x1="594.8636" y1="207.4247" x2="597.9417" y2="200.0405" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="417" data-base="A" data-reference-base="G" data-reference-position="418" data-angle-deg="22.62857143">
+        <title>KF540803.1; alignment column 417 (zero based); reference position 418; G to A; snp</title>
+      </line>
+      <line x1="610.9468" y1="214.8172" x2="614.5467" y2="207.6730" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="489" data-base="T" data-reference-base="C" data-reference-position="490" data-angle-deg="26.74285714">
+        <title>KF540803.1; alignment column 489 (zero based); reference position 490; C to T; snp</title>
+      </line>
+      <line x1="626.4582" y1="223.3447" x2="630.5614" y2="216.4771" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="813" data-base="G" data-reference-base="A" data-reference-position="814" data-angle-deg="30.85714286">
+        <title>KF540803.1; alignment column 813 (zero based); reference position 814; A to G; snp</title>
+      </line>
+      <line x1="675.1218" y1="261.4431" x2="680.8040" y2="255.8117" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="3027" data-base="T" data-reference-base="C" data-reference-position="3028" data-angle-deg="45.25714286">
+        <title>KF540803.1; alignment column 3027 (zero based); reference position 3028; C to T; snp</title>
+      </line>
+      <line x1="692.7649" y1="281.2751" x2="699.0195" y2="276.2872" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="3705" data-base="G" data-reference-base="A" data-reference-position="3705" data-angle-deg="51.42857143">
+        <title>KF540803.1; alignment column 3705 (zero based); reference position 3705; A to G; snp</title>
+      </line>
+      <line x1="731.6022" y1="350.4420" x2="739.1170" y2="347.6984" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="4491" data-base="G" data-reference-base="A" data-reference-position="4491" data-angle-deg="69.94285714">
+        <title>KF540803.1; alignment column 4491 (zero based); reference position 4491; A to G; snp</title>
+      </line>
+      <line x1="746.4662" y1="428.3616" x2="754.4633" y2="428.1462" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="5824" data-base="A" data-reference-base="G" data-reference-position="5824" data-angle-deg="88.45714286">
+        <title>KF540803.1; alignment column 5824 (zero based); reference position 5824; G to A; snp</title>
+      </line>
+      <line x1="743.6907" y1="472.4765" x2="751.5977" y2="473.6925" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="6359" data-base="G" data-reference-base="A" data-reference-position="6359" data-angle-deg="98.74285714">
+        <title>KF540803.1; alignment column 6359 (zero based); reference position 6359; A to G; snp</title>
+      </line>
+      <line x1="733.0828" y1="515.3869" x2="740.6456" y2="517.9952" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="6674" data-base="C" data-reference-base="T" data-reference-position="6674" data-angle-deg="109.02857143">
+        <title>KF540803.1; alignment column 6674 (zero based); reference position 6674; T to C; snp</title>
+      </line>
+      <line x1="710.5117" y1="563.3529" x2="717.3422" y2="567.5175" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="7598" data-base="G" data-reference-base="A" data-reference-position="7598" data-angle-deg="121.37142857">
+        <title>KF540803.1; alignment column 7598 (zero based); reference position 7598; A to G; snp</title>
+      </line>
+      <line x1="684.2104" y1="598.8785" x2="690.1875" y2="604.1959" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="7975" data-base="G" data-reference-base="A" data-reference-position="7975" data-angle-deg="131.65714286">
+        <title>KF540803.1; alignment column 7975 (zero based); reference position 7975; A to G; snp</title>
+      </line>
+      <line x1="678.2091" y1="605.3853" x2="683.9914" y2="610.9138" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="8296" data-base="G" data-reference-base="A" data-reference-position="8296" data-angle-deg="133.71428571">
+        <title>KF540803.1; alignment column 8296 (zero based); reference position 8296; A to G; snp</title>
+      </line>
+      <line x1="637.6682" y1="639.5412" x2="642.1351" y2="646.1780" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="8701" data-base="A" data-reference-base="G" data-reference-position="8701" data-angle-deg="146.05714286">
+        <title>KF540803.1; alignment column 8701 (zero based); reference position 8701; G to A; snp</title>
+      </line>
+      <line x1="614.8814" y1="653.1557" x2="618.6090" y2="660.2342" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="8928" data-base="C" data-reference-base="T" data-reference-position="8928" data-angle-deg="152.22857143">
+        <title>KF540803.1; alignment column 8928 (zero based); reference position 8928; T to C; snp</title>
+      </line>
+      <line x1="606.9764" y1="657.1389" x2="610.4475" y2="664.3466" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="9180" data-base="G" data-reference-base="A" data-reference-position="9180" data-angle-deg="154.28571429">
+        <title>KF540803.1; alignment column 9180 (zero based); reference position 9180; A to G; snp</title>
+      </line>
+      <line x1="590.7632" y1="664.2416" x2="593.7082" y2="671.6798" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="9540" data-base="T" data-reference-base="C" data-reference-position="9540" data-angle-deg="158.40000000">
+        <title>KF540803.1; alignment column 9540 (zero based); reference position 9540; C to T; snp</title>
+      </line>
+      <line x1="548.3719" y1="676.7639" x2="549.9414" y2="684.6085" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="10289" data-base="G" data-reference-base="A" data-reference-position="10289" data-angle-deg="168.68571429">
+        <title>KF540803.1; alignment column 10289 (zero based); reference position 10289; A to G; snp</title>
+      </line>
+      <line x1="522.1011" y1="680.5630" x2="522.8182" y2="688.5308" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="10398" data-base="A" data-reference-base="G" data-reference-position="10398" data-angle-deg="174.85714286">
+        <title>KF540803.1; alignment column 10398 (zero based); reference position 10398; G to A; snp</title>
+      </line>
+      <line x1="513.2720" y1="681.1981" x2="513.7027" y2="689.1865" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="10400" data-base="C" data-reference-base="T" data-reference-position="10400" data-angle-deg="176.91428571">
+        <title>KF540803.1; alignment column 10400 (zero based); reference position 10400; T to C; snp</title>
+      </line>
+      <line x1="477.8989" y1="680.5630" x2="477.1818" y2="688.5308" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="10724" data-base="C" data-reference-base="T" data-reference-position="10724" data-angle-deg="185.14285714">
+        <title>KF540803.1; alignment column 10724 (zero based); reference position 10724; T to C; snp</title>
+      </line>
+      <line x1="451.6281" y1="676.7639" x2="450.0586" y2="684.6085" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="10873" data-base="T" data-reference-base="C" data-reference-position="10873" data-angle-deg="191.31428571">
+        <title>KF540803.1; alignment column 10873 (zero based); reference position 10873; C to T; snp</title>
+      </line>
+      <line x1="442.9809" y1="674.8718" x2="441.1308" y2="682.6549" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="10908" data-base="C" data-reference-base="T" data-reference-position="10908" data-angle-deg="193.37142857">
+        <title>KF540803.1; alignment column 10908 (zero based); reference position 10908; T to C; snp</title>
+      </line>
+      <line x1="393.0236" y1="657.1389" x2="389.5525" y2="664.3466" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="11581" data-base="A" data-reference-base="C" data-reference-position="11581" data-angle-deg="205.71428571">
+        <title>KF540803.1; alignment column 11581 (zero based); reference position 11581; C to A; snp</title>
+      </line>
+      <line x1="348.0115" y1="629.1369" x2="343.0800" y2="635.4361" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="13254" data-base="T" data-reference-base="C" data-reference-position="13254" data-angle-deg="218.05714286">
+        <title>KF540803.1; alignment column 13254 (zero based); reference position 13254; C to T; snp</title>
+      </line>
+      <line x1="341.1407" y1="623.5560" x2="335.9862" y2="629.6741" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="13626" data-base="C" data-reference-base="T" data-reference-position="13626" data-angle-deg="220.11428571">
+        <title>KF540803.1; alignment column 13626 (zero based); reference position 13626; T to C; snp</title>
+      </line>
+      <line x1="310.0257" y1="592.1604" x2="303.8616" y2="597.2598" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="14220" data-base="G" data-reference-base="A" data-reference-position="14220" data-angle-deg="230.40000000">
+        <title>KF540803.1; alignment column 14220 (zero based); reference position 14220; A to G; snp</title>
+      </line>
+      <line x1="299.2396" y1="578.1255" x2="292.7255" y2="582.7695" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="14311" data-base="C" data-reference-base="T" data-reference-position="14311" data-angle-deg="234.51428571">
+        <title>KF540803.1; alignment column 14311 (zero based); reference position 14311; T to C; snp</title>
+      </line>
+      <line x1="294.2313" y1="570.8267" x2="287.5547" y2="575.2339" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="14431" data-base="C" data-reference-base="T" data-reference-position="14431" data-angle-deg="236.57142857">
+        <title>KF540803.1; alignment column 14431 (zero based); reference position 14431; T to C; snp</title>
+      </line>
+      <line x1="289.4883" y1="563.3529" x2="282.6578" y2="567.5175" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="14502" data-base="C" data-reference-base="T" data-reference-position="14502" data-angle-deg="238.62857143">
+        <title>KF540803.1; alignment column 14502 (zero based); reference position 14502; T to C; snp</title>
+      </line>
+      <line x1="285.0166" y1="555.7136" x2="278.0410" y2="559.6304" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="14577" data-base="T" data-reference-base="C" data-reference-position="14577" data-angle-deg="240.68571429">
+        <title>KF540803.1; alignment column 14577 (zero based); reference position 14577; C to T; snp</title>
+      </line>
+      <line x1="276.9099" y1="539.9782" x2="269.6712" y2="543.3845" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="14783" data-base="T" data-reference-base="C" data-reference-position="14783" data-angle-deg="244.80000000">
+        <title>KF540803.1; alignment column 14783 (zero based); reference position 14783; C to T; snp</title>
+      </line>
+      <line x1="269.9530" y1="523.7019" x2="262.4887" y2="526.5800" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="15043" data-base="G" data-reference-base="A" data-reference-position="15043" data-angle-deg="248.91428571">
+        <title>KF540803.1; alignment column 15043 (zero based); reference position 15043; A to G; snp</title>
+      </line>
+      <line x1="254.2485" y1="454.8960" x2="246.2746" y2="455.5416" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="15301" data-base="G" data-reference-base="A" data-reference-position="15301" data-angle-deg="265.37142857">
+        <title>KF540803.1; alignment column 15301 (zero based); reference position 15301; A to G; snp</title>
+      </line>
+      <line x1="253.5338" y1="428.3616" x2="245.5367" y2="428.1462" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="15514" data-base="C" data-reference-base="T" data-reference-position="15514" data-angle-deg="271.54285714">
+        <title>KF540803.1; alignment column 15514 (zero based); reference position 15514; T to C; snp</title>
+      </line>
+      <line x1="260.6497" y1="375.8301" x2="252.8835" y2="373.9102" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="15900" data-base="C" data-reference-base="T" data-reference-position="15900" data-angle-deg="283.88571429">
+        <title>KF540803.1; alignment column 15900 (zero based); reference position 15900; T to C; snp</title>
+      </line>
+      <line x1="301.8412" y1="288.2937" x2="295.4115" y2="283.5335" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16176" data-base="T" data-reference-base="C" data-reference-position="16176" data-angle-deg="306.51428571">
+        <title>KF540803.1; alignment column 16176 (zero based); reference position 16176; C to T; snp</title>
+      </line>
+      <line x1="331.2211" y1="255.2687" x2="325.7447" y2="249.4370" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16232" data-base="T" data-reference-base="C" data-reference-position="16232" data-angle-deg="316.80000000">
+        <title>KF540803.1; alignment column 16232 (zero based); reference position 16232; C to T; snp</title>
+      </line>
+      <line x1="455.9758" y1="192.4067" x2="454.5474" y2="184.5353" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16355" data-base="T" data-reference-base="C" data-reference-position="16355" data-angle-deg="349.71428571">
+        <title>KF540803.1; alignment column 16355 (zero based); reference position 16355; C to T; snp</title>
+      </line>
+      <line x1="464.7124" y1="190.9827" x2="463.5674" y2="183.0651" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16362" data-base="T" data-reference-base="C" data-reference-position="16362" data-angle-deg="351.77142857">
+        <title>KF540803.1; alignment column 16362 (zero based); reference position 16362; C to T; snp</title>
+      </line>
+      <line x1="473.4944" y1="189.8733" x2="472.6344" y2="181.9197" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16390" data-base="G" data-reference-base="A" data-reference-position="16390" data-angle-deg="353.82857143">
+        <title>KF540803.1; alignment column 16390 (zero based); reference position 16390; A to G; snp</title>
+      </line>
+    </g>
+    <g id="ring-6" data-record-id="KF540771.1" data-row="6" data-radius="271.6667">
+      <circle cx="500" cy="435" r="271.6667" fill="none" stroke="#ccd3d2" stroke-width="0.65" />
+      <title>Ring 7: KF540771.1</title>
+      <line x1="547.7937" y1="171.6348" x2="549.2222" y2="163.7634" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="181" data-base="T" data-reference-base="C" data-reference-position="182" data-angle-deg="10.28571429">
+        <title>KF540771.1; alignment column 181 (zero based); reference position 182; C to T; snp</title>
+      </line>
+      <path d="M 592.4568,177.6562 L 598.4568,183.6562 M 592.4568,183.6562 L 598.4568,177.6562" stroke="#26343c" fill="none" stroke-width="1.15" stroke-linecap="round" data-event="deletion" data-column="310" data-base="-" data-reference-base="C" data-reference-position="311" data-angle-deg="20.57142857">
+        <title>KF540771.1; alignment column 310 (zero based); reference position 311; C to -; deletion</title>
+      </path>
+      <line x1="620.4466" y1="195.9643" x2="624.0464" y2="188.8200" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="489" data-base="T" data-reference-base="C" data-reference-position="490" data-angle-deg="26.74285714">
+        <title>KF540771.1; alignment column 489 (zero based); reference position 490; C to T; snp</title>
+      </line>
+      <line x1="653.4179" y1="215.6638" x2="658.0033" y2="209.1083" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="1005" data-base="C" data-reference-base="T" data-reference-position="1006" data-angle-deg="34.97142857">
+        <title>KF540771.1; alignment column 1005 (zero based); reference position 1006; T to C; snp</title>
+      </line>
+      <line x1="683.2304" y1="239.8794" x2="688.7068" y2="234.0476" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="1824" data-base="C" data-reference-base="T" data-reference-position="1825" data-angle-deg="43.20000000">
+        <title>KF540771.1; alignment column 1824 (zero based); reference position 1825; T to C; snp</title>
+      </line>
+      <line x1="690.1164" y1="246.5824" x2="695.7986" y2="240.9510" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="3027" data-base="T" data-reference-base="C" data-reference-position="3028" data-angle-deg="45.25714286">
+        <title>KF540771.1; alignment column 3027 (zero based); reference position 3028; C to T; snp</title>
+      </line>
+      <line x1="709.2702" y1="268.1126" x2="715.5249" y2="263.1246" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="3705" data-base="G" data-reference-base="A" data-reference-position="3705" data-angle-deg="51.42857143">
+        <title>KF540771.1; alignment column 3705 (zero based); reference position 3705; A to G; snp</title>
+      </line>
+      <line x1="715.1260" y1="275.7321" x2="721.5557" y2="270.9719" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="3970" data-base="T" data-reference-base="C" data-reference-position="3970" data-angle-deg="53.48571429">
+        <title>KF540771.1; alignment column 3970 (zero based); reference position 3970; C to T; snp</title>
+      </line>
+      <line x1="751.4330" y1="343.2018" x2="758.9478" y2="340.4581" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="4491" data-base="G" data-reference-base="A" data-reference-position="4491" data-angle-deg="69.94285714">
+        <title>KF540771.1; alignment column 4491 (zero based); reference position 4491; A to G; snp</title>
+      </line>
+      <line x1="762.9256" y1="485.1557" x2="770.7839" y2="486.6548" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="6392" data-base="C" data-reference-base="T" data-reference-position="6392" data-angle-deg="100.80000000">
+        <title>KF540771.1; alignment column 6392 (zero based); reference position 6392; T to C; snp</title>
+      </line>
+      <line x1="742.1920" y1="548.9669" x2="749.4307" y2="552.3732" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="7076" data-base="G" data-reference-base="A" data-reference-position="7076" data-angle-deg="115.20000000">
+        <title>KF540771.1; alignment column 7076 (zero based); reference position 7076; A to G; snp</title>
+      </line>
+      <line x1="728.5366" y1="574.3430" x2="735.3671" y2="578.5076" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="7598" data-base="G" data-reference-base="A" data-reference-position="7598" data-angle-deg="121.37142857">
+        <title>KF540771.1; alignment column 7598 (zero based); reference position 7598; A to G; snp</title>
+      </line>
+      <line x1="717.9503" y1="590.3805" x2="724.4644" y2="595.0245" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="7828" data-base="G" data-reference-base="A" data-reference-position="7828" data-angle-deg="125.48571429">
+        <title>KF540771.1; alignment column 7828 (zero based); reference position 7828; A to G; snp</title>
+      </line>
+      <line x1="649.4559" y1="657.0549" x2="653.9228" y2="663.6916" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="8701" data-base="A" data-reference-base="G" data-reference-position="8701" data-angle-deg="146.05714286">
+        <title>KF540771.1; alignment column 8701 (zero based); reference position 8701; G to A; snp</title>
+      </line>
+      <line x1="598.5347" y1="683.8702" x2="601.4797" y2="691.3084" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="9540" data-base="T" data-reference-base="C" data-reference-position="9540" data-angle-deg="158.40000000">
+        <title>KF540771.1; alignment column 9540 (zero based); reference position 9540; C to T; snp</title>
+      </line>
+      <line x1="543.0584" y1="699.1807" x2="544.3453" y2="707.0765" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="10310" data-base="A" data-reference-base="G" data-reference-position="10310" data-angle-deg="170.74285714">
+        <title>KF540771.1; alignment column 10310 (zero based); reference position 10310; G to A; snp</title>
+      </line>
+      <line x1="523.9935" y1="701.5891" x2="524.7106" y2="709.5569" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="10398" data-base="A" data-reference-base="G" data-reference-position="10398" data-angle-deg="174.85714286">
+        <title>KF540771.1; alignment column 10398 (zero based); reference position 10398; G to A; snp</title>
+      </line>
+      <line x1="514.4085" y1="702.2786" x2="514.8391" y2="710.2670" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="10400" data-base="C" data-reference-base="T" data-reference-position="10400" data-angle-deg="176.91428571">
+        <title>KF540771.1; alignment column 10400 (zero based); reference position 10400; T to C; snp</title>
+      </line>
+      <line x1="495.1951" y1="702.6235" x2="495.0515" y2="710.6222" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="10535" data-base="C" data-reference-base="T" data-reference-position="10535" data-angle-deg="181.02857143">
+        <title>KF540771.1; alignment column 10535 (zero based); reference position 10535; T to C; snp</title>
+      </line>
+      <line x1="485.5915" y1="702.2786" x2="485.1609" y2="710.2670" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="10586" data-base="A" data-reference-base="G" data-reference-position="10586" data-angle-deg="183.08571429">
+        <title>KF540771.1; alignment column 10586 (zero based); reference position 10586; G to A; snp</title>
+      </line>
+      <line x1="466.4525" y1="700.5560" x2="465.4498" y2="708.4930" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="10810" data-base="C" data-reference-base="T" data-reference-position="10810" data-angle-deg="187.20000000">
+        <title>KF540771.1; alignment column 10810 (zero based); reference position 10810; T to C; snp</title>
+      </line>
+      <line x1="447.4863" y1="697.4648" x2="445.9168" y2="705.3093" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="10873" data-base="T" data-reference-base="C" data-reference-position="10873" data-angle-deg="191.31428571">
+        <title>KF540771.1; alignment column 10873 (zero based); reference position 10873; C to T; snp</title>
+      </line>
+      <line x1="366.8608" y1="667.2055" x2="362.8816" y2="674.1457" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="12338" data-base="C" data-reference-base="T" data-reference-position="12338" data-angle-deg="209.82857143">
+        <title>KF540771.1; alignment column 12338 (zero based); reference position 12338; T to C; snp</title>
+      </line>
+      <line x1="342.6695" y1="651.5469" x2="337.9672" y2="658.0190" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="12705" data-base="C" data-reference-base="T" data-reference-position="12705" data-angle-deg="216.00000000">
+        <title>KF540771.1; alignment column 12705 (zero based); reference position 12705; T to C; snp</title>
+      </line>
+      <line x1="334.9977" y1="645.7598" x2="330.0661" y2="652.0589" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="13254" data-base="T" data-reference-base="C" data-reference-position="13254" data-angle-deg="218.05714286">
+        <title>KF540771.1; alignment column 13254 (zero based); reference position 13254; C to T; snp</title>
+      </line>
+      <line x1="327.5385" y1="639.7010" x2="322.3840" y2="645.8191" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="13626" data-base="C" data-reference-base="T" data-reference-position="13626" data-angle-deg="220.11428571">
+        <title>KF540771.1; alignment column 13626 (zero based); reference position 13626; T to C; snp</title>
+      </line>
+      <line x1="320.3017" y1="633.3783" x2="314.9309" y2="639.3074" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="13708" data-base="A" data-reference-base="G" data-reference-position="13708" data-angle-deg="222.17142857">
+        <title>KF540771.1; alignment column 13708 (zero based); reference position 13708; G to A; snp</title>
+      </line>
+      <line x1="313.2965" y1="626.8000" x2="307.7163" y2="632.5325" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="13928" data-base="C" data-reference-base="G" data-reference-position="13928" data-angle-deg="224.22857143">
+        <title>KF540771.1; alignment column 13928 (zero based); reference position 13928; G to C; snp</title>
+      </line>
+      <line x1="266.6088" y1="566.0496" x2="259.6332" y2="569.9664" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="14577" data-base="T" data-reference-base="C" data-reference-position="14577" data-angle-deg="240.68571429">
+        <title>KF540771.1; alignment column 14577 (zero based); reference position 14577; C to T; snp</title>
+      </line>
+      <line x1="257.8080" y1="548.9669" x2="250.5693" y2="552.3732" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="14783" data-base="T" data-reference-base="C" data-reference-position="14783" data-angle-deg="244.80000000">
+        <title>KF540771.1; alignment column 14783 (zero based); reference position 14783; C to T; snp</title>
+      </line>
+      <line x1="250.2554" y1="531.2969" x2="242.7911" y2="534.1750" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="15043" data-base="G" data-reference-base="A" data-reference-position="15043" data-angle-deg="248.91428571">
+        <title>KF540771.1; alignment column 15043 (zero based); reference position 15043; A to G; snp</title>
+      </line>
+      <line x1="243.9901" y1="513.1305" x2="236.3385" y2="515.4657" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="15151" data-base="G" data-reference-base="A" data-reference-position="15151" data-angle-deg="253.02857143">
+        <title>KF540771.1; alignment column 15151 (zero based); reference position 15151; A to G; snp</title>
+      </line>
+      <line x1="239.0443" y1="494.5614" x2="231.2449" y2="496.3416" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="15203" data-base="G" data-reference-base="A" data-reference-position="15203" data-angle-deg="257.14285714">
+        <title>KF540771.1; alignment column 15203 (zero based); reference position 15203; A to G; snp</title>
+      </line>
+      <line x1="233.2063" y1="456.5996" x2="225.2323" y2="457.2452" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="15301" data-base="G" data-reference-base="A" data-reference-position="15301" data-angle-deg="265.37142857">
+        <title>KF540771.1; alignment column 15301 (zero based); reference position 15301; A to G; snp</title>
+      </line>
+      <line x1="274.0016" y1="291.5770" x2="267.2469" y2="287.2904" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16167" data-base="T" data-reference-base="C" data-reference-position="16167" data-angle-deg="302.40000000">
+        <title>KF540771.1; alignment column 16167 (zero based); reference position 16167; C to T; snp</title>
+      </line>
+      <line x1="290.7298" y1="268.1126" x2="284.4751" y2="263.1246" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16203" data-base="G" data-reference-base="A" data-reference-position="16203" data-angle-deg="308.57142857">
+        <title>KF540771.1; alignment column 16203 (zero based); reference position 16203; A to G; snp</title>
+      </line>
+      <line x1="303.2426" y1="253.5283" x2="297.3619" y2="248.1045" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16223" data-base="C" data-reference-base="T" data-reference-position="16223" data-angle-deg="312.68571429">
+        <title>KF540771.1; alignment column 16223 (zero based); reference position 16223; T to C; snp</title>
+      </line>
+      <line x1="354.5543" y1="210.2980" x2="350.2072" y2="203.5821" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16260" data-base="T" data-reference-base="C" data-reference-position="16260" data-angle-deg="327.08571429">
+        <title>KF540771.1; alignment column 16260 (zero based); reference position 16260; C to T; snp</title>
+      </line>
+      <line x1="397.0137" y1="187.9387" x2="393.9357" y2="180.5546" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16304" data-base="C" data-reference-base="T" data-reference-position="16304" data-angle-deg="337.37142857">
+        <title>KF540771.1; alignment column 16304 (zero based); reference position 16304; T to C; snp</title>
+      </line>
+      <line x1="415.0048" y1="181.1866" x2="412.4645" y2="173.6006" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16318" data-base="G" data-reference-base="A" data-reference-position="16318" data-angle-deg="341.48571429">
+        <title>KF540771.1; alignment column 16318 (zero based); reference position 16318; A to G; snp</title>
+      </line>
+      <line x1="461.6909" y1="170.0890" x2="460.5459" y2="162.1713" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16362" data-base="T" data-reference-base="C" data-reference-position="16362" data-angle-deg="351.77142857">
+        <title>KF540771.1; alignment column 16362 (zero based); reference position 16362; C to T; snp</title>
+      </line>
+      <line x1="471.2249" y1="168.8845" x2="470.3648" y2="160.9309" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16390" data-base="G" data-reference-base="A" data-reference-position="16390" data-angle-deg="353.82857143">
+        <title>KF540771.1; alignment column 16390 (zero based); reference position 16390; A to G; snp</title>
+      </line>
+    </g>
+    <g id="ring-7" data-record-id="KF540942.1" data-row="7" data-radius="292.7778">
+      <circle cx="500" cy="435" r="292.7778" fill="none" stroke="#ccd3d2" stroke-width="0.65" />
+      <title>Ring 8: KF540942.1</title>
+      <line x1="531.0446" y1="147.8958" x2="531.9047" y2="139.9421" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="149" data-base="T" data-reference-base="C" data-reference-position="150" data-angle-deg="6.17142857">
+        <title>KF540942.1; alignment column 149 (zero based); reference position 150; C to T; snp</title>
+      </line>
+      <line x1="571.8161" y1="155.2947" x2="573.8056" y2="147.5460" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="198" data-base="C" data-reference-base="T" data-reference-position="199" data-angle-deg="14.40000000">
+        <title>KF540942.1; alignment column 198 (zero based); reference position 199; T to C; snp</title>
+      </line>
+      <path d="M 599.8747,157.8912 L 605.8747,163.8912 M 599.8747,163.8912 L 605.8747,157.8912" stroke="#26343c" fill="none" stroke-width="1.15" stroke-linecap="round" data-event="deletion" data-column="310" data-base="-" data-reference-base="C" data-reference-position="311" data-angle-deg="20.57142857">
+        <title>KF540942.1; alignment column 310 (zero based); reference position 311; C to -; deletion</title>
+      </path>
+      <line x1="639.1198" y1="181.9421" x2="642.9738" y2="174.9317" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="709" data-base="A" data-reference-base="G" data-reference-position="710" data-angle-deg="28.80000000">
+        <title>KF540942.1; alignment column 709 (zero based); reference position 710; G to A; snp</title>
+      </line>
+      <line x1="689.9981" y1="217.5297" x2="695.2616" y2="211.5051" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="1664" data-base="A" data-reference-base="G" data-reference-position="1665" data-angle-deg="41.14285714">
+        <title>KF540942.1; alignment column 1664 (zero based); reference position 1665; G to A; snp</title>
+      </line>
+      <line x1="705.1111" y1="231.7218" x2="710.7933" y2="226.0904" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="3027" data-base="T" data-reference-base="C" data-reference-position="3028" data-angle-deg="45.25714286">
+        <title>KF540942.1; alignment column 3027 (zero based); reference position 3028; C to T; snp</title>
+      </line>
+      <line x1="725.7756" y1="254.9500" x2="732.0302" y2="249.9621" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="3705" data-base="G" data-reference-base="A" data-reference-position="3705" data-angle-deg="51.42857143">
+        <title>KF540942.1; alignment column 3705 (zero based); reference position 3705; A to G; snp</title>
+      </line>
+      <line x1="738.1116" y1="271.6125" x2="744.7080" y2="267.0862" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="4048" data-base="A" data-reference-base="G" data-reference-position="4048" data-angle-deg="55.54285714">
+        <title>KF540942.1; alignment column 4048 (zero based); reference position 4048; G to A; snp</title>
+      </line>
+      <line x1="743.8231" y1="280.2651" x2="750.5778" y2="275.9785" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="4071" data-base="T" data-reference-base="C" data-reference-position="4071" data-angle-deg="57.60000000">
+        <title>KF540942.1; alignment column 4071 (zero based); reference position 4071; C to T; snp</title>
+      </line>
+      <line x1="754.2964" y1="298.1573" x2="761.3412" y2="294.3663" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="4164" data-base="G" data-reference-base="A" data-reference-position="4164" data-angle-deg="61.71428571">
+        <title>KF540942.1; alignment column 4164 (zero based); reference position 4164; A to G; snp</title>
+      </line>
+      <line x1="767.5338" y1="326.2881" x2="774.9453" y2="323.2764" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="4454" data-base="C" data-reference-base="T" data-reference-position="4454" data-angle-deg="67.88571429">
+        <title>KF540942.1; alignment column 4454 (zero based); reference position 4454; T to C; snp</title>
+      </line>
+      <line x1="771.2637" y1="335.9616" x2="778.7785" y2="333.2179" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="4491" data-base="G" data-reference-base="A" data-reference-position="4491" data-angle-deg="69.94285714">
+        <title>KF540942.1; alignment column 4491 (zero based); reference position 4491; A to G; snp</title>
+      </line>
+      <line x1="774.6440" y1="345.7628" x2="782.2524" y2="343.2906" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="4562" data-base="G" data-reference-base="A" data-reference-position="4562" data-angle-deg="72.00000000">
+        <title>KF540942.1; alignment column 4562 (zero based); reference position 4562; A to G; snp</title>
+      </line>
+      <line x1="786.1643" y1="396.2364" x2="794.0919" y2="395.1625" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="5351" data-base="G" data-reference-base="A" data-reference-position="5351" data-angle-deg="82.28571429">
+        <title>KF540942.1; alignment column 5351 (zero based); reference position 5351; A to G; snp</title>
+      </line>
+      <line x1="787.3713" y1="406.5336" x2="795.3323" y2="405.7450" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="5460" data-base="A" data-reference-base="G" data-reference-position="5460" data-angle-deg="84.34285714">
+        <title>KF540942.1; alignment column 5460 (zero based); reference position 5460; G to A; snp</title>
+      </line>
+      <line x1="786.8140" y1="468.6204" x2="794.7596" y2="469.5518" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="6351" data-base="C" data-reference-base="T" data-reference-position="6351" data-angle-deg="96.68571429">
+        <title>KF540942.1; alignment column 6351 (zero based); reference position 6351; T to C; snp</title>
+      </line>
+      <line x1="779.0494" y1="509.3238" x2="786.7799" y2="511.3828" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="6455" data-base="T" data-reference-base="C" data-reference-position="6455" data-angle-deg="104.91428571">
+        <title>KF540942.1; alignment column 6455 (zero based); reference position 6455; C to T; snp</title>
+      </line>
+      <line x1="769.4422" y1="538.8919" x2="776.9065" y2="541.7700" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="6680" data-base="C" data-reference-base="T" data-reference-position="6680" data-angle-deg="111.08571429">
+        <title>KF540942.1; alignment column 6680 (zero based); reference position 6680; T to C; snp</title>
+      </line>
+      <line x1="756.7119" y1="567.2558" x2="763.8236" y2="570.9197" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="7175" data-base="C" data-reference-base="T" data-reference-position="7175" data-angle-deg="117.25714286">
+        <title>KF540942.1; alignment column 7175 (zero based); reference position 7175; T to C; snp</title>
+      </line>
+      <line x1="746.5615" y1="585.3331" x2="753.3920" y2="589.4977" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="7598" data-base="G" data-reference-base="A" data-reference-position="7598" data-angle-deg="121.37142857">
+        <title>KF540942.1; alignment column 7598 (zero based); reference position 7598; A to G; snp</title>
+      </line>
+      <line x1="741.0062" y1="594.0868" x2="747.6828" y2="598.4940" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="7684" data-base="C" data-reference-base="T" data-reference-position="7684" data-angle-deg="123.42857143">
+        <title>KF540942.1; alignment column 7684 (zero based); reference position 7684; T to C; snp</title>
+      </line>
+      <line x1="728.9713" y1="610.9681" x2="735.3144" y2="615.8429" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="7853" data-base="A" data-reference-base="G" data-reference-position="7853" data-angle-deg="127.54285714">
+        <title>KF540942.1; alignment column 7853 (zero based); reference position 7853; G to A; snp</title>
+      </line>
+      <line x1="615.8758" y1="699.5098" x2="619.0859" y2="706.8375" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="9468" data-base="G" data-reference-base="A" data-reference-position="9468" data-angle-deg="156.34285714">
+        <title>KF540942.1; alignment column 9468 (zero based); reference position 9468; A to G; snp</title>
+      </line>
+      <line x1="596.5996" y1="707.1417" x2="599.2757" y2="714.6809" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="9824" data-base="C" data-reference-base="T" data-reference-position="9824" data-angle-deg="160.45714286">
+        <title>KF540942.1; alignment column 9824 (zero based); reference position 9824; T to C; snp</title>
+      </line>
+      <line x1="505.1838" y1="723.7312" x2="505.3275" y2="731.7300" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="10497" data-base="T" data-reference-base="C" data-reference-position="10497" data-angle-deg="178.97142857">
+        <title>KF540942.1; alignment column 10497 (zero based); reference position 10497; C to T; snp</title>
+      </line>
+      <line x1="365.4453" y1="690.5145" x2="361.7177" y2="697.5930" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="12121" data-base="C" data-reference-base="T" data-reference-position="12121" data-angle-deg="207.77142857">
+        <title>KF540942.1; alignment column 12121 (zero based); reference position 12121; T to C; snp</title>
+      </line>
+      <line x1="338.7564" y1="674.5686" x2="334.2894" y2="681.2053" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="12405" data-base="T" data-reference-base="C" data-reference-position="12405" data-angle-deg="213.94285714">
+        <title>KF540942.1; alignment column 12405 (zero based); reference position 12405; C to T; snp</title>
+      </line>
+      <line x1="321.9838" y1="662.3826" x2="317.0522" y2="668.6817" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="13254" data-base="T" data-reference-base="C" data-reference-position="13254" data-angle-deg="218.05714286">
+        <title>KF540942.1; alignment column 13254 (zero based); reference position 13254; C to T; snp</title>
+      </line>
+      <line x1="313.9363" y1="655.8459" x2="308.7818" y2="661.9640" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="13626" data-base="C" data-reference-base="T" data-reference-position="13626" data-angle-deg="220.11428571">
+        <title>KF540942.1; alignment column 13626 (zero based); reference position 13626; T to C; snp</title>
+      </line>
+      <line x1="291.2729" y1="634.5635" x2="285.4905" y2="640.0920" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="14115" data-base="T" data-reference-base="C" data-reference-position="14115" data-angle-deg="226.28571429">
+        <title>KF540942.1; alignment column 14115 (zero based); reference position 14115; C to T; snp</title>
+      </line>
+      <line x1="248.2010" y1="576.3856" x2="241.2254" y2="580.3024" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="14577" data-base="T" data-reference-base="C" data-reference-position="14577" data-angle-deg="240.68571429">
+        <title>KF540942.1; alignment column 14577 (zero based); reference position 14577; C to T; snp</title>
+      </line>
+      <line x1="234.4608" y1="548.4969" x2="227.1046" y2="551.6411" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="15040" data-base="T" data-reference-base="C" data-reference-position="15040" data-angle-deg="246.85714286">
+        <title>KF540942.1; alignment column 15040 (zero based); reference position 15040; C to T; snp</title>
+      </line>
+      <line x1="222.3297" y1="355.6789" x2="214.6374" y2="353.4815" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="15912" data-base="T" data-reference-base="C" data-reference-position="15912" data-angle-deg="285.94285714">
+        <title>KF540942.1; alignment column 15912 (zero based); reference position 15912; C to T; snp</title>
+      </line>
+      <line x1="228.7363" y1="335.9616" x2="221.2215" y2="333.2179" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16086" data-base="C" data-reference-base="T" data-reference-position="16086" data-angle-deg="290.05714286">
+        <title>KF540942.1; alignment column 16086 (zero based); reference position 16086; T to C; snp</title>
+      </line>
+      <line x1="240.9553" y1="307.3737" x2="233.7790" y2="303.8381" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16129" data-base="A" data-reference-base="G" data-reference-position="16129" data-angle-deg="296.22857143">
+        <title>KF540942.1; alignment column 16129 (zero based); reference position 16129; G to A; snp</title>
+      </line>
+      <line x1="287.7242" y1="239.2155" x2="281.8435" y2="233.7917" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16223" data-base="C" data-reference-base="T" data-reference-position="16223" data-angle-deg="312.68571429">
+        <title>KF540942.1; alignment column 16223 (zero based); reference position 16223; T to C; snp</title>
+      </line>
+      <line x1="294.8889" y1="231.7218" x2="289.2067" y2="226.0904" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16224" data-base="C" data-reference-base="T" data-reference-position="16224" data-angle-deg="314.74285714">
+        <title>KF540942.1; alignment column 16224 (zero based); reference position 16224; T to C; snp</title>
+      </line>
+      <line x1="370.0537" y1="177.1113" x2="366.4538" y2="169.9670" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16297" data-base="C" data-reference-base="T" data-reference-position="16297" data-angle-deg="333.25714286">
+        <title>KF540942.1; alignment column 16297 (zero based); reference position 16297; T to C; snp</title>
+      </line>
+      <line x1="428.1839" y1="155.2947" x2="426.1944" y2="147.5460" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16324" data-base="C" data-reference-base="T" data-reference-position="16324" data-angle-deg="345.60000000">
+        <title>KF540942.1; alignment column 16324 (zero based); reference position 16324; T to C; snp</title>
+      </line>
+      <line x1="458.6694" y1="149.1952" x2="457.5244" y2="141.2776" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16362" data-base="T" data-reference-base="C" data-reference-position="16362" data-angle-deg="351.77142857">
+        <title>KF540942.1; alignment column 16362 (zero based); reference position 16362; C to T; snp</title>
+      </line>
+      <line x1="468.9554" y1="147.8958" x2="468.0953" y2="139.9421" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16390" data-base="G" data-reference-base="A" data-reference-position="16390" data-angle-deg="353.82857143">
+        <title>KF540942.1; alignment column 16390 (zero based); reference position 16390; A to G; snp</title>
+      </line>
+      <line x1="489.6340" y1="146.4083" x2="489.3468" y2="138.4135" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16519" data-base="T" data-reference-base="C" data-reference-position="16519" data-angle-deg="357.94285714">
+        <title>KF540942.1; alignment column 16519 (zero based); reference position 16519; C to T; snp</title>
+      </line>
+    </g>
+    <g id="ring-8" data-record-id="KF540720.1" data-row="8" data-radius="313.8889">
+      <circle cx="500" cy="435" r="313.8889" fill="none" stroke="#ccd3d2" stroke-width="0.65" />
+      <title>Ring 9: KF540720.1</title>
+      <line x1="511.1238" y1="125.3108" x2="511.4110" y2="117.3160" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="102" data-base="A" data-reference-base="G" data-reference-position="103" data-angle-deg="2.05714286">
+        <title>KF540720.1; alignment column 102 (zero based); reference position 103; G to A; snp</title>
+      </line>
+      <line x1="522.2333" y1="125.9097" x2="522.8073" y2="117.9303" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="130" data-base="C" data-reference-base="T" data-reference-position="131" data-angle-deg="4.11428571">
+        <title>KF540720.1; alignment column 130 (zero based); reference position 131; T to C; snp</title>
+      </line>
+      <path d="M 607.2927,138.1263 L 613.2927,144.1263 M 607.2927,144.1263 L 613.2927,138.1263" stroke="#26343c" fill="none" stroke-width="1.15" stroke-linecap="round" data-event="deletion" data-column="310" data-base="-" data-reference-base="C" data-reference-position="311" data-angle-deg="20.57142857">
+        <title>KF540720.1; alignment column 310 (zero based); reference position 311; C to -; deletion</title>
+      </path>
+      <line x1="629.4222" y1="153.4311" x2="632.7633" y2="146.1622" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="481" data-base="T" data-reference-base="C" data-reference-position="482" data-angle-deg="24.68571429">
+        <title>KF540720.1; alignment column 481 (zero based); reference position 482; C to T; snp</title>
+      </line>
+      <line x1="639.4460" y1="158.2584" x2="643.0459" y2="151.1141" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="489" data-base="T" data-reference-base="C" data-reference-position="490" data-angle-deg="26.74285714">
+        <title>KF540720.1; alignment column 489 (zero based); reference position 490; C to T; snp</title>
+      </line>
+      <line x1="649.2901" y1="163.4423" x2="653.1441" y2="156.4318" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="709" data-base="A" data-reference-base="G" data-reference-position="710" data-angle-deg="28.80000000">
+        <title>KF540720.1; alignment column 709 (zero based); reference position 710; G to A; snp</title>
+      </line>
+      <line x1="695.3795" y1="194.4631" x2="700.4233" y2="188.2535" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="1598" data-base="A" data-reference-base="G" data-reference-position="1599" data-angle-deg="39.08571429">
+        <title>KF540720.1; alignment column 1598 (zero based); reference position 1599; G to A; snp</title>
+      </line>
+      <line x1="720.1058" y1="216.8611" x2="725.7879" y2="211.2297" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="3027" data-base="T" data-reference-base="C" data-reference-position="3028" data-angle-deg="45.25714286">
+        <title>KF540720.1; alignment column 3027 (zero based); reference position 3028; C to T; snp</title>
+      </line>
+      <line x1="742.2809" y1="241.7874" x2="748.5355" y2="236.7995" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="3705" data-base="G" data-reference-base="A" data-reference-position="3705" data-angle-deg="51.42857143">
+        <title>KF540720.1; alignment column 3705 (zero based); reference position 3705; A to G; snp</title>
+      </line>
+      <line x1="767.4397" y1="278.4524" x2="774.3438" y2="274.4110" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="4161" data-base="T" data-reference-base="C" data-reference-position="4161" data-angle-deg="59.65714286">
+        <title>KF540720.1; alignment column 4161 (zero based); reference position 4161; C to T; snp</title>
+      </line>
+      <line x1="777.9821" y1="298.0436" x2="785.1584" y2="294.5080" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="4233" data-base="C" data-reference-base="T" data-reference-position="4233" data-angle-deg="63.77142857">
+        <title>KF540720.1; alignment column 4233 (zero based); reference position 4233; T to C; snp</title>
+      </line>
+      <line x1="791.0945" y1="328.7214" x2="798.6093" y2="325.9777" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="4491" data-base="G" data-reference-base="A" data-reference-position="4491" data-angle-deg="69.94285714">
+        <title>KF540720.1; alignment column 4491 (zero based); reference position 4491; A to G; snp</title>
+      </line>
+      <line x1="800.8328" y1="360.6310" x2="808.5990" y2="358.7111" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="4895" data-base="G" data-reference-base="A" data-reference-position="4895" data-angle-deg="76.11428571">
+        <title>KF540720.1; alignment column 4895 (zero based); reference position 4895; A to G; snp</title>
+      </line>
+      <line x1="764.5864" y1="596.3232" x2="771.4169" y2="600.4878" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="7598" data-base="G" data-reference-base="A" data-reference-position="7598" data-angle-deg="121.37142857">
+        <title>KF540720.1; alignment column 7598 (zero based); reference position 7598; A to G; snp</title>
+      </line>
+      <line x1="691.0301" y1="679.0054" x2="695.9617" y2="685.3045" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="8584" data-base="A" data-reference-base="G" data-reference-position="8584" data-angle-deg="141.94285714">
+        <title>KF540720.1; alignment column 8584 (zero based); reference position 8584; G to A; snp</title>
+      </line>
+      <line x1="673.0314" y1="692.0822" x2="677.4983" y2="698.7190" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="8701" data-base="A" data-reference-base="G" data-reference-position="8701" data-angle-deg="146.05714286">
+        <title>KF540720.1; alignment column 8701 (zero based); reference position 8701; G to A; snp</title>
+      </line>
+      <line x1="663.6916" y1="698.1277" x2="667.9174" y2="704.9205" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="8829" data-base="T" data-reference-base="C" data-reference-position="8829" data-angle-deg="148.11428571">
+        <title>KF540720.1; alignment column 8829 (zero based); reference position 8829; C to T; snp</title>
+      </line>
+      <line x1="614.0777" y1="723.1274" x2="617.0227" y2="730.5656" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="9540" data-base="T" data-reference-base="C" data-reference-position="9540" data-angle-deg="158.40000000">
+        <title>KF540720.1; alignment column 9540 (zero based); reference position 9540; C to T; snp</title>
+      </line>
+      <line x1="582.4419" y1="733.7214" x2="584.5702" y2="741.4331" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="9950" data-base="C" data-reference-base="T" data-reference-position="9950" data-angle-deg="164.57142857">
+        <title>KF540720.1; alignment column 9950 (zero based); reference position 9950; T to C; snp</title>
+      </line>
+      <line x1="516.6813" y1="744.4396" x2="517.1119" y2="752.4280" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="10400" data-base="C" data-reference-base="T" data-reference-position="10400" data-angle-deg="176.91428571">
+        <title>KF540720.1; alignment column 10400 (zero based); reference position 10400; T to C; snp</title>
+      </line>
+      <line x1="439.2027" y1="738.8664" x2="437.6332" y2="746.7110" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="10873" data-base="T" data-reference-base="C" data-reference-position="10873" data-angle-deg="191.31428571">
+        <title>KF540720.1; alignment column 10873 (zero based); reference position 10873; C to T; snp</title>
+      </line>
+      <line x1="406.8883" y1="730.5695" x2="404.4846" y2="738.1998" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="11101" data-base="G" data-reference-base="A" data-reference-position="11101" data-angle-deg="197.48571429">
+        <title>KF540720.1; alignment column 11101 (zero based); reference position 11101; A to G; snp</title>
+      </line>
+      <line x1="336.3084" y1="698.1277" x2="332.0826" y2="704.9205" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="12361" data-base="G" data-reference-base="A" data-reference-position="12361" data-angle-deg="211.88571429">
+        <title>KF540720.1; alignment column 12361 (zero based); reference position 12361; A to G; snp</title>
+      </line>
+      <line x1="317.8519" y1="685.7054" x2="313.1496" y2="692.1775" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="12705" data-base="C" data-reference-base="T" data-reference-position="12705" data-angle-deg="216.00000000">
+        <title>KF540720.1; alignment column 12705 (zero based); reference position 12705; T to C; snp</title>
+      </line>
+      <line x1="308.9699" y1="679.0054" x2="304.0383" y2="685.3045" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="13254" data-base="T" data-reference-base="C" data-reference-position="13254" data-angle-deg="218.05714286">
+        <title>KF540720.1; alignment column 13254 (zero based); reference position 13254; C to T; snp</title>
+      </line>
+      <line x1="300.3341" y1="671.9909" x2="295.1796" y2="678.1090" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="13626" data-base="C" data-reference-base="T" data-reference-position="13626" data-angle-deg="220.11428571">
+        <title>KF540720.1; alignment column 13626 (zero based); reference position 13626; T to C; snp</title>
+      </line>
+      <line x1="229.7932" y1="586.7216" x2="222.8177" y2="590.6384" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="14577" data-base="T" data-reference-base="C" data-reference-position="14577" data-angle-deg="240.68571429">
+        <title>KF540720.1; alignment column 14577 (zero based); reference position 14577; C to T; snp</title>
+      </line>
+      <line x1="219.6042" y1="566.9443" x2="212.3655" y2="570.3505" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="14783" data-base="T" data-reference-base="C" data-reference-position="14783" data-angle-deg="244.80000000">
+        <title>KF540720.1; alignment column 14783 (zero based); reference position 14783; C to T; snp</title>
+      </line>
+      <line x1="210.8603" y1="546.4869" x2="203.3959" y2="549.3650" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="15043" data-base="G" data-reference-base="A" data-reference-position="15043" data-angle-deg="248.91428571">
+        <title>KF540720.1; alignment column 15043 (zero based); reference position 15043; A to G; snp</title>
+      </line>
+      <line x1="195.6001" y1="493.0674" x2="187.7418" y2="494.5664" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="15223" data-base="T" data-reference-base="C" data-reference-position="15223" data-angle-deg="259.20000000">
+        <title>KF540720.1; alignment column 15223 (zero based); reference position 15223; C to T; snp</title>
+      </line>
+      <line x1="191.1217" y1="460.0068" x2="183.1478" y2="460.6524" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="15301" data-base="G" data-reference-base="A" data-reference-position="15301" data-angle-deg="265.37142857">
+        <title>KF540720.1; alignment column 15301 (zero based); reference position 15301; A to G; snp</title>
+      </line>
+      <line x1="190.1236" y1="437.7815" x2="182.1239" y2="437.8533" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="15508" data-base="T" data-reference-base="C" data-reference-position="15508" data-angle-deg="269.48571429">
+        <title>KF540720.1; alignment column 15508 (zero based); reference position 15508; C to T; snp</title>
+      </line>
+      <line x1="190.7226" y1="415.5419" x2="182.7384" y2="415.0396" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="15662" data-base="G" data-reference-base="A" data-reference-position="15662" data-angle-deg="273.60000000">
+        <title>KF540720.1; alignment column 15662 (zero based); reference position 15662; A to G; snp</title>
+      </line>
+      <line x1="194.6068" y1="382.4062" x2="186.7228" y2="381.0485" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="15850" data-base="C" data-reference-base="T" data-reference-position="15850" data-angle-deg="279.77142857">
+        <title>KF540720.1; alignment column 15850 (zero based); reference position 15850; T to C; snp</title>
+      </line>
+      <line x1="196.6915" y1="371.4777" x2="188.8614" y2="369.8378" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="15851" data-base="G" data-reference-base="A" data-reference-position="15851" data-angle-deg="281.82857143">
+        <title>KF540720.1; alignment column 15851 (zero based); reference position 15851; A to G; snp</title>
+      </line>
+      <line x1="205.2782" y1="339.2391" x2="197.6697" y2="336.7669" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="15927" data-base="A" data-reference-base="G" data-reference-position="15927" data-angle-deg="288.00000000">
+        <title>KF540720.1; alignment column 15927 (zero based); reference position 15927; G to A; snp</title>
+      </line>
+      <line x1="217.2808" y1="308.1104" x2="209.9822" y2="304.8346" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16111" data-base="T" data-reference-base="C" data-reference-position="16111" data-angle-deg="294.17142857">
+        <title>KF540720.1; alignment column 16111 (zero based); reference position 16111; C to T; snp</title>
+      </line>
+      <line x1="227.1132" y1="288.1534" x2="220.0685" y2="284.3624" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16140" data-base="C" data-reference-base="T" data-reference-position="16140" data-angle-deg="298.28571429">
+        <title>KF540720.1; alignment column 16140 (zero based); reference position 16140; T to C; snp</title>
+      </line>
+      <line x1="296.1121" y1="201.6315" x2="290.8486" y2="195.6069" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16234" data-base="T" data-reference-base="C" data-reference-position="16234" data-angle-deg="318.85714286">
+        <title>KF540720.1; alignment column 16234 (zero based); reference position 16234; C to T; snp</title>
+      </line>
+      <line x1="304.6205" y1="194.4631" x2="299.5767" y2="188.2535" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16243" data-base="C" data-reference-base="T" data-reference-position="16243" data-angle-deg="320.91428571">
+        <title>KF540720.1; alignment column 16243 (zero based); reference position 16243; T to C; snp</title>
+      </line>
+      <line x1="313.3808" y1="187.6048" x2="308.5631" y2="181.2181" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16249" data-base="C" data-reference-base="T" data-reference-position="16249" data-angle-deg="322.97142857">
+        <title>KF540720.1; alignment column 16249 (zero based); reference position 16249; T to C; snp</title>
+      </line>
+      <line x1="412.2091" y1="137.8067" x2="409.9427" y2="130.1344" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16319" data-base="A" data-reference-base="G" data-reference-position="16319" data-angle-deg="343.54285714">
+        <title>KF540720.1; alignment column 16319 (zero based); reference position 16319; G to A; snp</title>
+      </line>
+      <line x1="455.6479" y1="128.3014" x2="454.5030" y2="120.3838" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16362" data-base="T" data-reference-base="C" data-reference-position="16362" data-angle-deg="351.77142857">
+        <title>KF540720.1; alignment column 16362 (zero based); reference position 16362; C to T; snp</title>
+      </line>
+      <line x1="466.6858" y1="126.9070" x2="465.8258" y2="118.9534" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16390" data-base="G" data-reference-base="A" data-reference-position="16390" data-angle-deg="353.82857143">
+        <title>KF540720.1; alignment column 16390 (zero based); reference position 16390; A to G; snp</title>
+      </line>
+      <line x1="477.7667" y1="125.9097" x2="477.1927" y2="117.9303" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16463" data-base="G" data-reference-base="A" data-reference-position="16463" data-angle-deg="355.88571429">
+        <title>KF540720.1; alignment column 16463 (zero based); reference position 16463; A to G; snp</title>
+      </line>
+    </g>
+    <g id="ring-9" data-record-id="KF540911.1" data-row="9" data-radius="335.0000">
+      <circle cx="500" cy="435" r="335.0000" fill="none" stroke="#ccd3d2" stroke-width="0.65" />
+      <title>Ring 10: KF540911.1</title>
+      <path d="M 614.7106,118.3613 L 620.7106,124.3613 M 614.7106,124.3613 L 620.7106,118.3613" stroke="#26343c" fill="none" stroke-width="1.15" stroke-linecap="round" data-event="deletion" data-column="310" data-base="-" data-reference-base="C" data-reference-position="311" data-angle-deg="20.57142857">
+        <title>KF540911.1; alignment column 310 (zero based); reference position 311; C to -; deletion</title>
+      </path>
+      <line x1="648.9457" y1="139.4054" x2="652.5456" y2="132.2611" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="489" data-base="T" data-reference-base="C" data-reference-position="490" data-angle-deg="26.74285714">
+        <title>KF540911.1; alignment column 489 (zero based); reference position 490; C to T; snp</title>
+      </line>
+      <line x1="679.8600" y1="157.1307" x2="684.2071" y2="150.4148" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="951" data-base="A" data-reference-base="G" data-reference-position="952" data-angle-deg="32.91428571">
+        <title>KF540911.1; alignment column 951 (zero based); reference position 952; G to A; snp</title>
+      </line>
+      <line x1="699.3326" y1="170.7510" x2="704.1503" y2="164.3643" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="1462" data-base="A" data-reference-base="G" data-reference-position="1463" data-angle-deg="37.02857143">
+        <title>KF540911.1; alignment column 1462 (zero based); reference position 1463; G to A; snp</title>
+      </line>
+      <line x1="735.1004" y1="202.0004" x2="740.7826" y2="196.3690" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="3027" data-base="T" data-reference-base="C" data-reference-position="3028" data-angle-deg="45.25714286">
+        <title>KF540911.1; alignment column 3027 (zero based); reference position 3028; C to T; snp</title>
+      </line>
+      <line x1="758.7862" y1="228.6249" x2="765.0409" y2="223.6370" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="3705" data-base="G" data-reference-base="A" data-reference-position="3705" data-angle-deg="51.42857143">
+        <title>KF540911.1; alignment column 3705 (zero based); reference position 3705; A to G; snp</title>
+      </line>
+      <line x1="766.0275" y1="238.0473" x2="772.4572" y2="233.2871" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="3970" data-base="T" data-reference-base="C" data-reference-position="3970" data-angle-deg="53.48571429">
+        <title>KF540911.1; alignment column 3970 (zero based); reference position 3970; C to T; snp</title>
+      </line>
+      <line x1="810.9252" y1="321.4812" x2="818.4400" y2="318.7375" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="4491" data-base="G" data-reference-base="A" data-reference-position="4491" data-angle-deg="69.94285714">
+        <title>KF540911.1; alignment column 4491 (zero based); reference position 4491; A to G; snp</title>
+      </line>
+      <line x1="822.7011" y1="508.6544" x2="830.5006" y2="510.4346" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="6446" data-base="A" data-reference-base="G" data-reference-position="6446" data-angle-deg="102.85714286">
+        <title>KF540911.1; alignment column 6446 (zero based); reference position 6446; G to A; snp</title>
+      </line>
+      <line x1="782.6113" y1="607.3133" x2="789.4418" y2="611.4780" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="7598" data-base="G" data-reference-base="A" data-reference-position="7598" data-angle-deg="121.37142857">
+        <title>KF540911.1; alignment column 7598 (zero based); reference position 7598; A to G; snp</title>
+      </line>
+      <line x1="755.0399" y1="645.9873" x2="761.2040" y2="651.0867" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="7861" data-base="C" data-reference-base="T" data-reference-position="7861" data-angle-deg="129.60000000">
+        <title>KF540911.1; alignment column 7861 (zero based); reference position 7861; T to C; snp</title>
+      </line>
+      <line x1="730.8800" y1="672.1823" x2="736.4601" y2="677.9148" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="8440" data-base="G" data-reference-base="A" data-reference-position="8440" data-angle-deg="135.77142857">
+        <title>KF540911.1; alignment column 8440 (zero based); reference position 8440; A to G; snp</title>
+      </line>
+      <line x1="722.2172" y1="680.3172" x2="727.5880" y2="686.2463" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="8477" data-base="C" data-reference-base="T" data-reference-position="8477" data-angle-deg="137.82857143">
+        <title>KF540911.1; alignment column 8477 (zero based); reference position 8477; T to C; snp</title>
+      </line>
+      <line x1="684.8191" y1="709.5959" x2="689.2860" y2="716.2327" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="8701" data-base="A" data-reference-base="G" data-reference-position="8701" data-angle-deg="146.05714286">
+        <title>KF540911.1; alignment column 8701 (zero based); reference position 8701; G to A; snp</title>
+      </line>
+      <line x1="621.8492" y1="742.7560" x2="624.7942" y2="750.1942" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="9540" data-base="T" data-reference-base="C" data-reference-position="9540" data-angle-deg="158.40000000">
+        <title>KF540911.1; alignment column 9540 (zero based); reference position 9540; C to T; snp</title>
+      </line>
+      <line x1="529.6706" y1="764.6675" x2="530.3877" y2="772.6353" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="10398" data-base="A" data-reference-base="G" data-reference-position="10398" data-angle-deg="174.85714286">
+        <title>KF540911.1; alignment column 10398 (zero based); reference position 10398; G to A; snp</title>
+      </line>
+      <line x1="517.8177" y1="765.5201" x2="518.2483" y2="773.5085" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="10400" data-base="C" data-reference-base="T" data-reference-position="10400" data-angle-deg="176.91428571">
+        <title>KF540911.1; alignment column 10400 (zero based); reference position 10400; T to C; snp</title>
+      </line>
+      <line x1="435.0609" y1="759.5673" x2="433.4914" y2="767.4118" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="10873" data-base="T" data-reference-base="C" data-reference-position="10873" data-angle-deg="191.31428571">
+        <title>KF540911.1; alignment column 10873 (zero based); reference position 10873; C to T; snp</title>
+      </line>
+      <line x1="411.9418" y1="754.0717" x2="409.8135" y2="761.7834" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="11002" data-base="G" data-reference-base="A" data-reference-position="11002" data-angle-deg="195.42857143">
+        <title>KF540911.1; alignment column 11002 (zero based); reference position 11002; A to G; snp</title>
+      </line>
+      <line x1="367.1820" y1="738.1838" x2="363.9719" y2="745.5115" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="11308" data-base="T" data-reference-base="C" data-reference-position="11308" data-angle-deg="203.65714286">
+        <title>KF540911.1; alignment column 11308 (zero based); reference position 11308; C to T; snp</title>
+      </line>
+      <line x1="305.4431" y1="702.7846" x2="300.7408" y2="709.2568" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="12705" data-base="C" data-reference-base="T" data-reference-position="12705" data-angle-deg="216.00000000">
+        <title>KF540911.1; alignment column 12705 (zero based); reference position 12705; T to C; snp</title>
+      </line>
+      <line x1="295.9560" y1="695.6282" x2="291.0244" y2="701.9274" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="13254" data-base="T" data-reference-base="C" data-reference-position="13254" data-angle-deg="218.05714286">
+        <title>KF540911.1; alignment column 13254 (zero based); reference position 13254; C to T; snp</title>
+      </line>
+      <line x1="286.7320" y1="688.1358" x2="281.5774" y2="694.2539" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="13626" data-base="C" data-reference-base="T" data-reference-position="13626" data-angle-deg="220.11428571">
+        <title>KF540911.1; alignment column 13626 (zero based); reference position 13626; T to C; snp</title>
+      </line>
+      <line x1="269.1200" y1="672.1823" x2="263.5399" y2="677.9148" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="13928" data-base="C" data-reference-base="G" data-reference-position="13928" data-angle-deg="224.22857143">
+        <title>KF540911.1; alignment column 13928 (zero based); reference position 13928; G to C; snp</title>
+      </line>
+      <line x1="237.5508" y1="636.6964" x2="231.2077" y2="641.5712" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="14227" data-base="T" data-reference-base="C" data-reference-position="14227" data-angle-deg="232.45714286">
+        <title>KF540911.1; alignment column 14227 (zero based); reference position 14227; C to T; snp</title>
+      </line>
+      <line x1="211.3855" y1="597.0576" x2="204.4099" y2="600.9744" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="14577" data-base="T" data-reference-base="C" data-reference-position="14577" data-angle-deg="240.68571429">
+        <title>KF540911.1; alignment column 14577 (zero based); reference position 14577; C to T; snp</title>
+      </line>
+      <line x1="200.5022" y1="575.9329" x2="193.2636" y2="579.3392" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="14783" data-base="T" data-reference-base="C" data-reference-position="14783" data-angle-deg="244.80000000">
+        <title>KF540911.1; alignment column 14783 (zero based); reference position 14783; C to T; snp</title>
+      </line>
+      <line x1="191.1627" y1="554.0819" x2="183.6983" y2="556.9601" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="15043" data-base="G" data-reference-base="A" data-reference-position="15043" data-angle-deg="248.91428571">
+        <title>KF540911.1; alignment column 15043 (zero based); reference position 15043; A to G; snp</title>
+      </line>
+      <line x1="180.1507" y1="520.1907" x2="172.4203" y2="522.2497" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="15172" data-base="A" data-reference-base="G" data-reference-position="15172" data-angle-deg="255.08571429">
+        <title>KF540911.1; alignment column 15172 (zero based); reference position 15172; G to A; snp</title>
+      </line>
+      <line x1="170.0795" y1="461.7104" x2="162.1056" y2="462.3559" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="15301" data-base="G" data-reference-base="A" data-reference-position="15301" data-angle-deg="265.37142857">
+        <title>KF540911.1; alignment column 15301 (zero based); reference position 15301; A to G; snp</title>
+      </line>
+      <line x1="169.3333" y1="449.8503" x2="161.3414" y2="450.2092" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="15479" data-base="C" data-reference-base="T" data-reference-position="15479" data-angle-deg="267.42857143">
+        <title>KF540911.1; alignment column 15479 (zero based); reference position 15479; T to C; snp</title>
+      </line>
+      <line x1="170.6121" y1="402.3715" x2="162.6511" y2="401.5829" stroke="#087f5b" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="15734" data-base="A" data-reference-base="G" data-reference-position="15734" data-angle-deg="275.65714286">
+        <title>KF540911.1; alignment column 15734 (zero based); reference position 15734; G to A; snp</title>
+      </line>
+      <line x1="214.3411" y1="267.7876" x2="207.4369" y2="263.7463" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16157" data-base="C" data-reference-base="T" data-reference-position="16157" data-angle-deg="300.34285714">
+        <title>KF540911.1; alignment column 16157 (zero based); reference position 16157; T to C; snp</title>
+      </line>
+      <line x1="227.0741" y1="247.7236" x2="220.4777" y2="243.1973" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16172" data-base="C" data-reference-base="T" data-reference-position="16172" data-angle-deg="304.45714286">
+        <title>KF540911.1; alignment column 16172 (zero based); reference position 16172; T to C; snp</title>
+      </line>
+      <line x1="256.6873" y1="210.5898" x2="250.8066" y2="205.1660" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16223" data-base="C" data-reference-base="T" data-reference-position="16223" data-angle-deg="312.68571429">
+        <title>KF540911.1; alignment column 16223 (zero based); reference position 16223; T to C; snp</title>
+      </line>
+      <line x1="310.2814" y1="163.7660" x2="305.6961" y2="157.2105" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16256" data-base="T" data-reference-base="C" data-reference-position="16256" data-angle-deg="325.02857143">
+        <title>KF540911.1; alignment column 16256 (zero based); reference position 16256; C to T; snp</title>
+      </line>
+      <line x1="372.6459" y1="129.4809" x2="369.5678" y2="122.0967" stroke="#2563eb" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16304" data-base="C" data-reference-base="T" data-reference-position="16304" data-angle-deg="337.37142857">
+        <title>KF540911.1; alignment column 16304 (zero based); reference position 16304; T to C; snp</title>
+      </line>
+      <line x1="429.2451" y1="111.6507" x2="427.5350" y2="103.8357" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16335" data-base="G" data-reference-base="A" data-reference-position="16335" data-angle-deg="347.65714286">
+        <title>KF540911.1; alignment column 16335 (zero based); reference position 16335; A to G; snp</title>
+      </line>
+      <line x1="452.6265" y1="107.4077" x2="451.4815" y2="99.4900" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16362" data-base="T" data-reference-base="C" data-reference-position="16362" data-angle-deg="351.77142857">
+        <title>KF540911.1; alignment column 16362 (zero based); reference position 16362; C to T; snp</title>
+      </line>
+      <line x1="464.4163" y1="105.9182" x2="463.5563" y2="97.9646" stroke="#b76b00" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16390" data-base="G" data-reference-base="A" data-reference-position="16390" data-angle-deg="353.82857143">
+        <title>KF540911.1; alignment column 16390 (zero based); reference position 16390; A to G; snp</title>
+      </line>
+      <line x1="488.1184" y1="104.2133" x2="487.8312" y2="96.2185" stroke="#b52b59" stroke-width="1.35" stroke-linecap="round" data-event="snp" data-column="16519" data-base="T" data-reference-base="C" data-reference-position="16519" data-angle-deg="357.94285714">
+        <title>KF540911.1; alignment column 16519 (zero based); reference position 16519; C to T; snp</title>
+      </line>
+    </g>
+  </g>
+  <text x="500.000" y="416.000" fill="#59656b" font-size="15.000" text-anchor="middle">REFERENCE</text>
+  <text x="500.000" y="444.000" fill="#24323a" font-size="20.000" text-anchor="middle">KF540505.1</text>
+  <text x="500.000" y="467.000" fill="#59656b" font-size="12.000" text-anchor="middle">Ring 1; clockwise from the top</text>
+  <text x="180.000" y="804.000" fill="#087f5b" font-size="15.000" text-anchor="middle">A</text>
+  <text x="220.000" y="804.000" fill="#2563eb" font-size="15.000" text-anchor="middle">C</text>
+  <text x="260.000" y="804.000" fill="#b76b00" font-size="15.000" text-anchor="middle">G</text>
+  <text x="300.000" y="804.000" fill="#b52b59" font-size="15.000" text-anchor="middle">T</text>
+  <text x="330.000" y="804.000" fill="#24323a" font-size="12.000" text-anchor="start">tick = substitution   x = deletion   diamond = insertion   grey = unknown</text>
+  <text x="65.000" y="844.000" fill="#59656b" font-size="13.000" text-anchor="start">RINGS: INNER TO OUTER</text>
+  <text x="65.000" y="868.000" fill="#24323a" font-size="12.000" text-anchor="start">1. KF540505.1<title>KF540505.1</title>
+  </text>
+  <text x="525.000" y="868.000" fill="#24323a" font-size="12.000" text-anchor="start">2. KF540524.1<title>KF540524.1</title>
+  </text>
+  <text x="65.000" y="887.000" fill="#24323a" font-size="12.000" text-anchor="start">3. KF540588.1<title>KF540588.1</title>
+  </text>
+  <text x="525.000" y="887.000" fill="#24323a" font-size="12.000" text-anchor="start">4. KF540530.1<title>KF540530.1</title>
+  </text>
+  <text x="65.000" y="906.000" fill="#24323a" font-size="12.000" text-anchor="start">5. KF540857.1<title>KF540857.1</title>
+  </text>
+  <text x="525.000" y="906.000" fill="#24323a" font-size="12.000" text-anchor="start">6. KF540803.1<title>KF540803.1</title>
+  </text>
+  <text x="65.000" y="925.000" fill="#24323a" font-size="12.000" text-anchor="start">7. KF540771.1<title>KF540771.1</title>
+  </text>
+  <text x="525.000" y="925.000" fill="#24323a" font-size="12.000" text-anchor="start">8. KF540942.1<title>KF540942.1</title>
+  </text>
+  <text x="65.000" y="944.000" fill="#24323a" font-size="12.000" text-anchor="start">9. KF540720.1<title>KF540720.1</title>
+  </text>
+  <text x="525.000" y="944.000" fill="#24323a" font-size="12.000" text-anchor="start">10. KF540911.1<title>KF540911.1</title>
+  </text>
+  <text x="500.000" y="991.000" fill="#59656b" font-size="12.000" text-anchor="middle">Presentation drawing; not a fabrication pattern.</text>
+</svg>

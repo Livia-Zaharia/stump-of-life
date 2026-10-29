@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+output/
+dist/
+.env
+data/**
+!data/**/
+!data/**/*.json
+!data/**/*.csv
+!data/**/*.tsv
+!data/**/*.md
+data/**/*.coverage.csv

@@ -1,0 +1,289 @@
+{
+  "dataset": "Liangdao archaeological individuals, Matsu archipelago",
+  "retrieved_utc": "2026-10-29T22:15:32Z",
+  "study_accession": "PRJEB43078",
+  "study_report_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB43078&result=read_run&fields=study_accession,sample_accession,sample_alias,run_accession,submitted_ftp,submitted_bytes,submitted_md5,submitted_format&format=json",
+  "study_report_sha256": "798c186c64735a691cafc02dcbc369763369e6bafb9ccf772989c8bee095ab20",
+  "publication_doi": "10.1073/pnas.2026132118",
+  "publication_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8020671/",
+  "individuals": [
+    {
+      "individual": "Liangdao-1",
+      "run_alias": "tai001",
+      "sex_reported": "male",
+      "date_cal_bp_min": 8060,
+      "date_cal_bp_max": 8320,
+      "published_mitogenome_accession": "KF540505.1",
+      "published_mitogenome_source": "https://www.ebi.ac.uk/ena/browser/api/fasta/KF540505.1?download=false",
+      "published_mitogenome_doi": "10.1016/j.ajhg.2014.02.003",
+      "published_mitogenome_length": 16569,
+      "published_mitogenome_sequence_sha256": "62193f84904158a4b6bf9129f0ba72de3cc8f033aaa0d831530415239c9d0ab4",
+      "published_mitogenome_raw_sha256": "3551c489d42ffdaa6257ded9694c261db97580650340ff593a091d64aed845b2",
+      "complete_published_sequence_available": true,
+      "later_sequencing_run": "ERR5525679"
+    },
+    {
+      "individual": "Liangdao-2",
+      "run_alias": "tai002",
+      "sex_reported": "female",
+      "date_cal_bp_min": 7510,
+      "date_cal_bp_max": 7590,
+      "published_haplogroup": "R9 (study's reported classification)",
+      "complete_published_sequence_available": false,
+      "status": "Mitochondrial reads extracted; no newly inferred consensus or missing-base filling",
+      "mitochondrial_reads": {
+        "run_accession": "ERR5525699",
+        "sample_accession": "SAMEA8393780",
+        "sample_alias": "tai002-allData.merged.hs37d51",
+        "source_url": "https://ftp.sra.ebi.ac.uk/vol1/run/ERR552/ERR5525699/tai002-allData.merged.hs37d5.fa.cons.90perc.bam",
+        "source_whole_file_bytes": 10785629705,
+        "source_whole_file_md5_declared_by_ena": "be6f649fbd04bc94341d366ca3b6c06c",
+        "whole_file_downloaded": false,
+        "source_slice_start": 9806726964,
+        "source_slice_end": 9809817398,
+        "source_slice_file": "ERR5525699.MT-source-range.bgzf-part",
+        "source_slice_sha256": "0a40cba4dd2d93db8cb37c0923db5e44c67a967969f9c2905ceeb9403fcde8ec",
+        "downloaded_bytes_including_probes": 11741187,
+        "range_audit": [
+          {
+            "start": 0,
+            "end": 262143,
+            "bytes": 262144,
+            "sha256": "51ba8a44ee10ed519a0de1cea32382731482ad699b999dda554ea1cbfbdd63fb"
+          },
+          {
+            "start": 5392683780,
+            "end": 5392945923,
+            "bytes": 262144,
+            "sha256": "578a81c371ceb1e04d397dc4ab0e006c41da666fcd17a917274d2a94354c92b5"
+          },
+          {
+            "start": 8089025670,
+            "end": 8089287813,
+            "bytes": 262144,
+            "sha256": "846e27676a0e02edab754d25220711fa3e4753a9772a6713422e35e847457665"
+          },
+          {
+            "start": 9437196615,
+            "end": 9437458758,
+            "bytes": 262144,
+            "sha256": "603688e959c66fe4facc65ffe740b39f93144c867bc865ffbb71dc39a76e0c5f"
+          },
+          {
+            "start": 10111282088,
+            "end": 10111544231,
+            "bytes": 262144,
+            "sha256": "bc8c5ccb4beab63b5786aad0c0e6819606f9ca437753db8f27f5e1a6acb0245a"
+          },
+          {
+            "start": 9774239351,
+            "end": 9774501494,
+            "bytes": 262144,
+            "sha256": "644a7343cbf9a1e6f51284e7b04a5e538392209ce826849c2336aa3854cb723d"
+          },
+          {
+            "start": 9942760719,
+            "end": 9943022862,
+            "bytes": 262144,
+            "sha256": "4596002a628db2cb67c2d4112d6400f6a3a30942da0968466b1ad1247b9887df"
+          },
+          {
+            "start": 9858500035,
+            "end": 9858762178,
+            "bytes": 262144,
+            "sha256": "cec9740c7b96a84eb59625f76acd9b5595852f7e49c45ab431e17e9fb7e85ae0"
+          },
+          {
+            "start": 9816369693,
+            "end": 9816631836,
+            "bytes": 262144,
+            "sha256": "d2b0575ec622f26a4692081d16ac629118ab0435c35feda0295e50c5ccff8025"
+          },
+          {
+            "start": 9795304522,
+            "end": 9795566665,
+            "bytes": 262144,
+            "sha256": "2a737efd10e6f4d5bef89f22992e13910b21e9d075a0c58a75c0f571c2cbfac7"
+          },
+          {
+            "start": 9805837107,
+            "end": 9806099250,
+            "bytes": 262144,
+            "sha256": "0ff647a4e341c2c06a27c9e22e81a213e90c3840ebccf1c1336796b4c8e81362"
+          },
+          {
+            "start": 9811103400,
+            "end": 9811365543,
+            "bytes": 262144,
+            "sha256": "a5eb4245b87ba5518862b017a29415dcc847efbe98cf735c3b4414abc18eb78f"
+          },
+          {
+            "start": 9808470253,
+            "end": 9808732396,
+            "bytes": 262144,
+            "sha256": "edff7622dcdbcd8ff2c0eabfd4f7b045786f4e3f85a4bd785a5a83f08376c151"
+          },
+          {
+            "start": 9807153680,
+            "end": 9807415823,
+            "bytes": 262144,
+            "sha256": "d464886bd67110a89f8cea41935cc956f6590fe7d866c8074f56f9524a1a3264"
+          },
+          {
+            "start": 9806495393,
+            "end": 9806757536,
+            "bytes": 262144,
+            "sha256": "d17b685a23d23979a5d12ad9d62ee1d6d1410bdb20785f9f089e04ea371fff8c"
+          },
+          {
+            "start": 9806824536,
+            "end": 9807086679,
+            "bytes": 262144,
+            "sha256": "3e60fbe2d24d40e46850e0f40331896e157e52e175a1cc1f7757ccb43bdbab85"
+          },
+          {
+            "start": 9806989108,
+            "end": 9807251251,
+            "bytes": 262144,
+            "sha256": "d12b2f1c948689fccbde0e6f064a2a34d61f9672a899e7c8a8220d5a2ab44996"
+          },
+          {
+            "start": 5392683780,
+            "end": 5392945923,
+            "bytes": 262144,
+            "sha256": "578a81c371ceb1e04d397dc4ab0e006c41da666fcd17a917274d2a94354c92b5"
+          },
+          {
+            "start": 8089025670,
+            "end": 8089287813,
+            "bytes": 262144,
+            "sha256": "846e27676a0e02edab754d25220711fa3e4753a9772a6713422e35e847457665"
+          },
+          {
+            "start": 9437196615,
+            "end": 9437458758,
+            "bytes": 262144,
+            "sha256": "603688e959c66fe4facc65ffe740b39f93144c867bc865ffbb71dc39a76e0c5f"
+          },
+          {
+            "start": 10111282088,
+            "end": 10111544231,
+            "bytes": 262144,
+            "sha256": "bc8c5ccb4beab63b5786aad0c0e6819606f9ca437753db8f27f5e1a6acb0245a"
+          },
+          {
+            "start": 9774239351,
+            "end": 9774501494,
+            "bytes": 262144,
+            "sha256": "644a7343cbf9a1e6f51284e7b04a5e538392209ce826849c2336aa3854cb723d"
+          },
+          {
+            "start": 9942760719,
+            "end": 9943022862,
+            "bytes": 262144,
+            "sha256": "4596002a628db2cb67c2d4112d6400f6a3a30942da0968466b1ad1247b9887df"
+          },
+          {
+            "start": 9858500035,
+            "end": 9858762178,
+            "bytes": 262144,
+            "sha256": "cec9740c7b96a84eb59625f76acd9b5595852f7e49c45ab431e17e9fb7e85ae0"
+          },
+          {
+            "start": 9816369693,
+            "end": 9816631836,
+            "bytes": 262144,
+            "sha256": "d2b0575ec622f26a4692081d16ac629118ab0435c35feda0295e50c5ccff8025"
+          },
+          {
+            "start": 9795304522,
+            "end": 9795566665,
+            "bytes": 262144,
+            "sha256": "2a737efd10e6f4d5bef89f22992e13910b21e9d075a0c58a75c0f571c2cbfac7"
+          },
+          {
+            "start": 9805837107,
+            "end": 9806099250,
+            "bytes": 262144,
+            "sha256": "0ff647a4e341c2c06a27c9e22e81a213e90c3840ebccf1c1336796b4c8e81362"
+          },
+          {
+            "start": 9811103400,
+            "end": 9811365543,
+            "bytes": 262144,
+            "sha256": "a5eb4245b87ba5518862b017a29415dcc847efbe98cf735c3b4414abc18eb78f"
+          },
+          {
+            "start": 9808470253,
+            "end": 9808732396,
+            "bytes": 262144,
+            "sha256": "edff7622dcdbcd8ff2c0eabfd4f7b045786f4e3f85a4bd785a5a83f08376c151"
+          },
+          {
+            "start": 9809786826,
+            "end": 9810048969,
+            "bytes": 262144,
+            "sha256": "d358dab7a321c5fb268a310d40cbbe2ebecb14e8a9251f0c2a44535dda32b69b"
+          },
+          {
+            "start": 9809128539,
+            "end": 9809390682,
+            "bytes": 262144,
+            "sha256": "5edd1e26f0df8be6493d4a0baad77f1c32e222501ea7b998edf9ee856b933acd"
+          },
+          {
+            "start": 9809457682,
+            "end": 9809719825,
+            "bytes": 262144,
+            "sha256": "60ed7754dfb2ad88d110f49283fb82cb7e068fac512db17a9511d540963902be"
+          },
+          {
+            "start": 9809293110,
+            "end": 9809555253,
+            "bytes": 262144,
+            "sha256": "e534d3021b342712cb2fc62a1b4224fdbbe99734cfd7abf964822fb58c94fd63"
+          },
+          {
+            "start": 9806726964,
+            "end": 9809817398,
+            "bytes": 3090435,
+            "sha256": "0a40cba4dd2d93db8cb37c0923db5e44c67a967969f9c2905ceeb9403fcde8ec"
+          }
+        ],
+        "mitochondrial_reference": "MT",
+        "mitochondrial_reference_length": 16569,
+        "read_count": 58986,
+        "bam_file": "ERR5525699.MT.bam",
+        "bam_sha256": "3c9f3e8d1c9806691f2f8a02ecbed37dcca3bc23fb69102546868343d14159ca",
+        "consensus_generated": false,
+        "transformation": "Original BAM header and all MT alignment records repacked unchanged into BGZF BAM",
+        "coverage_summary": {
+          "reference_length": 16569,
+          "raw_mean_depth": 201.65073329712112,
+          "raw_covered_positions": 16569,
+          "quality_filter": "MQ >= 30, BQ >= 30; exclude secondary, supplementary, duplicate, QC-failed reads",
+          "quality_filtered_mean_depth": 125.62260848572636,
+          "quality_filtered_covered_positions": 15372,
+          "quality_filtered_zero_depth_positions": 1197,
+          "quality_filtered_depth_at_least_three_positions": 14785,
+          "read_end_trimming": "none; this is a descriptive coverage audit, not damage-aware consensus calling",
+          "consensus_generated": false
+        }
+      }
+    }
+  ],
+  "date_convention": "calibrated years before present (BP), where present is 1950 CE",
+  "identity_source": "Larena et al. 2021 SI sections 7.2-7.4: tai001=Liangdao-1; tai002=Liangdao-2",
+  "metadata_note": "ENA sample tissue_lib says saliva; ancient identity and dates follow the archaeological publication instead of this inconsistent deposition field.",
+  "geography_note": "Liangdao is within the Matsu archipelago; Matsu is not a separate archaeological individual or cohort.",
+  "interpretation": "Independent archaeological individuals; no direct maternal ancestry claim",
+  "consensus_note": "Do not treat raw reads as a validated complete mitogenome. Contamination-aware consensus calling and explicit masks are a separate analysis.",
+  "site_coordinates": {
+    "latitude": 26.344958,
+    "longitude": 120.227029,
+    "role": "Official archaeological heritage-site location; not individual burial GPS",
+    "source": "https://tcmb.culture.tw/zh-tw/detail?id=20210618000002&indexCode=BOCH_CountryCulture_21",
+    "published_study_latitude": 26.3,
+    "published_study_longitude": 120.2
+  }
+}

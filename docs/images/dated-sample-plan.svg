@@ -1,0 +1,989 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1320" viewBox="0 0 1800 1320" font-family="DejaVu Sans, Arial, sans-serif">
+  <rect x="0" y="0" width="1800" height="1320" fill="#f5f2e9" />
+  <text x="70" y="78" fill="#243a3b" font-size="44" font-weight="bold">STUMP OF LIFE</text>
+  <text x="72" y="120" fill="#243a3b" font-size="25">Real tree trunk + replaceable mitochondrial DNA cross-section</text>
+  <text x="72" y="156" fill="#63726b" font-size="19">Dated sample placement / 500 mm top / 5 mm substitution holes</text>
+  <circle cx="495.0" cy="650.0" r="424.0" fill="#826747" />
+  <circle cx="495.0" cy="650.0" r="405.0" fill="#d8ddd8" stroke="#4d625c" stroke-width="2" />
+  <circle cx="495.0" cy="650.0" r="89.10000000000001" fill="none" stroke="#4b8279" stroke-width="1.6" stroke-dasharray="6 6">
+    <title>Liangdao 2: reserved track; no DNA differences invented</title>
+  </circle>
+  <circle cx="495.0" cy="650.0" r="149.04000000000002" fill="none" stroke="#b18b50" stroke-width="1.6" stroke-dasharray="6 6">
+    <title>Suogang B1: reserved track; no DNA differences invented</title>
+  </circle>
+  <circle cx="495.0" cy="650.0" r="162.0" fill="none" stroke="#b18b50" stroke-width="1.6" stroke-dasharray="6 6">
+    <title>Suogang B3: reserved track; no DNA differences invented</title>
+  </circle>
+  <circle cx="495.0" cy="650.0" r="202.5" fill="none" stroke="#a9755b" stroke-width="1.6" stroke-dasharray="6 6">
+    <title>Gongguan I13721: reserved track; no DNA differences invented</title>
+  </circle>
+  <circle cx="495.0" cy="650.0" r="234.9" fill="none" stroke="#7a8064" stroke-width="1.6" stroke-dasharray="6 6">
+    <title>Hanben I3620: reserved track; no DNA differences invented</title>
+  </circle>
+  <circle cx="495.0" cy="650.0" r="259.20000000000005" fill="none" stroke="#7a8064" stroke-width="1.6" stroke-dasharray="6 6">
+    <title>Hanben I8081: reserved track; no DNA differences invented</title>
+  </circle>
+  <circle cx="495.0" cy="650.0" r="48.6" fill="#c6d8cd" stroke="#326d62" stroke-width="2" />
+  <circle cx="495.0" cy="650.0" r="283.5" fill="none" stroke="#82968d" stroke-width="0.8" />
+  <circle cx="495.0" cy="650.0" r="296.66249999999997" fill="none" stroke="#82968d" stroke-width="0.8" />
+  <circle cx="495.0" cy="650.0" r="309.825" fill="none" stroke="#82968d" stroke-width="0.8" />
+  <circle cx="495.0" cy="650.0" r="322.9875" fill="none" stroke="#82968d" stroke-width="0.8" />
+  <circle cx="495.0" cy="650.0" r="336.15000000000003" fill="none" stroke="#82968d" stroke-width="0.8" />
+  <circle cx="495.0" cy="650.0" r="349.3125" fill="none" stroke="#82968d" stroke-width="0.8" />
+  <circle cx="495.0" cy="650.0" r="362.475" fill="none" stroke="#82968d" stroke-width="0.8" />
+  <circle cx="495.0" cy="650.0" r="375.63750000000005" fill="none" stroke="#82968d" stroke-width="0.8" />
+  <circle cx="495.0" cy="650.0" r="388.8" fill="none" stroke="#82968d" stroke-width="0.8" />
+  <circle cx="753.6439722851173" cy="533.9157822933045" r="4.050000000000001" fill="#253d39">
+    <title>KF540524.1: reference position 4248; T to C</title>
+  </circle>
+  <circle cx="777.5754390519521" cy="672.8773085085742" r="4.050000000000001" fill="#253d39">
+    <title>KF540524.1: reference position 6340; C to T</title>
+  </circle>
+  <circle cx="766.153697681402" cy="732.752173588993" r="4.050000000000001" fill="#253d39">
+    <title>KF540524.1: reference position 6620; T to C</title>
+  </circle>
+  <circle cx="449.3945996745165" cy="929.8077866342401" r="4.050000000000001" fill="#253d39">
+    <title>KF540524.1: reference position 10834; C to T</title>
+  </circle>
+  <circle cx="765.6524424269263" cy="528.5261578997794" r="4.050000000000001" fill="#253d39">
+    <title>KF540588.1: reference position 4248; T to C</title>
+  </circle>
+  <circle cx="778.7429765023242" cy="736.5942387913391" r="4.050000000000001" fill="#253d39">
+    <title>KF540588.1: reference position 6620; T to C</title>
+  </circle>
+  <circle cx="447.2772060879762" cy="942.7988624422583" r="4.050000000000001" fill="#253d39">
+    <title>KF540588.1: reference position 10834; C to T</title>
+  </circle>
+  <circle cx="231.2788882483506" cy="785.8668985541512" r="4.050000000000001" fill="#253d39">
+    <title>KF540588.1: reference position 14766; T to C</title>
+  </circle>
+  <circle cx="495.0" cy="340.175" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 93; A to G</title>
+  </circle>
+  <circle cx="582.7728244859316" cy="352.8679386085005" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 204; T to C</title>
+  </circle>
+  <circle cx="593.382169660732" cy="356.21014429043515" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 210; A to G</title>
+  </circle>
+  <circle cx="634.4172573137664" cy="373.3154160635128" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 490; C to T</title>
+  </circle>
+  <circle cx="644.259332078564" cy="378.49828285540997" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 710; G to A</title>
+  </circle>
+  <circle cx="715.0603746921108" cy="431.90607042980815" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 3028; C to T</title>
+  </circle>
+  <circle cx="730.1406595598107" cy="448.2565965222724" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 3537; A to G</title>
+  </circle>
+  <circle cx="737.2309390556572" cy="456.8272721391179" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 3705; A to G</title>
+  </circle>
+  <circle cx="786.0344378916798" cy="543.7432986298087" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 4491; A to G</title>
+  </circle>
+  <circle cx="759.5318383695708" cy="811.2899163426384" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 7598; A to G</title>
+  </circle>
+  <circle cx="694.6246871975968" cy="886.9420074327505" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 8557; G to A</title>
+  </circle>
+  <circle cx="685.9907154950378" cy="893.9550721335663" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 8584; G to A</title>
+  </circle>
+  <circle cx="677.1105657915155" cy="900.6536902822181" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 8614; T to C</title>
+  </circle>
+  <circle cx="667.9956841800853" cy="907.0292276766675" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 8701; G to A</title>
+  </circle>
+  <circle cx="609.0541895355302" cy="938.0679997403275" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 9540; C to T</title>
+  </circle>
+  <circle cx="577.4248656776952" cy="948.6597933150928" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 9950; T to C</title>
+  </circle>
+  <circle cx="566.6509923409224" cy="951.4260538201054" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 9962; G to A</title>
+  </circle>
+  <circle cx="511.67783123516267" cy="959.3757918297606" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 10400; T to C</title>
+  </circle>
+  <circle cx="434.2152357368429" cy="953.80379039517" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 10873; C to T</title>
+  </circle>
+  <circle cx="391.359862984223" cy="941.9764590242695" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 11149; G to A</title>
+  </circle>
+  <circle cx="380.94581046446973" cy="938.0679997403275" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 11151; C to T</title>
+  </circle>
+  <circle cx="312.88943420848454" cy="900.6536902822181" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 12705; T to C</title>
+  </circle>
+  <circle cx="304.0092845049623" cy="893.9550721335663" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 13254; C to T</title>
+  </circle>
+  <circle cx="295.37531280240324" cy="886.9420074327505" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 13626; T to C</title>
+  </circle>
+  <circle cx="263.5187237262625" cy="855.9319046667651" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 14149; C to T</title>
+  </circle>
+  <circle cx="224.84895062589715" cy="801.6902803315724" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 14577; C to T</title>
+  </circle>
+  <circle cx="214.6619584697155" cy="781.9170690091486" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 14783; C to T</title>
+  </circle>
+  <circle cx="205.91987047731573" cy="761.4639373974743" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 15043; A to G</title>
+  </circle>
+  <circle cx="202.1050437027106" cy="751.0152226182219" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 15046; A to G</title>
+  </circle>
+  <circle cx="188.77502166969168" cy="697.0934525343196" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 15235; A to G</title>
+  </circle>
+  <circle cx="222.16948934248614" cy="503.18364164930324" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 16140; T to C</title>
+  </circle>
+  <circle cx="267.2527051271963" cy="439.9459586127413" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 16223; T to C</title>
+  </circle>
+  <circle cx="345.74066792143606" cy="378.49828285540997" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 16266; C to G</title>
+  </circle>
+  <circle cx="461.6926991406017" cy="341.97053008768546" r="4.050000000000001" fill="#253d39">
+    <title>KF540530.1: reference position 16390; A to G</title>
+  </circle>
+  <circle cx="529.7223169089807" cy="328.8843107776851" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 150; C to T</title>
+  </circle>
+  <circle cx="541.2267730461515" cy="330.33766157085444" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 152; T to C</title>
+  </circle>
+  <circle cx="640.3402126898415" cy="361.56084223614573" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 490; C to T</title>
+  </circle>
+  <circle cx="724.409344858769" cy="422.6406420493752" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 3028; C to T</title>
+  </circle>
+  <circle cx="732.4228335438706" cy="431.02209410936103" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 3434; A to G</title>
+  </circle>
+  <circle cx="747.5217959436428" cy="448.6205876221523" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 3705; A to G</title>
+  </circle>
+  <circle cx="754.5878078097594" cy="457.8149454489933" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 3970; C to T</title>
+  </circle>
+  <circle cx="798.3986460374047" cy="539.2291250421862" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 4491; A to G</title>
+  </circle>
+  <circle cx="805.5641473983462" cy="561.282270616363" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 4733; T to C</title>
+  </circle>
+  <circle cx="811.1289547284396" cy="583.792680627032" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 4907; T to C</title>
+  </circle>
+  <circle cx="813.3018084435602" cy="595.1831786965977" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 5076; C to T</title>
+  </circle>
+  <circle cx="817.3501579482264" cy="629.7194470735259" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 5585; G to A</title>
+  </circle>
+  <circle cx="817.9744888267393" cy="652.8990900911314" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 5913; G to A</title>
+  </circle>
+  <circle cx="817.6622730795129" cy="664.4907793928369" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 5978; A to G</title>
+  </circle>
+  <circle cx="812.2665033947324" cy="710.5218223447567" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 6392; T to C</title>
+  </circle>
+  <circle cx="791.9959764369618" cy="776.9421724113216" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 6791; A to G</title>
+  </circle>
+  <circle cx="776.6280547396693" cy="808.1346386463124" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 7354; T to C</title>
+  </circle>
+  <circle cx="770.7701190846178" cy="818.1421023310513" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 7598; A to G</title>
+  </circle>
+  <circle cx="675.3451740308732" cy="917.9487700289444" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 8701; G to A</title>
+  </circle>
+  <circle cx="655.6561219411717" cy="930.1973155458013" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 8838; G to A</title>
+  </circle>
+  <circle cx="613.8996289602424" cy="950.3061827358316" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 9540; C to T</title>
+  </circle>
+  <circle cx="592.0474072745269" cy="958.0628603021503" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 9947; G to A</title>
+  </circle>
+  <circle cx="546.9575810851045" cy="968.7810140582949" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 10310; G to A</title>
+  </circle>
+  <circle cx="535.4810677758506" cy="970.44064709081" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 10320; G to A</title>
+  </circle>
+  <circle cx="523.9523762844477" cy="971.6872472817872" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 10398; G to A</title>
+  </circle>
+  <circle cx="512.3863665490748" cy="972.5192078225284" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 10400; T to C</title>
+  </circle>
+  <circle cx="431.63287647076095" cy="966.7104873727426" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 10873; C to T</title>
+  </circle>
+  <circle cx="305.15271082518484" cy="911.3023764706784" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 12705; T to C</title>
+  </circle>
+  <circle cx="295.8952998597482" cy="904.3191765052538" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 13254; C to T</title>
+  </circle>
+  <circle cx="286.8945254377994" cy="897.0081711472138" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 13626; T to C</title>
+  </circle>
+  <circle cx="269.7089467685725" cy="881.4408487932158" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 13928; G to C</title>
+  </circle>
+  <circle cx="213.37194526033062" cy="808.1346386463125" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 14577; C to T</title>
+  </circle>
+  <circle cx="202.75217239163146" cy="787.5213889343739" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 14783; C to T</title>
+  </circle>
+  <circle cx="193.63868850412973" cy="766.1993334307003" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 15043; A to G</title>
+  </circle>
+  <circle cx="174.20890914994771" cy="687.6032071435872" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 15300; T to C</title>
+  </circle>
+  <circle cx="173.06583908009736" cy="676.0637907651255" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 15301; A to G</title>
+  </circle>
+  <circle cx="174.93561382097914" cy="606.64433305672" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 15784; T to C</title>
+  </circle>
+  <circle cx="195.77314099011033" cy="528.4096549748887" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 16093; T to C</title>
+  </circle>
+  <circle cx="249.86970457653723" cy="439.6857983353101" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 16220; A to C</title>
+  </circle>
+  <circle cx="257.5771664561295" cy="431.02209410936103" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 16223; T to C</title>
+  </circle>
+  <circle cx="329.33994463886006" cy="372.7317702765171" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 16265; A to G</title>
+  </circle>
+  <circle cx="360.10732609575115" cy="356.529572727997" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 16298; T to C</title>
+  </circle>
+  <circle cx="381.5103240070273" cy="347.60783971924786" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 16311; T to C</title>
+  </circle>
+  <circle cx="460.2776830910194" cy="328.8843107776851" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 16390; A to G</title>
+  </circle>
+  <circle cx="483.4059752515628" cy="327.2206578072527" r="4.050000000000001" fill="#253d39">
+    <title>KF540857.1: reference position 16519; C to T</title>
+  </circle>
+  <circle cx="566.8558122505992" cy="321.61978630586367" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 195; T to C</title>
+  </circle>
+  <circle cx="624.3356110566903" cy="339.7273421446992" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 418; G to A</title>
+  </circle>
+  <circle cx="646.2631680659166" cy="349.80626840877864" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 490; C to T</title>
+  </circle>
+  <circle cx="667.4110920999954" cy="361.43243803073267" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 814; A to G</title>
+  </circle>
+  <circle cx="733.7583150254274" cy="413.37521366894214" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 3028; C to T</title>
+  </circle>
+  <circle cx="757.8126528316283" cy="440.4139031051867" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 3705; A to G</title>
+  </circle>
+  <circle cx="810.7628541831297" cy="534.7149514545637" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 4491; A to G</title>
+  </circle>
+  <circle cx="831.0281338634547" cy="640.9492678614304" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 5824; G to A</title>
+  </circle>
+  <circle cx="827.2440941361515" cy="701.09485699802" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 6359; A to G</title>
+  </circle>
+  <circle cx="812.7814558519611" cy="759.5982153897047" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 6674; T to C</title>
+  </circle>
+  <circle cx="782.008399799665" cy="824.994288319464" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 7598; A to G</title>
+  </circle>
+  <circle cx="746.1496200094145" cy="873.4293867626341" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 7975; A to G</title>
+  </circle>
+  <circle cx="737.9674934755776" cy="882.3007094569346" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 8296; A to G</title>
+  </circle>
+  <circle cx="682.6946638816611" cy="928.8683123812211" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 8701; G to A</title>
+  </circle>
+  <circle cx="651.6275705324106" cy="947.4300365617346" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 8928; T to C</title>
+  </circle>
+  <circle cx="640.8500189043672" cy="952.8606849453981" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 9180; A to G</title>
+  </circle>
+  <circle cx="618.7450683849545" cy="962.5443657313358" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 9540; C to T</title>
+  </circle>
+  <circle cx="560.9494827953209" cy="979.6171843503153" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 10289; A to G</title>
+  </circle>
+  <circle cx="525.1322536878891" cy="984.7967589264997" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 10398; G to A</title>
+  </circle>
+  <circle cx="513.094901862987" cy="985.662623815296" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 10400; T to C</title>
+  </circle>
+  <circle cx="464.86774631211085" cy="984.7967589264997" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 10724; T to C</title>
+  </circle>
+  <circle cx="429.0505172046792" cy="979.6171843503153" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 10873; C to T</title>
+  </circle>
+  <circle cx="417.2610148457966" cy="977.0374178701798" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 10908; T to C</title>
+  </circle>
+  <circle cx="349.1499810956328" cy="952.8606849453982" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 11581; C to A</title>
+  </circle>
+  <circle cx="287.78131521453423" cy="914.6832808769414" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 13254; C to T</title>
+  </circle>
+  <circle cx="278.41373807319565" cy="907.0743348616772" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 13626; T to C</title>
+  </circle>
+  <circle cx="235.9919734409184" cy="864.270074154022" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 14220; A to G</title>
+  </circle>
+  <circle cx="221.28640643617166" cy="845.135058865329" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 14311; T to C</title>
+  </circle>
+  <circle cx="214.45820076158407" cy="835.1840203151241" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 14431; T to C</title>
+  </circle>
+  <circle cx="207.99160020033503" cy="824.994288319464" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 14502; T to C</title>
+  </circle>
+  <circle cx="201.89493989476415" cy="814.5789969610524" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 14577; C to T</title>
+  </circle>
+  <circle cx="190.84238631354748" cy="793.1257088595992" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 14783; C to T</title>
+  </circle>
+  <circle cx="181.3575065309438" cy="770.9347294639264" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 15043; A to G</title>
+  </circle>
+  <circle cx="159.94626512411384" cy="677.1259515173094" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 15301; A to G</title>
+  </circle>
+  <circle cx="158.97186613654526" cy="640.9492678614305" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 15514; T to C</title>
+  </circle>
+  <circle cx="168.67353057848106" cy="569.3287048889973" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 15900; T to C</title>
+  </circle>
+  <circle cx="224.8333787058304" cy="449.9829526303002" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 16176; C to T</title>
+  </circle>
+  <circle cx="264.8894903420713" cy="404.9571958922925" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 16232; C to T</title>
+  </circle>
+  <circle cx="434.97809981343823" cy="319.25206879257064" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 16355; C to T</title>
+  </circle>
+  <circle cx="446.88937726858194" cy="317.3106697226448" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 16362; C to T</title>
+  </circle>
+  <circle cx="458.8626670414371" cy="315.79809146768474" r="4.050000000000001" fill="#253d39">
+    <title>KF540803.1: reference position 16390; A to G</title>
+  </circle>
+  <circle cx="557.3721553143488" cy="306.3010955826412" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 182; C to T</title>
+  </circle>
+  <circle cx="652.1861234419916" cy="338.05169458141154" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 490; C to T</title>
+  </circle>
+  <circle cx="695.2147058471179" cy="363.7600757776755" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 1006; T to C</title>
+  </circle>
+  <circle cx="734.120860939715" cy="395.3621463338582" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 1825; T to C</title>
+  </circle>
+  <circle cx="743.1072851920857" cy="404.1097852885092" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 3028; C to T</title>
+  </circle>
+  <circle cx="768.1035097196136" cy="432.20721858822117" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 3705; A to G</title>
+  </circle>
+  <circle cx="775.7454347785799" cy="442.1509598116072" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 3970; C to T</title>
+  </circle>
+  <circle cx="823.1270623288547" cy="530.2007778669412" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 4491; A to G</title>
+  </circle>
+  <circle cx="838.125215270165" cy="715.454635451226" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 6392; T to C</title>
+  </circle>
+  <circle cx="811.0673997645364" cy="798.7300287848245" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 7076; A to G</title>
+  </circle>
+  <circle cx="793.2466805147121" cy="831.8464743078767" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 7598; A to G</title>
+  </circle>
+  <circle cx="779.4312945166289" cy="852.7758894835496" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 7828; A to G</title>
+  </circle>
+  <circle cx="690.0441537324491" cy="939.7878547334977" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 8701; G to A</title>
+  </circle>
+  <circle cx="623.5905078096665" cy="974.7825487268399" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 9540; C to T</title>
+  </circle>
+  <circle cx="551.1923682581851" cy="994.7631656743315" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 10310; G to A</title>
+  </circle>
+  <circle cx="526.3121310913306" cy="997.906270571212" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 10398; G to A</title>
+  </circle>
+  <circle cx="513.8034371768991" cy="998.8060398080635" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 10400; T to C</title>
+  </circle>
+  <circle cx="488.7294934789021" cy="999.2562145534691" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 10535; T to C</title>
+  </circle>
+  <circle cx="476.196562823101" cy="998.8060398080635" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 10586; G to A</title>
+  </circle>
+  <circle cx="451.21953485056906" cy="996.5580666029135" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 10810; T to C</title>
+  </circle>
+  <circle cx="426.4681579385973" cy="992.5238813278878" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 10873; C to T</title>
+  </circle>
+  <circle cx="321.24964868431266" cy="953.0347143050202" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 12338; T to C</title>
+  </circle>
+  <circle cx="289.67926405858555" cy="932.5997488475987" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 12705; T to C</title>
+  </circle>
+  <circle cx="279.66733056932026" cy="925.0473852486286" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 13254; C to T</title>
+  </circle>
+  <circle cx="269.9329507085919" cy="917.1404985761404" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 13626; T to C</title>
+  </circle>
+  <circle cx="260.48867163173526" cy="908.8892804331649" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 13708; G to A</title>
+  </circle>
+  <circle cx="251.34666656789196" cy="900.3043662497159" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 13928; G to C</title>
+  </circle>
+  <circle cx="190.41793452919774" cy="821.0233552757925" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 14577; C to T</title>
+  </circle>
+  <circle cx="178.93260023546355" cy="798.7300287848244" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 14783; C to T</title>
+  </circle>
+  <circle cx="169.0763245577579" cy="775.6701254971524" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 15043; A to G</title>
+  </circle>
+  <circle cx="160.8999082139868" cy="751.9624996007235" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 15151; A to G</title>
+  </circle>
+  <circle cx="154.4454936759867" cy="727.7293437426149" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 15203; A to G</title>
+  </circle>
+  <circle cx="146.82669116813042" cy="678.1881122694932" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 15301; A to G</title>
+  </circle>
+  <circle cx="200.06570152307728" cy="462.8290026788994" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 16167; C to T</title>
+  </circle>
+  <circle cx="221.89649028038633" cy="432.20721858822117" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 16203; A to G</title>
+  </circle>
+  <circle cx="238.22608911399584" cy="413.1743651026005" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 16223; T to C</title>
+  </circle>
+  <circle cx="305.18925411905184" cy="356.757602989663" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 16260; C to T</title>
+  </circle>
+  <circle cx="360.6000427272345" cy="327.57811156602787" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 16304; T to C</title>
+  </circle>
+  <circle cx="384.07892636290035" cy="318.7663391509808" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 16318; A to G</title>
+  </circle>
+  <circle cx="445.00552758331554" cy="304.2836778744351" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 16362; C to T</title>
+  </circle>
+  <circle cx="457.4476509918548" cy="302.7118721576845" r="4.050000000000001" fill="#253d39">
+    <title>KF540771.1: reference position 16390; A to G</title>
+  </circle>
+  <circle cx="533.9673650577275" cy="289.6256528476842" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 150; C to T</title>
+  </circle>
+  <circle cx="585.1438668500808" cy="298.9128186698994" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 199; T to C</title>
+  </circle>
+  <circle cx="669.6236630200192" cy="332.36073615110047" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 710; G to A</title>
+  </circle>
+  <circle cx="733.4863396849973" cy="377.0304203603411" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 1665; G to A</title>
+  </circle>
+  <circle cx="752.456255358744" cy="394.8443569080762" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 3028; C to T</title>
+  </circle>
+  <circle cx="778.3943666075991" cy="424.0005340712556" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 3705; A to G</title>
+  </circle>
+  <circle cx="793.8786267381158" cy="444.91540256728683" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 4048; G to A</title>
+  </circle>
+  <circle cx="801.047764796343" cy="455.7761824899882" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 4071; C to T</title>
+  </circle>
+  <circle cx="814.1938654097711" cy="478.23445657009984" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 4164; A to G</title>
+  </circle>
+  <circle cx="830.8094530581207" cy="513.5443776834172" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 4454; T to C</title>
+  </circle>
+  <circle cx="835.4912704745796" cy="525.6866042793187" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 4491; A to G</title>
+  </circle>
+  <circle cx="839.7342107440859" cy="537.9890649639409" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 4562; A to G</title>
+  </circle>
+  <circle cx="854.1945148968322" cy="601.3437969727454" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 5351; A to G</title>
+  </circle>
+  <circle cx="855.7095954478282" cy="614.2688738371693" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 5460; G to A</title>
+  </circle>
+  <circle cx="855.0100643395572" cy="692.2004644432732" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 6351; T to C</title>
+  </circle>
+  <circle cx="845.2639196023022" cy="743.2915443640629" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 6455; C to T</title>
+  </circle>
+  <circle cx="833.204857415428" cy="780.4055215303786" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 6680; T to C</title>
+  </circle>
+  <circle cx="817.2257952460427" cy="816.0080193938093" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 7175; T to C</title>
+  </circle>
+  <circle cx="804.4849612297592" cy="838.6986602962895" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 7598; A to G</title>
+  </circle>
+  <circle cx="797.5119401426291" cy="849.6863833518508" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 7684; T to C</title>
+  </circle>
+  <circle cx="782.4056176976746" cy="870.8758396493789" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 7853; G to A</title>
+  </circle>
+  <circle cx="640.4477153992154" cy="982.0136860283758" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 9468; A to G</title>
+  </circle>
+  <circle cx="616.2521864432947" cy="991.5933736297011" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 9824; T to C</title>
+  </circle>
+  <circle cx="501.5067864769653" cy="1012.4165936525853" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 10497; C to T</title>
+  </circle>
+  <circle cx="326.10641490782234" cy="970.7227502683766" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 12121; T to C</title>
+  </circle>
+  <circle cx="292.606356416763" cy="950.7073970857745" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 12405; C to T</title>
+  </circle>
+  <circle cx="271.5533459241062" cy="935.4114896203163" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 13254; C to T</title>
+  </circle>
+  <circle cx="261.45216334398805" cy="927.2066622906036" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 13626; T to C</title>
+  </circle>
+  <circle cx="233.0049317341663" cy="900.4929336915138" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 14115; C to T</title>
+  </circle>
+  <circle cx="178.9409291636312" cy="827.4677135905324" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 14577; C to T</title>
+  </circle>
+  <circle cx="161.6941706444129" cy="792.461748348756" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 15040; C to T</title>
+  </circle>
+  <circle cx="146.4671950827336" cy="550.4359024472037" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 15912; C to T</title>
+  </circle>
+  <circle cx="154.50872952542045" cy="525.6866042793185" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 16086; T to C</title>
+  </circle>
+  <circle cx="169.84611673708366" cy="489.80300307419697" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 16129; G to A</title>
+  </circle>
+  <circle cx="228.55055044292897" cy="404.25050059922023" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 16223; T to C</title>
+  </circle>
+  <circle cx="237.543744641256" cy="394.8443569080762" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 16224; T to C</title>
+  </circle>
+  <circle cx="331.89092118193344" cy="326.29712075404433" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 16297; T to C</title>
+  </circle>
+  <circle cx="404.85613314991934" cy="298.9128186698994" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 16324; T to C</title>
+  </circle>
+  <circle cx="443.12167789804914" cy="291.25668602622534" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 16362; C to T</title>
+  </circle>
+  <circle cx="456.0326349422725" cy="289.6256528476842" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 16390; A to G</title>
+  </circle>
+  <circle cx="481.98852395002973" cy="287.75860656738706" r="4.050000000000001" fill="#253d39">
+    <title>KF540942.1: reference position 16519; C to T</title>
+  </circle>
+  <circle cx="508.4839598171478" cy="274.60458948743184" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 103; G to A</title>
+  </circle>
+  <circle cx="521.9505394477026" cy="275.33054590782575" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 131; T to C</title>
+  </circle>
+  <circle cx="651.8814483337813" cy="308.6911331726861" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 482; C to T</title>
+  </circle>
+  <circle cx="664.0320341941417" cy="314.5425469266773" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 490; C to T</title>
+  </circle>
+  <circle cx="675.964745755383" cy="320.8263494750231" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 710; G to A</title>
+  </circle>
+  <circle cx="731.8327927292212" cy="358.42880853155646" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 1599; G to A</title>
+  </circle>
+  <circle cx="761.8052255254022" cy="385.5789285276432" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 3028; C to T</title>
+  </circle>
+  <circle cx="788.6852234955845" cy="415.79384955429" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 3705; A to G</title>
+  </circle>
+  <circle cx="819.181895173502" cy="460.23796415519087" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 4161; C to T</title>
+  </circle>
+  <circle cx="831.961147180285" cy="483.9857936886233" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 4233; T to C</title>
+  </circle>
+  <circle cx="847.8554786203044" cy="521.1724306916961" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 4491; A to G</title>
+  </circle>
+  <circle cx="859.6600004680226" cy="559.8522575717411" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 4895; A to G</title>
+  </circle>
+  <circle cx="815.7232419448062" cy="845.5508462847023" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 7598; A to G</title>
+  </circle>
+  <circle cx="726.5606387211079" cy="945.7755939920037" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 8584; G to A</title>
+  </circle>
+  <circle cx="704.7431334340249" cy="961.6269394380513" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 8701; G to A</title>
+  </circle>
+  <circle cx="693.4217351790879" cy="968.9550852624393" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 8829; C to T</title>
+  </circle>
+  <circle cx="633.2813866590907" cy="999.258914717848" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 9540; C to T</title>
+  </circle>
+  <circle cx="594.9334155765519" cy="1012.1005990846386" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 9950; T to C</title>
+  </circle>
+  <circle cx="515.2205078047234" cy="1025.0928717935988" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 10400; T to C</title>
+  </circle>
+  <circle cx="421.30343940643365" cy="1018.337275283033" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 10873; C to T</title>
+  </circle>
+  <circle cx="382.13295266818346" cy="1008.2800036742876" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 11101; A to G</title>
+  </circle>
+  <circle cx="296.5782648209122" cy="968.9550852624394" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 12361; A to G</title>
+  </circle>
+  <circle cx="274.20581729198614" cy="953.8971212245194" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 12705; T to C</title>
+  </circle>
+  <circle cx="263.4393612788922" cy="945.7755939920037" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 13254; C to T</title>
+  </circle>
+  <circle cx="252.9713759793843" cy="937.2728260050669" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 13626; T to C</title>
+  </circle>
+  <circle cx="167.4639237980648" cy="833.9120719052725" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 14577; C to T</title>
+  </circle>
+  <circle cx="155.11302807929553" cy="809.9386686352749" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 14783; C to T</title>
+  </circle>
+  <circle cx="144.51396061138604" cy="785.1409175636045" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 15043; A to G</title>
+  </circle>
+  <circle cx="126.01607285440218" cy="720.3874485576953" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 15223; C to T</title>
+  </circle>
+  <circle cx="120.58754325616337" cy="680.3124337738608" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 15301; A to G</title>
+  </circle>
+  <circle cx="119.37763211686439" cy="653.371669040156" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 15508; C to T</title>
+  </circle>
+  <circle cx="120.10373480002511" cy="626.4135262203074" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 15662; A to G</title>
+  </circle>
+  <circle cx="124.81200334620428" cy="586.2475213054475" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 15850; T to C</title>
+  </circle>
+  <circle cx="127.33905265125043" cy="573.0002649298712" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 15851; A to G</title>
+  </circle>
+  <circle cx="137.7475078601792" cy="533.9216287754807" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 15927; G to A</title>
+  </circle>
+  <circle cx="152.29673672221952" cy="496.18841153862854" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 16111; C to T</title>
+  </circle>
+  <circle cx="164.21529590216454" cy="471.997160300299" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 16140; T to C</title>
+  </circle>
+  <circle cx="247.85354183482104" cy="367.11811718906876" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 16234; C to T</title>
+  </circle>
+  <circle cx="258.1672072707788" cy="358.4288085315564" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 16243; T to C</title>
+  </circle>
+  <circle cx="268.7861389775369" cy="350.1153213524243" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 16249; T to C</title>
+  </circle>
+  <circle cx="388.58262129320065" cy="289.7516510580185" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 16319; G to A</title>
+  </circle>
+  <circle cx="441.2378282127828" cy="278.2296941780157" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 16362; C to T</title>
+  </circle>
+  <circle cx="454.6176188926903" cy="276.5394335376839" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 16390; A to G</title>
+  </circle>
+  <circle cx="468.04946055229755" cy="275.33054590782575" r="4.050000000000001" fill="#253d39">
+    <title>KF540720.1: reference position 16463; A to G</title>
+  </circle>
+  <circle cx="669.9549895702168" cy="302.7879730993102" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 490; C to T</title>
+  </circle>
+  <circle cx="706.2676128066205" cy="323.60846245805953" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 952; G to A</title>
+  </circle>
+  <circle cx="729.1404922712288" cy="339.60723288229366" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 1463; G to A</title>
+  </circle>
+  <circle cx="771.1541956920605" cy="376.31350014721016" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 3028; C to T</title>
+  </circle>
+  <circle cx="798.97608038357" cy="407.58716503732444" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 3705; A to G</title>
+  </circle>
+  <circle cx="807.4818752318106" cy="418.654981355528" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 3970; C to T</title>
+  </circle>
+  <circle cx="860.2196867660294" cy="516.6582571040736" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 4491; A to G</title>
+  </circle>
+  <circle cx="874.0519722562931" cy="736.5161391222151" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 6446; G to A</title>
+  </circle>
+  <circle cx="826.9615226598535" cy="852.403032273115" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 7598; A to G</title>
+  </circle>
+  <circle cx="794.575548791227" cy="897.8304472142906" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 7861; T to C</title>
+  </circle>
+  <circle cx="766.1967537331291" cy="928.5996424344664" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 8440; A to G</title>
+  </circle>
+  <circle cx="756.0213046185904" cy="938.1550251777835" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 8477; T to C</title>
+  </circle>
+  <circle cx="712.0926232848128" cy="972.546481790328" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 8701; G to A</title>
+  </circle>
+  <circle cx="638.1268260838028" cy="1011.4970977133523" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 9540; C to T</title>
+  </circle>
+  <circle cx="529.851763301655" cy="1037.234805505349" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 10398; G to A</title>
+  </circle>
+  <circle cx="515.9290431186355" cy="1038.2362877863663" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 10400; T to C</title>
+  </circle>
+  <circle cx="418.7210801403518" cy="1031.2439722606057" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 10873; C to T</title>
+  </circle>
+  <circle cx="391.5648744436768" cy="1024.7887602385479" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 11002; A to G</title>
+  </circle>
+  <circle cx="338.9890427002829" cy="1006.1264118293192" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 11308; C to T</title>
+  </circle>
+  <circle cx="266.4690939086865" cy="964.5458074129797" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 12705; T to C</title>
+  </circle>
+  <circle cx="255.32537663367813" cy="956.1396983636912" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 13254; C to T</title>
+  </circle>
+  <circle cx="244.49058861478053" cy="947.3389897195302" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 13626; T to C</title>
+  </circle>
+  <circle cx="223.80324626687099" cy="928.5996424344664" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 13928; G to C</title>
+  </circle>
+  <circle cx="186.72134861478474" cy="886.9171017468198" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 14227; C to T</title>
+  </circle>
+  <circle cx="155.98691843249833" cy="840.3564302200125" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 14577; C to T</title>
+  </circle>
+  <circle cx="143.20324200121155" cy="815.5429885605002" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 14783; C to T</title>
+  </circle>
+  <circle cx="132.23277863820005" cy="789.8763135968305" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 15043; A to G</title>
+  </circle>
+  <circle cx="119.2979186388713" cy="750.0669079212295" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 15172; G to A</title>
+  </circle>
+  <circle cx="107.4679693001799" cy="681.3745945260446" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 15301; A to G</title>
+  </circle>
+  <circle cx="106.59149572873685" cy="667.44344604028" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 15479; T to C</title>
+  </circle>
+  <circle cx="108.09361829059765" cy="611.67387584769" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 15734; G to A</title>
+  </circle>
+  <circle cx="159.458631410715" cy="453.588620581114" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 16157; T to C</title>
+  </circle>
+  <circle cx="174.41510428090362" cy="430.020990463235" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 16172; T to C</title>
+  </circle>
+  <circle cx="209.19947310079533" cy="386.40277159245966" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 16223; T to C</title>
+  </circle>
+  <circle cx="272.15232740494685" cy="331.40251912645635" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 16256; C to T</title>
+  </circle>
+  <circle cx="345.40700407900874" cy="291.1304198300136" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 16304; T to C</title>
+  </circle>
+  <circle cx="411.8896629390658" cy="270.186740787505" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 16335; A to G</title>
+  </circle>
+  <circle cx="439.3539785275164" cy="265.20270232980596" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 16362; C to T</title>
+  </circle>
+  <circle cx="453.202602843108" cy="263.4532142276836" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 16390; A to G</title>
+  </circle>
+  <circle cx="481.04355641567435" cy="261.45057240747667" r="4.050000000000001" fill="#253d39">
+    <title>KF540911.1: reference position 16519; C to T</title>
+  </circle>
+  <text x="495.0" y="642.0" fill="#243a3b" font-size="14" text-anchor="middle" font-weight="bold">Liangdao 1</text>
+  <text x="495.0" y="664.0" fill="#243a3b" font-size="12" text-anchor="middle">reference</text>
+  <circle cx="405.9" cy="650.0" r="15" fill="#f5f2e9" stroke="#4b8279" />
+  <text x="405.9" y="655.0" fill="#4b8279" font-size="15" text-anchor="middle" font-weight="bold">2</text>
+  <circle cx="339.48" cy="650.0" r="15" fill="#f5f2e9" stroke="#b18b50" />
+  <text x="339.48" y="655.0" fill="#b18b50" font-size="15" text-anchor="middle" font-weight="bold">3</text>
+  <circle cx="292.5" cy="650.0" r="15" fill="#f5f2e9" stroke="#a9755b" />
+  <text x="292.5" y="655.0" fill="#a9755b" font-size="15" text-anchor="middle" font-weight="bold">4</text>
+  <circle cx="247.95" cy="650.0" r="15" fill="#f5f2e9" stroke="#7a8064" />
+  <text x="247.95" y="655.0" fill="#7a8064" font-size="15" text-anchor="middle" font-weight="bold">5</text>
+  <circle cx="156.41999999999996" cy="650.0" r="15" fill="#f5f2e9" stroke="#476b78" />
+  <text x="156.41999999999996" y="655.0" fill="#476b78" font-size="15" text-anchor="middle" font-weight="bold">6</text>
+  <line x1="90.0" y1="1085.0" x2="90.0" y2="1110.0" stroke="#52685f" stroke-width="1.2" />
+  <line x1="900.0" y1="1085.0" x2="900.0" y2="1110.0" stroke="#52685f" stroke-width="1.2" />
+  <line x1="90.0" y1="1098.0" x2="900.0" y2="1098.0" stroke="#52685f" />
+  <text x="495.0" y="1131.0" fill="#243a3b" font-size="21" text-anchor="middle">500 mm DNA insert</text>
+  <text x="72" y="1180" fill="#243a3b" font-size="19">Chronology increases outwards; radii use period bands, not linear time.</text>
+  <text x="72" y="1210" fill="#243a3b" font-size="19">Within a shared date band, track order does not represent generations.</text>
+  <text x="72" y="1240" fill="#243a3b" font-size="19">Solid outer tracks and holes: real sequence data. Dashed tracks: proposed positions.</text>
+  <text x="1000" y="220" fill="#243a3b" font-size="24" font-weight="bold">CHRONOLOGY AND SAMPLE POSITIONS</text>
+  <circle cx="1014" cy="275" r="16" fill="#326d62" />
+  <text x="1014" y="281" fill="#ffffff" font-size="16" text-anchor="middle">1</text>
+  <text x="1046" y="280" fill="#243a3b" font-size="22" font-weight="bold">Liangdao 1 / Matsu</text>
+  <text x="1046" y="309" fill="#243a3b" font-size="18">8,060–8,320 cal BP</text>
+  <text x="1046" y="335" fill="#6c7569" font-size="17">r = 30 mm · KF540505.1 · complete reference</text>
+  <circle cx="1014" cy="385" r="16" fill="#4b8279" />
+  <text x="1014" y="391" fill="#ffffff" font-size="16" text-anchor="middle">2</text>
+  <text x="1046" y="390" fill="#243a3b" font-size="22" font-weight="bold">Liangdao 2 / Matsu</text>
+  <text x="1046" y="419" fill="#243a3b" font-size="18">7,510–7,590 cal BP</text>
+  <text x="1046" y="445" fill="#6c7569" font-size="17">r = 55 mm · sequence validation pending</text>
+  <circle cx="1014" cy="495" r="16" fill="#b18b50" />
+  <text x="1014" y="501" fill="#ffffff" font-size="16" text-anchor="middle">3</text>
+  <text x="1046" y="500" fill="#243a3b" font-size="22" font-weight="bold">Suogang B1 and B3 / Penghu</text>
+  <text x="1046" y="529" fill="#243a3b" font-size="18">4,793–4,287 cal BP · associated shells</text>
+  <text x="1046" y="555" fill="#6c7569" font-size="17">r = 92, 100 mm · reserved positions</text>
+  <circle cx="1014" cy="605" r="16" fill="#a9755b" />
+  <text x="1014" y="611" fill="#ffffff" font-size="16" text-anchor="middle">4</text>
+  <text x="1046" y="610" fill="#243a3b" font-size="22" font-weight="bold">Gongguan / Green Island</text>
+  <text x="1046" y="639" fill="#243a3b" font-size="18">I13721 · 1366–1126 cal BCE</text>
+  <text x="1046" y="665" fill="#6c7569" font-size="17">r = 125 mm · reserved position</text>
+  <circle cx="1014" cy="715" r="16" fill="#7a8064" />
+  <text x="1014" y="721" fill="#ffffff" font-size="16" text-anchor="middle">5</text>
+  <text x="1046" y="720" fill="#243a3b" font-size="22" font-weight="bold">Hanben / Taiwan</text>
+  <text x="1046" y="749" fill="#243a3b" font-size="18">I3620: 22–201 CE · I8081: 439–586 CE</text>
+  <text x="1046" y="775" fill="#6c7569" font-size="17">r = 145, 160 mm · 2 selected from 45 individuals</text>
+  <circle cx="1014" cy="825" r="16" fill="#476b78" />
+  <text x="1014" y="831" fill="#ffffff" font-size="16" text-anchor="middle">6</text>
+  <text x="1046" y="830" fill="#243a3b" font-size="22" font-weight="bold">Modern Taiwanese sequences</text>
+  <text x="1046" y="859" fill="#243a3b" font-size="18">Collected 1998–2001</text>
+  <text x="1046" y="885" fill="#6c7569" font-size="17">9 selected from 550 · r = 175–240 mm</text>
+  <text x="1000" y="975" fill="#243a3b" font-size="23" font-weight="bold">FITTED CAP ON A REAL LOG</text>
+  <rect x="1035" y="1050" width="355" height="170" rx="10" fill="#a3835b" stroke="#6a5539" stroke-width="2" />
+  <path d="M 1060 1060 Q 1048 1120 1064 1215" stroke="#806243" fill="none" stroke-width="2" />
+  <path d="M 1110 1060 Q 1098 1120 1114 1215" stroke="#806243" fill="none" stroke-width="2" />
+  <path d="M 1155 1060 Q 1143 1120 1159 1215" stroke="#806243" fill="none" stroke-width="2" />
+  <path d="M 1218 1060 Q 1206 1120 1222 1215" stroke="#806243" fill="none" stroke-width="2" />
+  <path d="M 1260 1060 Q 1248 1120 1264 1215" stroke="#806243" fill="none" stroke-width="2" />
+  <path d="M 1325 1060 Q 1313 1120 1329 1215" stroke="#806243" fill="none" stroke-width="2" />
+  <path d="M 1370 1060 Q 1358 1120 1374 1215" stroke="#806243" fill="none" stroke-width="2" />
+  <rect x="1026" y="1027" width="373" height="9" rx="3" fill="#a7b5b0" stroke="#49635d" />
+  <rect x="1060" y="1036" width="14" height="14" fill="#4d625c" />
+  <rect x="1364" y="1036" width="14" height="14" fill="#4d625c" />
+  <text x="1430" y="1040" fill="#243a3b" font-size="17">Replaceable metal top</text>
+  <text x="1430" y="1070" fill="#243a3b" font-size="17">Ventilated gap + supports</text>
+  <text x="1430" y="1110" fill="#243a3b" font-size="17">Seasoned log body</text>
+  <text x="1430" y="1140" fill="#243a3b" font-size="17">Target height: 43–48 cm</text>
+  <text x="1430" y="1190" fill="#6c7569" font-size="16">Mounting detail requires</text>
+  <text x="1430" y="1214" fill="#6c7569" font-size="16">fabricator confirmation.</text>
+  <text x="72" y="1282" fill="#6b7167" font-size="15">Design plan: 16 tracks, including 6 reserved ancient tracks; 294 real modern substitution holes. Not a structural or fabrication approval.</text>
+  <metadata>{"reference": "KF540505.1", "real_holes": 294, "reserved_ancient_tracks": ["Liangdao 2", "Suogang B1", "Suogang B3", "Gongguan I13721", "Hanben I3620", "Hanben I8081"], "all_ancient_individuals_in_scope": 50, "all_modern_individuals_in_scope": 550, "sources": ["https://doi.org/10.1073/pnas.2026132118", "https://doi.org/10.1126/science.aba0909", "https://doi.org/10.1038/s41586-021-03336-2", "https://doi.org/10.1016/j.ajhg.2014.02.003"], "suogang_dates": "Associated shells, not direct skeletal dates; within-band order is arbitrary.", "geometry": {"design_status": "design_preview", "reference_id": "KF540505.1", "selected_ids": ["KF540524.1", "KF540588.1", "KF540530.1", "KF540857.1", "KF540803.1", "KF540771.1", "KF540942.1", "KF540720.1", "KF540911.1"], "coordinate_mode": "variable", "coordinate_description": "Variable-column coordinates: selected informative MSA columns have equal angular intervals; invariant distances are compressed. Indel columns retain angular slots, but only confidently called substitutions create holes.", "diameter_mm": 500, "hole_diameter_mm": 5, "requested_min_web_mm": 1.5, "alignment_columns": 16570, "angular_columns": 175, "angular_alignment_columns": [93, 103, 131, 150, 152, 182, 195, 199, 204, 210, 311, 418, 482, 490, 710, 814, 952, 1006, 1463, 1599, 1665, 1825, 3028, 3435, 3538, 3706, 3971, 4049, 4072, 4162, 4165, 4234, 4249, 4455, 4492, 4563, 4734, 4896, 4908, 5077, 5352, 5461, 5586, 5825, 5914, 5979, 6341, 6352, 6360, 6393, 6447, 6456, 6621, 6675, 6681, 6792, 7077, 7176, 7355, 7599, 7685, 7829, 7854, 7862, 7976, 8297, 8441, 8478, 8558, 8585, 8615, 8702, 8830, 8839, 8929, 9181, 9469, 9541, 9825, 9948, 9951, 9963, 10290, 10311, 10321, 10399, 10401, 10498, 10536, 10587, 10725, 10811, 10835, 10874, 10909, 11003, 11102, 11150, 11152, 11309, 11582, 12122, 12339, 12362, 12406, 12706, 13255, 13627, 13709, 13929, 14116, 14150, 14221, 14228, 14312, 14432, 14503, 14578, 14767, 14784, 15041, 15044, 15047, 15152, 15173, 15204, 15224, 15236, 15301, 15302, 15480, 15509, 15515, 15663, 15735, 15785, 15851, 15852, 15901, 15913, 15928, 16087, 16094, 16112, 16130, 16141, 16158, 16168, 16173, 16177, 16204, 16221, 16224, 16225, 16233, 16235, 16244, 16250, 16257, 16261, 16266, 16267, 16298, 16299, 16305, 16312, 16319, 16320, 16325, 16336, 16356, 16363, 16391, 16464, 16520], "excluded_alignment_columns": [], "hole_count": 294, "has_perforations": true, "comparison_counts_all_unexcluded_columns": {"KF540524.1": {"match": 16564, "deletion": 1, "unknown": 1, "substitution": 4}, "KF540588.1": {"match": 16564, "deletion": 1, "unknown": 1, "substitution": 4}, "KF540530.1": {"match": 16534, "substitution": 34, "deletion": 1, "unknown": 1}, "KF540857.1": {"match": 16523, "substitution": 45, "deletion": 1, "unknown": 1}, "KF540803.1": {"match": 16527, "substitution": 41, "deletion": 1, "unknown": 1}, "KF540771.1": {"match": 16527, "substitution": 41, "deletion": 1, "unknown": 1}, "KF540942.1": {"match": 16527, "substitution": 41, "deletion": 1, "unknown": 1}, "KF540720.1": {"match": 16524, "substitution": 44, "deletion": 1, "unknown": 1}, "KF540911.1": {"match": 16528, "deletion": 1, "substitution": 40, "unknown": 1}}, "min_hole_hole_clearance_mm": 1.8662551277721224, "edge_clearance_mm": 7.499999999999943, "passes_requested_clearance": true, "validation_scope": "Hole-edge to hole-edge and hole-edge to outer-edge distances only. No material, structural, sitting-load, or fabrication validation. Absent distances are null; a drawing with no holes passes spacing vacuously.", "guides": [{"sample_id": "KF540505.1", "radius_mm": 137.5, "operation": "ENGRAVE"}, {"sample_id": "KF540524.1", "radius_mm": 175.0, "operation": "ENGRAVE"}, {"sample_id": "KF540588.1", "radius_mm": 183.12499999999997, "operation": "ENGRAVE"}, {"sample_id": "KF540530.1", "radius_mm": 191.24999999999997, "operation": "ENGRAVE"}, {"sample_id": "KF540857.1", "radius_mm": 199.375, "operation": "ENGRAVE"}, {"sample_id": "KF540803.1", "radius_mm": 207.5, "operation": "ENGRAVE"}, {"sample_id": "KF540771.1", "radius_mm": 215.62499999999997, "operation": "ENGRAVE"}, {"sample_id": "KF540942.1", "radius_mm": 223.75, "operation": "ENGRAVE"}, {"sample_id": "KF540720.1", "radius_mm": 231.875, "operation": "ENGRAVE"}, {"sample_id": "KF540911.1", "radius_mm": 240.0, "operation": "ENGRAVE"}], "files": {"cut_svg": "/home/antonkulaga/sources/stump-of-life/output/concept/metal/cut.svg", "preview_svg": "/home/antonkulaga/sources/stump-of-life/output/concept/metal/preview.svg", "holes_csv": "/home/antonkulaga/sources/stump-of-life/output/concept/metal/holes.csv", "geometry_json": "/home/antonkulaga/sources/stump-of-life/output/concept/metal/geometry.json"}}}</metadata>
+</svg>

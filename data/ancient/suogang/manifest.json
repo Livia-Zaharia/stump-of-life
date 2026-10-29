@@ -1,0 +1,192 @@
+{
+  "study_accession": "HRA000123",
+  "bioproject": "PRJCA002264",
+  "publication_doi": "10.1126/science.aba0909",
+  "paper_url": "https://doi.org/10.1126/science.aba0909",
+  "supplement_url": "https://reich.hms.harvard.edu/sites/reich.hms.harvard.edu/files/inline-files/YangSciecne2020Supplement.pdf",
+  "retrieved_at_utc": "2026-10-29T22:16:39.052438+00:00",
+  "acquisition": "Two small public mixed-reference BAMs, archive MD5 verified; MT extracted unchanged",
+  "total_bam_download_bytes": 5864714,
+  "complete_mitogenome_fasta_identified": false,
+  "consensus_generated": false,
+  "limitations": [
+    "Coverage measures deposited alignments; it is not an authenticity or contamination estimate.",
+    "No ancient individual is assumed to be an ancestor of another sample or modern group.",
+    "The displayed dates are archaeological contexts, not exact individual death dates.",
+    "No missing bases are filled from a reference."
+  ],
+  "individuals": [
+    {
+      "individual_id": "SuogangB1",
+      "run_accession": "HRR051945",
+      "sample_accession": "HRS029483",
+      "individual_accession": "HRI029483",
+      "experiment_accession": "HRX035744",
+      "expected_bytes": 3651852,
+      "expected_md5": "cc255bd293befc1aa8e05b4522e16a00",
+      "source_url": "https://download.cncb.ac.cn/gsa-human/HRA000123/HRR051945/HRR051945.bam",
+      "metadata_url": "https://ngdc.cncb.ac.cn/gsa-human/browse/runDetail/HRR051945",
+      "metadata_sha256": "fe5941cffc656791ba0d63610bcf8ea673f004baeab2389695dc7c00651cdc6b",
+      "bytes": 3651852,
+      "md5_verified": true,
+      "sha256": "b9405cf9e2ad00abf1bdd4d990cc1f241735f0273c028830f16ab7bc717cc82c",
+      "site": "Suogang, Penghu archipelago",
+      "latitude": 23.5,
+      "longitude": 119.6,
+      "location_precision": "Rounded study Table 1 coordinates, not burial coordinates",
+      "date_reported_cal_bp": "4800\u20134300",
+      "date_method": "Contextual associated-shell radiocarbon dates; bone not directly dated",
+      "site_associated_shell_ranges_cal_bp": [
+        [
+          4633,
+          4287
+        ],
+        [
+          4793,
+          4407
+        ]
+      ],
+      "individual_to_shell_range_pairing": "Not independently verified; retain both site ranges",
+      "contamination": "Yang2020 SI reports contamination; published population analyses used damage-restricted fragments. These downloaded BAMs are not asserted clean.",
+      "source_reference_name": "MT",
+      "source_reference_length": 16569,
+      "source_reference_record": {
+        "SN": "MT",
+        "LN": 16569
+      },
+      "reference_identity": "BAM @PG states hg19_1000g; MT length alone does not prove rCRS identity. No sequence reference is supplied in this deposit or substituted here.",
+      "mt_aligned_reads": 0,
+      "total_deposited_alignment_records": 62825,
+      "deposited_alignment_records_by_contig": {
+        "1": 5433,
+        "2": 5207,
+        "3": 4064,
+        "4": 3126,
+        "5": 3586,
+        "6": 4289,
+        "7": 3297,
+        "8": 3300,
+        "9": 2731,
+        "10": 3411,
+        "11": 3249,
+        "12": 3026,
+        "13": 1881,
+        "14": 2045,
+        "15": 2098,
+        "16": 2286,
+        "17": 2203,
+        "18": 1795,
+        "19": 1581,
+        "20": 1958,
+        "21": 881,
+        "22": 1378
+      },
+      "mt_reads_mapping_quality_at_least_30": 0,
+      "all_aligned_base_coverage": {
+        "mean_depth": 0.0,
+        "bases_at_least_1x": 0,
+        "bases_at_least_3x": 0,
+        "bases_at_least_5x": 0
+      },
+      "mapq30_baseq30_primary_coverage": {
+        "mean_depth": 0.0,
+        "bases_at_least_1x": 0,
+        "bases_at_least_3x": 0,
+        "bases_at_least_5x": 0
+      },
+      "read_group_tags_observed": [],
+      "mt_bam": "data/ancient/suogang/SuogangB1.MT.bam",
+      "mt_bam_sha256": "47867cafc94d099bb5341a9372256ce11da4ce5668bb37204d22cdd912f664c6",
+      "coverage_csv": "data/ancient/suogang/SuogangB1.MT.coverage.csv",
+      "consensus_generated": false,
+      "mt_sequence_status": "No mitochondrial reads in deposited BAM",
+      "damage_filter_applied_by_this_script": false
+    },
+    {
+      "individual_id": "SuogangB3",
+      "run_accession": "HRR051946",
+      "sample_accession": "HRS029484",
+      "individual_accession": "HRI029484",
+      "experiment_accession": "HRX035745",
+      "expected_bytes": 2212862,
+      "expected_md5": "f2b9985c694cc182c95d0dfc49ee01f6",
+      "source_url": "https://download.cncb.ac.cn/gsa-human/HRA000123/HRR051946/HRR051946.bam",
+      "metadata_url": "https://ngdc.cncb.ac.cn/gsa-human/browse/runDetail/HRR051946",
+      "metadata_sha256": "a6a468456189efe472766dc9e199761a89b1a512c17165f7eb07ad7459fe812e",
+      "bytes": 2212862,
+      "md5_verified": true,
+      "sha256": "8fbe40289f4e45ba66d0f94eeeb4beb33ef162ed5f01631d0f1182592ca72ffd",
+      "site": "Suogang, Penghu archipelago",
+      "latitude": 23.5,
+      "longitude": 119.6,
+      "location_precision": "Rounded study Table 1 coordinates, not burial coordinates",
+      "date_reported_cal_bp": "4800\u20134300",
+      "date_method": "Contextual associated-shell radiocarbon dates; bone not directly dated",
+      "site_associated_shell_ranges_cal_bp": [
+        [
+          4633,
+          4287
+        ],
+        [
+          4793,
+          4407
+        ]
+      ],
+      "individual_to_shell_range_pairing": "Not independently verified; retain both site ranges",
+      "contamination": "Yang2020 SI reports contamination; published population analyses used damage-restricted fragments. These downloaded BAMs are not asserted clean.",
+      "source_reference_name": "MT",
+      "source_reference_length": 16569,
+      "source_reference_record": {
+        "SN": "MT",
+        "LN": 16569
+      },
+      "reference_identity": "BAM @PG states hg19_1000g; MT length alone does not prove rCRS identity. No sequence reference is supplied in this deposit or substituted here.",
+      "mt_aligned_reads": 0,
+      "total_deposited_alignment_records": 38651,
+      "deposited_alignment_records_by_contig": {
+        "1": 3288,
+        "2": 3206,
+        "3": 2495,
+        "4": 1941,
+        "5": 2275,
+        "6": 2491,
+        "7": 2159,
+        "8": 1984,
+        "9": 1716,
+        "10": 2175,
+        "11": 2019,
+        "12": 1846,
+        "13": 1098,
+        "14": 1314,
+        "15": 1304,
+        "16": 1414,
+        "17": 1289,
+        "18": 1102,
+        "19": 901,
+        "20": 1206,
+        "21": 598,
+        "22": 830
+      },
+      "mt_reads_mapping_quality_at_least_30": 0,
+      "all_aligned_base_coverage": {
+        "mean_depth": 0.0,
+        "bases_at_least_1x": 0,
+        "bases_at_least_3x": 0,
+        "bases_at_least_5x": 0
+      },
+      "mapq30_baseq30_primary_coverage": {
+        "mean_depth": 0.0,
+        "bases_at_least_1x": 0,
+        "bases_at_least_3x": 0,
+        "bases_at_least_5x": 0
+      },
+      "read_group_tags_observed": [],
+      "mt_bam": "data/ancient/suogang/SuogangB3.MT.bam",
+      "mt_bam_sha256": "31f70a8b63d749cdc9df710cb74e479b956a68b45c3221691a0af7dda0af15cb",
+      "coverage_csv": "data/ancient/suogang/SuogangB3.MT.coverage.csv",
+      "consensus_generated": false,
+      "mt_sequence_status": "No mitochondrial reads in deposited BAM",
+      "damage_filter_applied_by_this_script": false
+    }
+  ]
+}
