@@ -1,0 +1,30 @@
+{
+  "purpose": "Detailed cover-map cartography; no sample coordinate was snapped or replaced.",
+  "sources": [
+    {
+      "path": "data/geography/ne_10m_land.geojson",
+      "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+      "license": "Public domain",
+      "sha256": "1ac90796408bc6ad6911d69448485d3c4dbf2190370080368a09976e1c9f7416"
+    },
+    {
+      "path": "data/geography/ne_10m_minor_islands.geojson",
+      "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_minor_islands.geojson",
+      "license": "Public domain",
+      "sha256": "8c933ca7a4760256bdc46408355706e39764b0fa01c160c28888b90b4faec29f"
+    }
+  ],
+  "liangdao_detail": {
+    "path": "data/geography/liangdao-osm-coastline.json",
+    "source_url": "https://api.openstreetmap.org/api/0.6/map?bbox=120.21,26.33,120.245,26.36",
+    "license": "ODbL 1.0, OpenStreetMap contributors",
+    "license_url": "https://www.openstreetmap.org/copyright",
+    "sha256": "537b772a33e1594b01f2c43cdbb88d1f8619b4f0cb87a1442a0f035da890575a"
+  },
+  "coordinate_audit": {
+    "Liangdao": "Official heritage-site coordinate falls within detailed OpenStreetMap island polygon way 9408711; island absent in both Natural Earth 50m and 10m layers.",
+    "Suogang": "Published coordinate is approximate to one decimal degree; it plots about 2.7 km offshore against Natural Earth 10m coastline. Show published precision as an approximate area, not an exact burial pin.",
+    "Hanben": "Published site coordinate is about 0.3 km outside generalized Natural Earth 10m coast; do not snap to the simplified shoreline.",
+    "Gongguan": "Published Green Island site coordinate falls within Natural Earth 10m land."
+  }
+}
