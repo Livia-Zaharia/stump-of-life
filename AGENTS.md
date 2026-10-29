@@ -6,7 +6,8 @@
 - Preserve every input nucleotide and IUPAC symbol. Never fill unknown DNA from a reference.
 - Normalize circles to a common unique anchor before MAFFT. Restore the origin by rotating all
   alignment columns together; never subtract query/reference anchor offsets across indels.
-- Distinguish substitutions, insertions, deletions and unknowns. Holes encode called substitutions.
+- Distinguish substitutions, insertions, deletions and unknowns. Surface marks encode called
+  substitutions; perforation is retained as an alternative study. Never cut engraving marks.
 - Full mode retains every alignment column. Variable mode compresses invariant distances and must
   be labelled. Coordinates always name their actual reference; do not silently call them rCRS.
 - Ancient samples are observed individuals, not proven ancestors. Study groups are metadata.
@@ -16,4 +17,5 @@
 - Keep raw research downloads local under ignored `data/` paths; version manifests and sources.
 - Site-map roots encode geographic provenance. Several people at one excavation share one site
   coordinate; never invent separate burial or modern collection coordinates.
+- Personalised application drafts, CVs and proposal PDFs stay outside public Git history.
 - Inspect new SVG output visually. A geometric clearance pass is not structural certification.

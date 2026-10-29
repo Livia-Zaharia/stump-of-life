@@ -1,0 +1,220 @@
+{
+  "asset": "stump-of-life-engraved.glb",
+  "units": "metres",
+  "up_axis": "Y",
+  "ground_y": 0,
+  "stump_axis_local_xz": [
+    0,
+    0
+  ],
+  "bounds_min": [
+    -1.3635145000000009,
+    0.0,
+    -0.3585163685725799
+  ],
+  "bounds_max": [
+    1.6364854999999991,
+    0.48601900000000003,
+    2.9253924669455604
+  ],
+  "vertex_count": 26072,
+  "triangle_count": 27652,
+  "geometry_nodes": [
+    "Steel_Cap",
+    "Track_Engravings",
+    "Cap_Supports",
+    "Map_Platform",
+    "Map_Land",
+    "Copper_Roots",
+    "Wood_Body",
+    "Map_Labels"
+  ],
+  "file_bytes": 1019996,
+  "cap": {
+    "treatment": "engraved",
+    "diameter_m": 0.5,
+    "prototype_thickness_m": 0.003,
+    "bottom_y": 0.48300000000000004,
+    "top_y": 0.48600000000000004,
+    "distinct_through_holes": 0,
+    "engraved_substitution_marks": 294,
+    "engraved_mark_diameter_mm": 1.5,
+    "visual_mark_depth": "Dark surface marks, not through-holes",
+    "source_solid_watertight": true,
+    "hole_circle_segments": 16,
+    "source": "output/taiwan/metal/holes.csv",
+    "source_sha256": "0d95247f06ddf63a617c01e56c5c0b4143a72ca86f5dc311a199f8def4ddf3b5",
+    "coordinate_transform": "CSV x right/y down converted to construction x east/y north; then Z-up to Y-up",
+    "tracks": [
+      {
+        "sample": "Liangdao 1 / KF540505.1",
+        "radius_mm": 30,
+        "status": "published reference"
+      },
+      {
+        "sample": "Liangdao 2",
+        "radius_mm": 55.0,
+        "status": "pending; dashed; no fabricated holes"
+      },
+      {
+        "sample": "Suogang B1",
+        "radius_mm": 92.0,
+        "status": "pending; dashed; no fabricated holes"
+      },
+      {
+        "sample": "Suogang B3",
+        "radius_mm": 100.0,
+        "status": "pending; dashed; no fabricated holes"
+      },
+      {
+        "sample": "Gongguan I13721",
+        "radius_mm": 125.0,
+        "status": "pending; dashed; no fabricated holes"
+      },
+      {
+        "sample": "Hanben I3620",
+        "radius_mm": 145.0,
+        "status": "pending; dashed; no fabricated holes"
+      },
+      {
+        "sample": "Hanben I8081",
+        "radius_mm": 160.0,
+        "status": "pending; dashed; no fabricated holes"
+      },
+      {
+        "sample": "KF540524.1",
+        "radius_mm": 175.0,
+        "status": "real modern sequence"
+      },
+      {
+        "sample": "KF540588.1",
+        "radius_mm": 183.12499999999997,
+        "status": "real modern sequence"
+      },
+      {
+        "sample": "KF540530.1",
+        "radius_mm": 191.24999999999997,
+        "status": "real modern sequence"
+      },
+      {
+        "sample": "KF540857.1",
+        "radius_mm": 199.375,
+        "status": "real modern sequence"
+      },
+      {
+        "sample": "KF540803.1",
+        "radius_mm": 207.5,
+        "status": "real modern sequence"
+      },
+      {
+        "sample": "KF540771.1",
+        "radius_mm": 215.62499999999997,
+        "status": "real modern sequence"
+      },
+      {
+        "sample": "KF540942.1",
+        "radius_mm": 223.75,
+        "status": "real modern sequence"
+      },
+      {
+        "sample": "KF540720.1",
+        "radius_mm": 231.875,
+        "status": "real modern sequence"
+      },
+      {
+        "sample": "KF540911.1",
+        "radius_mm": 240.0,
+        "status": "real modern sequence"
+      }
+    ],
+    "track_count": 16,
+    "pending_ancient_tracks": 6
+  },
+  "body": {
+    "nominal_diameter_m": 0.54,
+    "wood_height_m": 0.45,
+    "cap_gap_m": 0.008,
+    "description": "illustrative natural bark geometry and vertex colours; removable cap concept"
+  },
+  "map": {
+    "width_m": 3.0,
+    "plinth_height_m": 0.025,
+    "extent": [
+      117.5,
+      21.0,
+      123.5,
+      27.0
+    ],
+    "anchor_site": {
+      "site": "Liangdao",
+      "region": "Matsu archipelago, Liang Island",
+      "ancient_individuals": "2",
+      "latitude": "26.344958",
+      "longitude": "120.227029",
+      "coordinate_role": "official archaeological-site coordinate",
+      "precision_note": "Heritage site location, not the GPS position of an individual burial",
+      "coordinate_source": "https://tcmb.culture.tw/zh-tw/detail?id=20210618000002&indexCode=BOCH_CountryCulture_21",
+      "study_doi": "10.1073/pnas.2026132118",
+      "published_study_latitude": "26.3",
+      "published_study_longitude": "120.2",
+      "study_coordinate_source": "https://reich.hms.harvard.edu/sites/reich.hms.harvard.edu/files/inline-files/282.full_.pdf"
+    },
+    "thematic_anchor_not_exhibition_venue": true,
+    "source": "Natural Earth 1:50m public-domain land",
+    "source_sha256": "e874b27a51d146452be360cafb3cc50c86001074a67d534113e6534682f9826b",
+    "small_islands": "Site-coordinate markers are exact; islands smaller than source coastline resolution are not invented"
+  },
+  "root_endpoints": [
+    {
+      "site": "Liangdao",
+      "latitude": 26.344958,
+      "longitude": 120.227029,
+      "individual_count": 2,
+      "endpoint_y_up_metres": [
+        0.0,
+        0.0275,
+        -0.0
+      ],
+      "meaning": "local thematic anchor"
+    },
+    {
+      "site": "Suogang",
+      "latitude": 23.5,
+      "longitude": 119.6,
+      "individual_count": 2,
+      "endpoint_y_up_metres": [
+        -0.3135145000000037,
+        0.0275,
+        1.557097118813002
+      ],
+      "meaning": "geographical provenance; not migration or phylogeny"
+    },
+    {
+      "site": "Hanben",
+      "latitude": 24.32777778,
+      "longitude": 121.7655556,
+      "individual_count": 45,
+      "endpoint_y_up_metres": [
+        0.7692632999999987,
+        0.0275,
+        1.1040393245484026
+      ],
+      "meaning": "geographical provenance; not migration or phylogeny"
+    },
+    {
+      "site": "Gongguan",
+      "latitude": 22.675,
+      "longitude": 121.49,
+      "individual_count": 1,
+      "endpoint_y_up_metres": [
+        0.6314854999999966,
+        0.0275,
+        2.008634583696746
+      ],
+      "meaning": "geographical provenance; not migration or phylogeny"
+    }
+  ],
+  "modern_collection_coordinates_invented": false,
+  "interpretation": "Geographical provenance artwork; root curves are designed shapes, not migration routes or phylogeny",
+  "engineering_status": "Visual prototype; no load rating, structural grade or fabrication approval"
+}

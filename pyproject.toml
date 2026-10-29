@@ -14,6 +14,11 @@ stump-of-life = "stump_of_life.cli:app"
 
 [dependency-groups]
 dev = ["pytest>=8.4", "ruff>=0.14"]
+documents = [
+    "pillow>=13.0.0",
+    "pypdf>=6.21.4",
+    "reportlab>=5.1.0",
+]
 geometry = [
     "mapbox-earcut>=2.1.0",
     "shapely>=2.2.0",

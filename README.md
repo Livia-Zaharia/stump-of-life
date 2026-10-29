@@ -2,14 +2,14 @@
 
 A `uv`-managed Python toolkit for turning real circular mitochondrial DNA into
 auditable alignments and concentric sculpture patterns. Developed for Livia
-Zaharia's proposed outdoor artwork: a metal tree-stump cross-section whose
-perforations mark differences from an ancient mitochondrial sequence.
+Zaharia's proposed outdoor artwork: a real tree trunk with a solid metal cap
+whose engraved marks record differences from an ancient mitochondrial sequence.
 
 The first dataset is Liangdao Man and a small selection of modern Taiwanese
 mitogenomes from Ko et al. (2014). A sampled ancient person is a comparison
 reference, not a demonstrated direct ancestor of the other people.
 
-![Dated sample placement on a real-log base](docs/images/dated-sample-plan.png)
+![Physical engraved-cap design visualisation](docs/images/installation-cap-engraved.png)
 
 See the [sample-site map](docs/images/sample-sites.png),
 [site coordinates and sources](data/sites.csv), and
@@ -36,15 +36,17 @@ uv run stump-of-life render output/taiwan/aligned.fasta \
 uv run stump-of-life render output/taiwan/aligned.fasta \
   --reference-id KF540505.1 --output output/taiwan/variable.svg --mode variable
 
-uv run stump-of-life perforate output/taiwan/aligned.fasta \
-  --reference-id KF540505.1 --output output/taiwan/metal \
-  --diameter 500 --hole-diameter 5 --minimum-web 1.5
+uv run stump-of-life engrave output/taiwan/aligned.fasta \
+  --reference-id KF540505.1 --output output/taiwan/engraved \
+  --diameter 500 --mark-diameter 1.5 --minimum-gap 0.2
 ```
 
-Open the SVGs in a browser or vector editor. `perforate` creates a physical-size
-SVG with separate `CUT` and `ENGRAVE` groups, a hole-coordinate CSV and a measured
-clearance report. Check the report before sending geometry to a fabricator.
-Ring guides are engraved; cutting complete rings would detach the plate.
+Open the SVGs in a browser or vector editor. `engrave` creates a physical-size
+SVG whose `CUT` group contains only the outer boundary; guides and substitution
+marks belong to `ENGRAVE`. It also exports mark coordinates and a spacing report.
+The earlier `perforate` command remains available for through-hole studies;
+its web-clearance report does not establish seat strength. Check a real coupon
+and the fabricator's requirements before production.
 
 To download all 551 original sequences (one ancient plus 550 modern), with raw
 response and checksums:
@@ -53,7 +55,7 @@ response and checksums:
 uv run stump-of-life fetch-taiwan --output data/modern/taiwan-panel
 ```
 
-`--select ACCESSION` can be repeated for rendering or perforation. The reference
+`--select ACCESSION` can be repeated for rendering, engraving or perforation. The reference
 is always included. `--exclude-column NUMBER` suppresses a one-based alignment
 column; exclusions must be declared rather than silently changing the data.
 
@@ -115,11 +117,11 @@ variable column. Changing the selection changes this compressed angular scale.
 This mode is intended to make differences visible at sculpture scale.
 
 Presentation SVGs distinguish substitutions, insertions, deletions and unknowns.
-Metal perforations encode **confident substitutions only**; skipped indels and
-unknowns are counted in the export. A hole means “different called nucleotide
+Surface marks and optional perforations encode **confident substitutions only**;
+skipped indels and unknowns are counted in the export. A mark means “different called nucleotide
 from this reference”, not a haplogroup, population, migration or direct ancestry.
 
-The SVG and clearance report are design geometry, not structural certification.
+The SVG and spacing report are design geometry, not structural certification.
 Plate thickness, support, sitting loads, edges, corrosion and actual cutting
 tolerances still require the fabricator's design review and a test coupon.
 This version exports SVG and CSV; it does not yet export DXF or a structural mesh.
@@ -150,9 +152,30 @@ scripts are tracked; raw sequencing files and bulky downloads are ignored.
 Use the manifests to retrieve them again. Availability of a BAM does not mean a
 complete, reliable ancient mitochondrial sequence is available.
 
-Git LFS is configured for STL, OBJ, Blender, GLB, PLY and TIFF artwork assets.
+Git LFS is configured for STL, OBJ, Blender, GLB, PLY and TIFF artwork assets,
+large installation renders and the DNA texture.
 Install Git LFS before adding these files. Downloadable sequencing data do not
 need to be uploaded to GitHub merely to make the analysis reproducible.
+
+Personalised proposal drafts, PDF layouts and CVs stay local, outside the shared
+code-and-figures history. The public-source examples and archaeological metadata
+are separately attributed.
+
+## Exact-data 3D assets
+
+`artifacts/` contains metre-scale Y-up GLBs and JSON provenance:
+
+- `stump-of-life-engraved`: the physical 500 mm solid cap, 294 real 1.5 mm marks,
+  sixteen tracks including six explicitly pending ancient tracks, and a regional map.
+- `stump-of-life`: the earlier 294-through-hole study.
+- `stump-of-life-livistone`: a separate enlarged virtual edition with a real Taiwan
+  coastline, geographically anchored islets and an A/C/G/T texture computed from
+  175 shared variable columns. Nine deletion symbols are distinct from substitutions.
+
+The latter is being integrated into Livistone's actual river, with walkable
+connections and an explanatory poster. Its scale is intentionally different
+from the physical seat. Source filenames, hashes, geometry bounds, site endpoints
+and encoding choices are recorded beside each model.
 
 ## Development
 
