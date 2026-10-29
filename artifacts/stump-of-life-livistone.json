@@ -1556,27 +1556,33 @@
     "pending_tracks": [
       {
         "sample": "Liangdao 2",
-        "radius_mm_in_physical_plan": 55.0
+        "radius_mm_in_physical_plan": 55.0,
+        "status": "sequence pending"
       },
       {
         "sample": "Suogang B1",
-        "radius_mm_in_physical_plan": 92.0
+        "radius_mm_in_physical_plan": 92.0,
+        "status": "mtDNA unavailable; no MT reads in public deposit"
       },
       {
         "sample": "Suogang B3",
-        "radius_mm_in_physical_plan": 100.0
+        "radius_mm_in_physical_plan": 100.0,
+        "status": "mtDNA unavailable; no MT reads in public deposit"
       },
       {
         "sample": "Gongguan I13721",
-        "radius_mm_in_physical_plan": 125.0
+        "radius_mm_in_physical_plan": 125.0,
+        "status": "sequence pending"
       },
       {
         "sample": "Hanben I3620",
-        "radius_mm_in_physical_plan": 145.0
+        "radius_mm_in_physical_plan": 145.0,
+        "status": "sequence pending"
       },
       {
         "sample": "Hanben I8081",
-        "radius_mm_in_physical_plan": 160.0
+        "radius_mm_in_physical_plan": 160.0,
+        "status": "sequence pending"
       }
     ],
     "calls_relative_to_reference": {
@@ -1592,12 +1598,12 @@
     ],
     "ancient_missing_calls_synthesized": false,
     "file": "stump-of-life-livistone-cap.png",
-    "sha256": "928956468dfdb294a6ecb274db22df638942d9411d6aed9053b337b2cfdf14ba"
+    "sha256": "ef4467810610f441ac1963834b32e2540f6c7ee180f021688ccaeb3ab09323d2"
   },
   "natural_earth_sha256": "e874b27a51d146452be360cafb3cc50c86001074a67d534113e6534682f9826b",
   "modern_collection_points_invented": false,
   "vertex_count": 5801,
   "triangle_count": 9161,
-  "file_bytes": 1176208,
+  "file_bytes": 1177640,
   "interpretation": "Root curves are geographic provenance artwork, not migration routes or phylogeny"
 }

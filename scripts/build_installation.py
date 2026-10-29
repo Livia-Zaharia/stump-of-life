@@ -355,7 +355,8 @@ def digital_dna_texture(geometry: dict[str, Any]) -> tuple[Image.Image, dict[str
                 width=3,
             )
         label_font = ImageFont.truetype(font_path, 25)
-        label = f"{name}: sequence pending"
+        status = "mtDNA unavailable" if name.startswith("Suogang ") else "sequence pending"
+        label = f"{name}: {status}"
         box = draw.textbbox((0, 0), label, font=label_font)
         label_y = centre + radius * 0.68
         draw.rectangle(
@@ -382,7 +383,14 @@ def digital_dna_texture(geometry: dict[str, Any]) -> tuple[Image.Image, dict[str
             {"sample_id": key, "radius_mm_in_physical_plan": radius} for radius, key in tracks
         ],
         "pending_tracks": [
-            {"sample": name, "radius_mm_in_physical_plan": radius} for radius, name in PENDING
+            {
+                "sample": name,
+                "radius_mm_in_physical_plan": radius,
+                "status": "mtDNA unavailable; no MT reads in public deposit"
+                if name.startswith("Suogang ")
+                else "sequence pending",
+            }
+            for radius, name in PENDING
         ],
         "calls_relative_to_reference": counts,
         "aligned_fasta_sha256": hashlib.sha256(aligned_path.read_bytes()).hexdigest(),
