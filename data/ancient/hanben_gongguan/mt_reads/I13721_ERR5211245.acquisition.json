@@ -1,0 +1,12 @@
+{
+  "acquisition_method": "indexed_remote_ranges",
+  "source_bam_fully_downloaded": false,
+  "source_bam_md5_verified": false,
+  "source_bam_retained": false,
+  "source_index_url": "https://ftp.sra.ebi.ac.uk/vol1/run/ERR521/ERR5211245/S13721.Y1.E1.L1.1240k_plus.hg19.v1.bam.bai",
+  "source_index_bytes": 6130592,
+  "source_index_md5": "f67b146852a81c93b196cf9ed457c12a",
+  "source_index_md5_verified": true,
+  "source_index_sha256": "1468a64e14d4c1494edf03e824797f8a160a4c546a4ad16390d8bb6dea914c7b",
+  "source_index_path": "/home/antonkulaga/sources/stump-of-life/data/ancient/hanben_gongguan/source_indexes/I13721_ERR5211245.source.bam.bai"
+}

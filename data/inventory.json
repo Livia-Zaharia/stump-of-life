@@ -1,0 +1,20 @@
+{
+  "verified_utc": "2026-10-29T22:24:50+00:00",
+  "modern_complete_mitogenomes": 550,
+  "ancient_individuals_in_requested_scope": 50,
+  "ancient_individuals_with_downloaded_mitochondrial_data": 48,
+  "published_complete_ancient_mitogenomes": 1,
+  "additional_ancient_mitochondrial_read_subsets": 47,
+  "suogang_individuals_downloaded_without_mitochondrial_reads": 2,
+  "hanben_gongguan_subsets": 46,
+  "hanben_gongguan_mapped_mt_reads": 347985,
+  "local_data_size_bytes_at_verification": 292910081,
+  "manifests": [
+    "ancient/liangdao/manifest.json",
+    "ancient/suogang/manifest.json",
+    "ancient/hanben_gongguan/manifest.json",
+    "modern/taiwan-panel/provenance.json"
+  ],
+  "status": "Requested public records retrieved; complete ancient consensuses beyond Liangdao-1 have not been generated. Suogang deposited BAMs lack MT alignments.",
+  "version_control": "Manifests/scripts in Git; raw BAMs/FASTA downloads remain local and can be retrieved again. Large art models use Git LFS."
+}

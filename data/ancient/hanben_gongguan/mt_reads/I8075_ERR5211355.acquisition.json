@@ -1,0 +1,12 @@
+{
+  "acquisition_method": "complete_stream_mt_filter_no_source_bam_retained",
+  "source_bam_fully_downloaded": true,
+  "source_bam_md5_verified": true,
+  "source_bam_retained": false,
+  "source_index_url": null,
+  "source_index_bytes": null,
+  "source_index_md5": null,
+  "source_index_md5_verified": null,
+  "source_index_sha256": null,
+  "source_index_path": null
+}

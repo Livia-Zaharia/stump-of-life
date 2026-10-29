@@ -14,6 +14,8 @@ reference, not a demonstrated direct ancestor of the other people.
 See the [sample-site map](docs/images/sample-sites.png),
 [site coordinates and sources](data/sites.csv), and
 [real-log construction and supplier research](docs/trunk-and-fabrication.md).
+The [roots-on-map design](docs/images/root-map.png) anchors the roots to the
+published archaeological-site coordinates.
 
 ## Quick start
 

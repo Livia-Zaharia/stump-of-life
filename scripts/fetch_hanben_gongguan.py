@@ -300,7 +300,8 @@ def main(output: Path = DEFAULT_OUTPUT, workers: int = 4) -> None:
         "consensus_generated": False,
         "complete_mitogenome_fasta_status": "No author-released consensus FASTA identified in this study deposit",
         "limitations": [
-            "BAI checksums are verified; full remote nuclear BAM MD5s are declared but not verified.",
+            "BAI checksums are verified. Range-extracted source BAM MD5s remain unverified; "
+            "complete-stream fallbacks verify the source size and MD5 without retaining the BAM.",
             "Reads remain aligned to their deposited reference; identity must be checked before consensus calling.",
             "Reported paper mtDNA depth may exceed depth in deposited mixed nuclear BAMs.",
             "No consensus bases are invented or reference-filled; missing data remain missing.",

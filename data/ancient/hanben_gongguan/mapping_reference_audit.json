@@ -1,0 +1,422 @@
+{
+  "comparison_reference": "NC_012920.1",
+  "comparison_reference_record_url": "https://www.ncbi.nlm.nih.gov/nuccore/NC_012920.1",
+  "comparison_reference_sequence_sha256": "f156ff3f65bbcc80c7ebb9936dceb96b1477b4f8f535c4e1dbe7baea225cbc66",
+  "comparison_sequence_local_source": "/home/antonkulaga/sources/livia/output/matsu-mitochondrial-shell/taiwan_2014_plus_reference.unaligned.fasta",
+  "method": "Reconstruct deposited BAM reference bases using per-read MD tags; compare known A/C/G/T positions to rCRS. Unknown rCRS positions are not interpreted as mismatches. This audits the mapping reference, not the ancient individual genotype.",
+  "subset_count": 46,
+  "files": [
+    {
+      "mt_bam": "I13692_ERR5211240.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16569,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": [
+        3107
+      ]
+    },
+    {
+      "mt_bam": "I13694_ERR5211241.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 15238,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": [
+        3107
+      ]
+    },
+    {
+      "mt_bam": "I13695_ERR5211242.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 15950,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": [
+        3107
+      ]
+    },
+    {
+      "mt_bam": "I13721_ERR5211245.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16564,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": [
+        3107
+      ]
+    },
+    {
+      "mt_bam": "I14925_ERR5211271.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16527,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": [
+        3107
+      ]
+    },
+    {
+      "mt_bam": "I14926_ERR5211272.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16515,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": [
+        3107
+      ]
+    },
+    {
+      "mt_bam": "I14927_ERR5211273.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16096,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": [
+        3107
+      ]
+    },
+    {
+      "mt_bam": "I14928_ERR5211274.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16565,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": [
+        3107
+      ]
+    },
+    {
+      "mt_bam": "I14929_ERR5211275.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16546,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": [
+        3107
+      ]
+    },
+    {
+      "mt_bam": "I14930_ERR5211276.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16566,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": [
+        3107
+      ]
+    },
+    {
+      "mt_bam": "I14931_ERR5211277.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16551,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": [
+        3107
+      ]
+    },
+    {
+      "mt_bam": "I14933_ERR5211278.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16515,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": [
+        3107
+      ]
+    },
+    {
+      "mt_bam": "I14934_ERR5211279.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16391,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": [
+        3107
+      ]
+    },
+    {
+      "mt_bam": "I14937_ERR5211280.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16145,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": [
+        3107
+      ]
+    },
+    {
+      "mt_bam": "I15156_ERR5211281.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 15839,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": [
+        3107
+      ]
+    },
+    {
+      "mt_bam": "I15158_ERR5211282.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16496,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": [
+        3107
+      ]
+    },
+    {
+      "mt_bam": "I15159_ERR5211283.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 15834,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": [
+        3107
+      ]
+    },
+    {
+      "mt_bam": "I15160_ERR5211284.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 15829,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": [
+        3107
+      ]
+    },
+    {
+      "mt_bam": "I15162_ERR5211285.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 15504,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": [
+        3107
+      ]
+    },
+    {
+      "mt_bam": "I15164_ERR5211286.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 15459,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": [
+        3107
+      ]
+    },
+    {
+      "mt_bam": "I15166_ERR5211287.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 15464,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": [
+        3107
+      ]
+    },
+    {
+      "mt_bam": "I3611_ERR5211292.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16417,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": []
+    },
+    {
+      "mt_bam": "I3612_ERR5211293.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16518,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": []
+    },
+    {
+      "mt_bam": "I3614_ERR5211294.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16549,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": []
+    },
+    {
+      "mt_bam": "I3615_ERR5211295.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16489,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": []
+    },
+    {
+      "mt_bam": "I3616_ERR5211296.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16503,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": []
+    },
+    {
+      "mt_bam": "I3617_ERR5211297.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16563,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": []
+    },
+    {
+      "mt_bam": "I3618_ERR5211298.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16557,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": []
+    },
+    {
+      "mt_bam": "I3619_ERR5211299.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16562,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": []
+    },
+    {
+      "mt_bam": "I3620_ERR5211300.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16563,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": []
+    },
+    {
+      "mt_bam": "I3621_ERR5211301.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16560,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": []
+    },
+    {
+      "mt_bam": "I3727_ERR5211302.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16561,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": []
+    },
+    {
+      "mt_bam": "I3728_ERR5211303.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16474,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": []
+    },
+    {
+      "mt_bam": "I3731_ERR5211304.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16536,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": []
+    },
+    {
+      "mt_bam": "I3732_ERR5211305.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16522,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": []
+    },
+    {
+      "mt_bam": "I3734_ERR5211306.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16525,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": []
+    },
+    {
+      "mt_bam": "I3735_ERR5211307.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16521,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": []
+    },
+    {
+      "mt_bam": "I3736_ERR5211308.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16485,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": []
+    },
+    {
+      "mt_bam": "I8071_ERR5211352.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 13212,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": []
+    },
+    {
+      "mt_bam": "I8072_ERR5211353.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16096,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": [
+        3107
+      ]
+    },
+    {
+      "mt_bam": "I8074_ERR5211354.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 15441,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": []
+    },
+    {
+      "mt_bam": "I8075_ERR5211355.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16219,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": []
+    },
+    {
+      "mt_bam": "I8076_ERR5211356.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16081,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": []
+    },
+    {
+      "mt_bam": "I8078_ERR5211357.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 10555,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": []
+    },
+    {
+      "mt_bam": "I8080_ERR5211358.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 16194,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": []
+    },
+    {
+      "mt_bam": "I8081_ERR5211359.mt.bam",
+      "source_reference_positions_reconstructed_from_MD": 13137,
+      "reads_without_MD": 0,
+      "conflicting_MD_reference_positions": [],
+      "known_rcrs_reference_mismatches": [],
+      "rcrs_unknown_positions_with_observed_bam_reference_base": []
+    }
+  ]
+}
