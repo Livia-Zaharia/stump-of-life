@@ -1,14 +1,18 @@
 """Render the exported installation GLB faithfully with Blender 5.
 
 Run: blender --background --python scripts/render_installation.py
+Portrait: blender --background --python scripts/render_installation.py -- --view cover
 Only studio lighting, cameras, a ground plane and a procedural bark bump shader
 are added. No scientific geometry or perforation is generated in this script.
+The source GLB is a generated design prototype, not a selected real timber specimen.
 """
 
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
+import struct
 import sys
 from pathlib import Path
 from typing import Any
@@ -32,11 +36,13 @@ def light(
     target: tuple[float, float, float],
     energy: float,
     size: float,
+    colour: tuple[float, float, float] = (1.0, 1.0, 1.0),
 ) -> None:
     data = bpy.data.lights.new(name, "AREA")
     data.energy = energy
     data.shape = "DISK"
     data.size = size
+    data.color = colour
     obj = bpy.data.objects.new(name, data)
     bpy.context.collection.objects.link(obj)
     obj.location = position
@@ -61,7 +67,7 @@ def camera(
     return obj
 
 
-def bark_bump() -> None:
+def bark_bump(darker: bool = False) -> None:
     for material in bpy.data.materials:
         if "Natural bark" not in material.name or not material.use_nodes:
             continue
@@ -88,12 +94,16 @@ def bark_bump() -> None:
         # adding a restrained vertical bark grain, not a claimed timber photo.
         ramp = nodes.new("ShaderNodeValToRGB")
         ramp.color_ramp.elements[0].position = 0.28
-        ramp.color_ramp.elements[0].color = (0.28, 0.23, 0.18, 1)
+        ramp.color_ramp.elements[0].color = (
+            (0.18, 0.13, 0.08, 1) if darker else (0.28, 0.23, 0.18, 1)
+        )
         ramp.color_ramp.elements[1].position = 0.74
-        ramp.color_ramp.elements[1].color = (1.0, 0.89, 0.70, 1)
+        ramp.color_ramp.elements[1].color = (
+            (0.68, 0.50, 0.30, 1) if darker else (1.0, 0.89, 0.70, 1)
+        )
         multiply = nodes.new("ShaderNodeMixRGB")
         multiply.blend_type = "MULTIPLY"
-        multiply.inputs[0].default_value = 0.58
+        multiply.inputs[0].default_value = 0.70 if darker else 0.58
         original_links = list(shader.inputs["Base Color"].links)
         if original_links:
             links.new(original_links[0].from_socket, multiply.inputs[1])
@@ -104,7 +114,7 @@ def bark_bump() -> None:
         links.new(multiply.outputs["Color"], shader.inputs["Base Color"])
 
 
-def metal_grain() -> None:
+def metal_grain(restrained: bool = False) -> None:
     """Render-only fine brushed grain, without altering data mark geometry."""
     for material in bpy.data.materials:
         if "Brushed silver" not in material.name or not material.use_nodes:
@@ -121,12 +131,28 @@ def metal_grain() -> None:
         noise.inputs["Scale"].default_value = 28.0
         noise.inputs["Detail"].default_value = 2.0
         bump = nodes.new("ShaderNodeBump")
-        bump.inputs["Strength"].default_value = 0.10
-        bump.inputs["Distance"].default_value = 0.000014
+        bump.inputs["Strength"].default_value = 0.05 if restrained else 0.10
+        bump.inputs["Distance"].default_value = 0.000004 if restrained else 0.000014
         links.new(coordinates.outputs["Generated"], stretch.inputs[0])
         links.new(stretch.outputs["Vector"], noise.inputs["Vector"])
         links.new(noise.outputs["Fac"], bump.inputs["Height"])
         links.new(bump.outputs["Normal"], shader.inputs["Normal"])
+
+
+def mesh_signature(meshes: list[Any]) -> str:
+    """Fingerprint imported positions, face indices and UVs before/after staging."""
+    digest = hashlib.sha256()
+    for obj in sorted(meshes, key=lambda item: item.name):
+        digest.update(obj.name.encode())
+        for vertex in obj.data.vertices:
+            digest.update(struct.pack("<3f", *vertex.co))
+        for polygon in obj.data.polygons:
+            digest.update(struct.pack(f"<{len(polygon.vertices)}I", *polygon.vertices))
+        for layer in obj.data.uv_layers:
+            digest.update(layer.name.encode())
+            for point in layer.data:
+                digest.update(struct.pack("<2f", *point.uv))
+    return digest.hexdigest()
 
 
 def main() -> None:
@@ -134,9 +160,26 @@ def main() -> None:
     parser.add_argument("--cap-treatment", choices=("holes", "engraved"), default="holes")
     parser.add_argument("--edition", choices=("physical", "livistone"), default="physical")
     parser.add_argument("--quick", action="store_true")
-    parser.add_argument("--view", choices=("all", "cap", "top"), default="all")
+    parser.add_argument("--view", choices=("all", "cap", "top", "cover"), default="all")
+    parser.add_argument(
+        "--output",
+        type=Path,
+        help="PNG destination for --view cover; its Blender scene and provenance use the same stem.",
+    )
     arguments = parser.parse_args(sys.argv[sys.argv.index("--") + 1 :] if "--" in sys.argv else [])
     digital = arguments.edition == "livistone"
+    cover = arguments.view == "cover"
+    if arguments.output is not None:
+        if not cover:
+            parser.error("--output applies to --view cover only.")
+        if arguments.output.suffix.lower() != ".png":
+            parser.error("--output must have a .png extension.")
+    if cover:
+        if digital:
+            raise ValueError(
+                "The portrait view uses the physical seat, not the enlarged digital edition."
+            )
+        arguments.cap_treatment = "engraved"
     suffix = (
         "-livistone" if digital else ("" if arguments.cap_treatment == "holes" else "-engraved")
     )
@@ -148,6 +191,8 @@ def main() -> None:
     bpy.context.preferences.filepaths.save_version = 0
     bpy.ops.import_scene.gltf(filepath=str(asset))
     meshes = [obj for obj in bpy.context.scene.objects if obj.type == "MESH"]
+    original_signature = mesh_signature(meshes)
+    original_asset_sha = hashlib.sha256(asset.read_bytes()).hexdigest()
     corners = [obj.matrix_world @ Vector(corner) for obj in meshes for corner in obj.bound_box]
     minimum = [min(corner[axis] for corner in corners) for axis in range(3)]
     maximum = [max(corner[axis] for corner in corners) for axis in range(3)]
@@ -165,7 +210,7 @@ def main() -> None:
     scene.unit_settings.scale_length = 1.0
     scene.render.engine = "CYCLES"
     scene.cycles.device = "CPU"
-    scene.cycles.samples = 8 if arguments.quick else 40
+    scene.cycles.samples = 8 if arguments.quick else (64 if cover else 40)
     scene.cycles.use_denoising = True
     scene.cycles.max_bounces = 6
     scene.render.threads_mode = "FIXED"
@@ -176,19 +221,23 @@ def main() -> None:
     scene.render.image_settings.color_depth = "8"
     scene.render.film_transparent = False
     scene.view_settings.view_transform = "AgX"
-    scene.view_settings.exposure = -0.3
+    scene.view_settings.exposure = -0.15 if cover else -0.3
     world = bpy.data.worlds.new("Neutral exhibition studio")
     world.use_nodes = True
-    world.node_tree.nodes["Background"].inputs["Color"].default_value = (0.67, 0.73, 0.77, 1)
-    world.node_tree.nodes["Background"].inputs["Strength"].default_value = 0.42
+    world.node_tree.nodes["Background"].inputs["Color"].default_value = (
+        (0.38, 0.43, 0.41, 1) if cover else (0.67, 0.73, 0.77, 1)
+    )
+    world.node_tree.nodes["Background"].inputs["Strength"].default_value = 0.12 if cover else 0.42
     scene.world = world
-    bark_bump()
-    metal_grain()
+    bark_bump(darker=cover)
+    metal_grain(restrained=cover)
     floor = bpy.data.materials.new("Neutral warm studio floor")
     floor.use_nodes = True
     shader = floor.node_tree.nodes.get("Principled BSDF")
     shader.inputs["Base Color"].default_value = (
-        (0.16, 0.27, 0.28, 1) if digital else (0.42, 0.40, 0.36, 1)
+        (0.08, 0.11, 0.10, 1)
+        if cover
+        else ((0.16, 0.27, 0.28, 1) if digital else (0.42, 0.40, 0.36, 1))
     )
     shader.inputs["Roughness"].default_value = 0.36 if digital else 0.94
     bpy.ops.mesh.primitive_plane_add(size=90, location=(0, -1.2, 0.0 if digital else -0.004))
@@ -206,9 +255,31 @@ def main() -> None:
         )
         top = camera("Rigid geographical island plan", (0, 0, 40), (0, 0, 0), 28.5)
     else:
-        light("Large soft grazing key", (-3.5, -3.0, 2.8), (0, -0.7, 0.20), 530, 4.2)
-        light("Broad gentle fill", (4.0, -1.2, 4.0), (0, -1.0, 0), 180, 4.0)
-        light("Metal reflection strip", (-0.8, 2.2, 3.3), (0, 0, 0.45), 30, 2.0)
+        if cover:
+            light(
+                "Warm grazing portrait key",
+                (-1.6, -2.1, 2.3),
+                (0, 0, 0.28),
+                160,
+                1.8,
+                (1.0, 0.87, 0.72),
+            )
+            light("Soft cool portrait fill", (2.0, -1.4, 1.6), (0, 0, 0.28), 25, 2.6, (0.80, 0.90, 1.0))
+            light(
+                "Controlled steel rim", (1.3, 1.2, 2.4), (0, 0, 0.35), 110, 1.5, (1.0, 0.95, 0.85)
+            )
+            light(
+                "Silver reflected softbox",
+                (-1.15, 0.12, 1.22),
+                (0, 0, 0.486),
+                7.5,
+                1.1,
+                (0.92, 0.96, 1.0),
+            )
+        else:
+            light("Large soft grazing key", (-3.5, -3.0, 2.8), (0, -0.7, 0.20), 530, 4.2)
+            light("Broad gentle fill", (4.0, -1.2, 4.0), (0, -1.0, 0), 180, 4.0)
+            light("Metal reflection strip", (-0.8, 2.2, 3.3), (0, 0, 0.45), 30, 2.0)
         hero = camera("Installation overview", (4.6, -5.5, 5.6), (0.10, -1.2, 0.12), 4.75)
         close = camera(
             "Exact 294-mark solid engraved cap"
@@ -219,6 +290,60 @@ def main() -> None:
             0.62,
         )
         top = camera("Geographical plan view", (0.1365, -1.283, 7.0), (0.1365, -1.283, 0), 3.55)
+    if cover:
+        portrait_camera = camera(
+            "Physical engraved seat portrait", (1.15, -0.12, 1.0), (0, 0, 0.275), 0.82
+        )
+        portrait_camera.data.type = "PERSP"
+        portrait_camera.data.lens = 58
+        scene.camera = portrait_camera
+        scene.render.resolution_x, scene.render.resolution_y = (
+            (640, 800) if arguments.quick else (1600, 2000)
+        )
+        default_destination = SCENES / (
+            "portrait-validation.png" if arguments.quick else "portrait-engraved.png"
+        )
+        destination = (
+            arguments.output.expanduser().resolve() if arguments.output else default_destination
+        )
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        scene.render.filepath = str(destination)
+        if mesh_signature(meshes) != original_signature:
+            raise ValueError("Imported mesh positions, topology or UVs changed during staging.")
+        if not arguments.quick:
+            bpy.ops.wm.save_as_mainfile(filepath=str(destination.with_suffix(".blend")))
+        bpy.ops.render.render(write_still=True)
+        if mesh_signature(meshes) != original_signature:
+            raise ValueError("Imported mesh positions, topology or UVs changed during rendering.")
+        if hashlib.sha256(asset.read_bytes()).hexdigest() != original_asset_sha:
+            raise ValueError("Source asset changed during the render.")
+        if not arguments.quick:
+            provenance = {
+                "method": "Actual Blender Cycles CPU render of the imported engraved physical GLB",
+                "image_generation_used": False,
+                "source_asset": asset.relative_to(ROOT).as_posix(),
+                "source_asset_sha256": original_asset_sha,
+                "imported_mesh_signature_sha256": original_signature,
+                "mesh_positions_topology_and_uvs_unchanged": True,
+                "engraved_mark_diameter_mm": 1.5,
+                "engraved_substitution_marks": 294,
+                "art_direction": "Studio portrait of the generated physical GLB; procedural bark, warm grazing light and restrained silver reflection; no simulated historical architecture.",
+                "timber_representation": "Generated source-GLB prototype; not a selected or sourced real timber specimen.",
+                "render_only_changes": "Camera, lighting, procedural material shading and studio ground; no scientific geometry changes",
+                "camera_position_z_up_m": list(portrait_camera.location),
+                "camera_target_z_up_m": [0, 0, 0.275],
+                "camera_lens_mm": portrait_camera.data.lens,
+                "render_engine": scene.render.engine,
+                "samples": scene.cycles.samples,
+                "cpu_threads": scene.render.threads,
+                "dimensions_px": [scene.render.resolution_x, scene.render.resolution_y],
+                "source_is_not_a_site_photograph": True,
+            }
+            destination.with_suffix(".sources.json").write_text(
+                json.dumps(provenance, indent=2) + "\n"
+            )
+        print(f"Generated physical-seat portrait rendered: {destination}", flush=True)
+        return
     IMAGES.mkdir(parents=True, exist_ok=True)
     SCENES.mkdir(parents=True, exist_ok=True)
     scene["source_asset"] = str(asset)

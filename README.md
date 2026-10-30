@@ -177,6 +177,22 @@ connections and an explanatory poster. Its scale is intentionally different
 from the physical seat. Source filenames, hashes, geometry bounds, site endpoints
 and encoding choices are recorded beside each model.
 
+To stage the generated physical GLB as a portrait, install Blender separately and run:
+
+```bash
+blender --background --python scripts/render_installation.py -- --view cover
+# Optional destination; the full render also writes matching .blend and .sources.json files.
+blender --background --python scripts/render_installation.py -- \
+  --view cover --output output/installation/portrait.png
+```
+
+The default portrait is `output/installation/portrait-engraved.png`; add `--quick`
+for a smaller PNG preview. The portrait uses the solid engraved cap and checks
+that imported mesh positions, face indices and UVs remain unchanged by staging
+and rendering. It is a native render of the repository's generated prototype,
+including its procedural timber visualization. It does not show a selected real
+stump, a surveyed exhibition site or the current live Livistone installation.
+
 ## Development
 
 ### Ancient-data retrieval
