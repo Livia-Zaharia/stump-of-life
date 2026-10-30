@@ -17,5 +17,8 @@
 - Keep raw research downloads local under ignored `data/` paths; version manifests and sources.
 - Site-map roots encode geographic provenance. Several people at one excavation share one site
   coordinate; never invent separate burial or modern collection coordinates.
-- Personalised application drafts, CVs and proposal PDFs stay outside public Git history.
+- The artist has authorised publishing the illustrated proposal as `docs/Livia Zaharia_The Stump of Life.pdf`,
+  with its cover preview in `docs/images/proposal-cover.jpg`.
+- Keep CVs, signed application forms, working proposal drafts and private layout sources
+  outside public Git history unless the artist separately authorises their publication.
 - Inspect new SVG output visually. A geometric clearance pass is not structural certification.

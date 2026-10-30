@@ -1,15 +1,35 @@
-# Stump of Life
+# The Stump of Life
 
-A `uv`-managed Python toolkit for turning real circular mitochondrial DNA into
-auditable alignments and concentric sculpture patterns. Developed for Livia
-Zaharia's proposed outdoor artwork: a real tree trunk with a solid metal cap
-whose engraved marks record differences from an ancient mitochondrial sequence.
+An artwork by [Livia Zaharia](https://liviazaharia.com), proposed as a place to sit
+with the human history of Matsu. A real root-flared stump carries a circular metal
+face whose engraved marks compare ancient and modern mitochondrial DNA.
+
+**[Read the illustrated proposal (PDF)](docs/Livia%20Zaharia_The%20Stump%20of%20Life.pdf)** ·
+**[Explore the work in Livistone](https://livistone.liviazaharia.com/?place=stump-of-life)**
+
+[![The Stump of Life illustrated proposal cover](docs/images/proposal-cover.jpg)](docs/Livia%20Zaharia_The%20Stump%20of%20Life.pdf)
+
+Cover: AI-assisted concept sketch; the DNA loop is an explanatory symbol.
+Map data: [Natural Earth](https://www.naturalearthdata.com/about/terms-of-use/) and
+[© OpenStreetMap contributors](https://www.openstreetmap.org/copyright).
+
+This repository contains the `uv`-managed Python toolkit, real sequence analysis
+and reproducible drawings behind the proposal. It turns circular mitochondrial
+DNA into auditable alignments and concentric sculpture patterns.
 
 The first dataset is Liangdao Man and a small selection of modern Taiwanese
 mitogenomes from Ko et al. (2014). A sampled ancient person is a comparison
 reference, not a demonstrated direct ancestor of the other people.
 
+<details>
+<summary>View the generated metal-cap prototype</summary>
+
 ![Physical engraved-cap design visualisation](docs/images/installation-cap-engraved.png)
+
+This native model illustrates the data-derived metal face. Its generated timber
+body is a prototype, not a selected real stump or the completed installation.
+
+</details>
 
 See the [sample-site map](docs/images/sample-sites.png),
 [site coordinates and sources](data/sites.csv), and
@@ -142,8 +162,9 @@ The study deposited 551 mitogenomes: one ancient and 550 modern sequences,
 `KF540505`–`KF541055`. Those modern samples were collected in 1998–2001.
 Study labels are supplied metadata, not genetic boundaries.
 
-Data use and attribution remain subject to their original sources. No private
-artist documents or site photographs are included in Git.
+Data use and attribution remain subject to their original sources. The illustrated
+proposal is published with the artist's permission; its image and map credits
+appear in the PDF. CVs and other private artist documents are not included in Git.
 
 ## Data and large files
 
@@ -157,9 +178,9 @@ large installation renders and the DNA texture.
 Install Git LFS before adding these files. Downloadable sequencing data do not
 need to be uploaded to GitHub merely to make the analysis reproducible.
 
-Personalised proposal drafts, PDF layouts and CVs stay local, outside the shared
-code-and-figures history. The public-source examples and archaeological metadata
-are separately attributed.
+The public illustrated proposal is available at [the proposal PDF](docs/Livia%20Zaharia_The%20Stump%20of%20Life.pdf).
+Proposal drafts, PDF layout sources and CVs stay local, outside the shared history.
+The public-source examples and archaeological metadata are separately attributed.
 
 ## Exact-data 3D assets
 

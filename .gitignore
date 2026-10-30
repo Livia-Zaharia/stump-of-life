@@ -13,7 +13,7 @@ data/**
 !data/**/*.tsv
 !data/**/*.md
 data/**/*.coverage.csv
-# Application copy and its personalised layout remain local while the code is shared.
+# Working application copy and layouts remain local; the named proposal PDF under docs/ is the public edition.
 docs/matsu-proposal-draft.md
 scripts/build_artist_proposal.py
 scripts/build_proposal_pdf.py
